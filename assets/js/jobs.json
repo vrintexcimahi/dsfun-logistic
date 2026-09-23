@@ -1,0 +1,527 @@
+[
+  {
+    "title": "DRIVER DISTRIBUSI",
+    "kualifikasi": [
+      "Laki-laki.",
+      "Pendidikan minimal SMP sederajat.",
+      "Memiliki SIM A / SIM B1 / B1 Umum.",
+      "Berpengalaman kerja sebagai Driver minimal 1 Tahun.",
+      "Bersedia bergabung secepatnya.",
+      "Mampu mengenal wilayah penempatan dan sekitarnya.",
+      "Bersedia ditempatkan di seluruh cabang DS FUN LOGISTIC"
+    ],
+    "deskripsi": [
+      "Membantu proses bongkar dan muat barang.",
+      "Melakukan pengantaran barang ke customer.",
+      "Menjaga dan memastikan keamanan barang.",
+      "Melakukan pemeriksaan kondisi kendaraan sebelum operasional.",
+      "Memahami navigasi dan rute jalan sesuai coveran area.",
+      "Mematuhi Peraturan Lalu Lintas.",
+      "Melakukan manajemen waktu agar tepat waktu dalam pengiriman barang.",
+      "Memberikan pelayanan terbaik kepada pelanggan / customer.",
+      "Memberikan komunikasi dengan pelanggan secara sopan, ramah dan profesional.",
+      "Melakukan kontrol pemeliharaan dan perawatan kendaraan secara berkala."
+    ],
+    "wilayah": [
+      "DKI JAKARTA",
+      "JAWA TIMUR",
+      "KALIMANTAN TIMUR",
+      "SULAWESI UTARA",
+      "SUMATERA UTARA",
+      "SUMATERA BARAT"
+    ],
+    "cities": [
+      {
+        "code": "000B,CABANG JAKARTA UTARA",
+        "name": "CABANG JAKARTA UTARA"
+      },
+      {
+        "code": "000B,CABANG JAKARTA BARAT",
+        "name": "CABANG JAKARTA BARAT"
+      },
+      {
+        "code": "000B,SURABAYA UTARA",
+        "name": "SURABAYA UTARA"
+      },
+      {
+        "code": "000B,CABANG SAMARINDA",
+        "name": "CABANG SAMARINDA"
+      },
+      {
+        "code": "000B,CABANG SAMARINDA TIMUR",
+        "name": "CABANG SAMARINDA TIMUR"
+      },
+      {
+        "code": "000B,CABANG MANADO",
+        "name": "CABANG MANADO"
+      },
+      {
+        "code": "000B,CABANG BITUNG",
+        "name": "CABANG BITUNG"
+      },
+      {
+        "code": "000B,CABANG DHARMASRAYA",
+        "name": "CABANG DHARMASRAYA"
+      },
+      {
+        "code": "000B,CABANG BINJAI",
+        "name": "CABANG BINJAI"
+      },
+      {
+        "code": "000B,CABANG MEDAN BARAT",
+        "name": "CABANG MEDAN BARAT"
+      },
+      {
+        "code": "000B,CABANG MEDAN UTARA",
+        "name": "CABANG MEDAN UTARA"
+      }
+    ]
+  },
+  {
+    "title": "DRIVER LANGSIR",
+    "kualifikasi": [
+      "Laki-laki.",
+      "Pendidikan minimal SMP sederajat.",
+      "Memiliki SIM B1 / B1 Umum.",
+      "Berpengalaman kerja sebagai Driver minimal 1 Tahun.",
+      "Bersedia bergabung secepatnya.",
+      "Mampu mengenal wilayah penempatan dan sekitarnya.",
+      "Bersedia ditempatkan di seluruh cabang DS FUN LOGISTIC."
+    ],
+    "deskripsi": [],
+    "wilayah": [
+      "JAWA BARAT",
+      "JAWA TIMUR"
+    ],
+    "cities": [
+      {
+        "code": "000A,PORT MARUNDA",
+        "name": "PORT MARUNDA"
+      },
+      {
+        "code": "000A,PORT LEGUNDI",
+        "name": "PORT LEGUNDI"
+      }
+    ]
+  },
+  {
+    "title": "MT HEAD OF OPERATION",
+    "kualifikasi": [
+      "Laki-laki.",
+      "Pendidikan minimal S1 semua jurusan.",
+      "Terbuka untuk Freshgraduate dan berpengalaman kerja lebih disukai.",
+      "Mahir dalam Microsoft Office (terutama MS Excel dan MS Word).",
+      "Mampu berkomunikasi dengan baik, bekerja sama dengan tim, jujur, disiplin, teliti, bertanggung jawab dan memiliki komitmen kerja.",
+      "Sehat Jasmani dan Rohani.",
+      "Bersedia mengikuti program training dan bersedia ditempatkan diseluruh cabang DS FUN LOGISTIC"
+    ],
+    "deskripsi": [],
+    "wilayah": [
+      "DKI JAKARTA",
+      "SULAWESI",
+      "SUMATERA UTARA",
+      "JAWA BARAT",
+      "SUMATERA SELATAN",
+      "SUMATERA BARAT",
+      "RIAU",
+      "KALIMANTAN SELATAN",
+      "KALIMANTAN TIMUR",
+      "BALI"
+    ],
+    "cities": [
+      {
+        "code": "003,PORT JEMBRANA",
+        "name": "PORT JEMBRANA"
+      },
+      {
+        "code": "003,PORT CIPAYUNG",
+        "name": "PORT CIPAYUNG"
+      },
+      {
+        "code": "003,PORT CIKARANG",
+        "name": "PORT CIKARANG"
+      },
+      {
+        "code": "003,PORT BANJARMASIN",
+        "name": "PORT BANJARMASIN"
+      },
+      {
+        "code": "003,PORT BALIKPAPAN",
+        "name": "PORT BALIKPAPAN"
+      },
+      {
+        "code": "003,PORT PEKANBARU",
+        "name": "PORT PEKANBARU"
+      },
+      {
+        "code": "003,PORT MAKASSAR",
+        "name": "PORT MAKASSAR"
+      },
+      {
+        "code": "003,PORT SOLOK",
+        "name": "PORT SOLOK"
+      },
+      {
+        "code": "003,PORT PALEMBANG",
+        "name": "PORT PALEMBANG"
+      },
+      {
+        "code": "003,PORT DELISERDANG",
+        "name": "PORT DELISERDANG"
+      }
+    ]
+  },
+  {
+    "title": "MT WAREHOUSE STAFF",
+    "kualifikasi": [
+      "Laki-laki.",
+      "Pendidikan minimal SMA/SMK semua jurusan.",
+      "Terbuka untuk Freshgraduate dan berpengalaman kerja lebih disukai.",
+      "Mahir dalam Microsoft Office (terutama MS Excel dan MS Word).",
+      "Mampu berkomunikasi dengan baik, bekerja sama dengan tim, jujur, disiplin, teliti, bertanggung jawab dan memiliki komitmen kerja.",
+      "Sehat Jasmani dan Rohani.",
+      "Bersedia mengikuti program training dan bersedia ditempatkan diseluruh cabang DS FUN LOGISTIC"
+    ],
+    "deskripsi": [],
+    "wilayah": [
+      "BANTEN",
+      "JAWA BARAT",
+      "JAWA TENGAH",
+      "JAWA TIMUR",
+      "LAMPUNG",
+      "SUMATERA SELATAN",
+      "SUMATERA UTARA",
+      "KALIMANTAN TIMUR",
+      "KALIMANTAN BARAT"
+    ],
+    "cities": [
+      {
+        "code": "001,PORT TANGERANG",
+        "name": "PORT TANGERANG"
+      },
+      {
+        "code": "001,PORT MARUNDA",
+        "name": "PORT MARUNDA"
+      },
+      {
+        "code": "001,PORT KALIWUNGU",
+        "name": "PORT KALIWUNGU"
+      },
+      {
+        "code": "001,PORT LEGUNDI",
+        "name": "PORT LEGUNDI"
+      },
+      {
+        "code": "001,PORT PROBOLINGGO",
+        "name": "PORT PROBOLINGGO"
+      },
+      {
+        "code": "001,PORT PONTIANAK",
+        "name": "PORT PONTIANAK"
+      },
+      {
+        "code": "001,PORT BALIKPAPAN",
+        "name": "PORT BALIKPAPAN"
+      },
+      {
+        "code": "001,PORT B LAMPUNG",
+        "name": "PORT B LAMPUNG"
+      },
+      {
+        "code": "001,PORT PALEMBANG",
+        "name": "PORT PALEMBANG"
+      },
+      {
+        "code": "001,PORT DELISERDANG",
+        "name": "PORT DELISERDANG"
+      }
+    ]
+  },
+  {
+    "title": "TKBM",
+    "kualifikasi": [
+      "Laki-laki.",
+      "Pendidikan minimal SMP sederajat.",
+      "Bertanggung jawab, komunikasi yang baik, kerjasama tim, jujur dan disiplin.",
+      "Memiliki komitmen kerja.",
+      "Sehat Jasmani dan Rohani.",
+      "Bersedia bergabung secepatnya.",
+      "Bersedia ditempatkan di seluruh cabang DS FUN LOGISTIC"
+    ],
+    "deskripsi": [
+      "Melakukan proses muat dan bongkar barang dari mobil ke mobil.",
+      "Menjaga dan memastikan keamanan paket.",
+      "Mengatur pemuatan paket dalam mobil agar maksimal.",
+      "Mengatur ruang pemuatan barang (ruang cargo)."
+    ],
+    "wilayah": [
+      "JAWA BARAT",
+      "JAWA TENGAH",
+      "BALI"
+    ],
+    "cities": [
+      {
+        "code": "000C,CABANG DENPASAR SELATAN",
+        "name": "CABANG DENPASAR SELATAN"
+      },
+      {
+        "code": "000C,PORT BOGOR",
+        "name": "PORT BOGOR"
+      },
+      {
+        "code": "000C,PORT KALIWUNGU",
+        "name": "PORT KALIWUNGU"
+      }
+    ]
+  },
+  {
+    "title": "KERNET DISTRIBUSI",
+    "kualifikasi": [],
+    "deskripsi": [],
+    "wilayah": [
+      "SUMATERA UTARA"
+    ],
+    "cities": [
+      {
+        "code": "000D,CABANG MEDAN BARAT",
+        "name": "CABANG MEDAN BARAT"
+      }
+    ]
+  },
+  {
+    "title": "MEKANIK KENDARAAN",
+    "kualifikasi": [
+      "Laki-laki.",
+      "Pendidikan minimal SMA/SMK sederajat.",
+      "Berpengalaman kerja sebagai Mekanik minimal 1-3 Tahun.",
+      "Mampu maintenance kendaraan CDD &amp; FUSO.",
+      "Mampu berkomunikasi dengan baik, bekerja sama dengan tim, jujur, disiplin, teliti, dan bertanggung jawab.",
+      "Memiliki komitmen kerja dan bersedia longshift (lembur).",
+      "Sehat Jasmani dan Rohani.",
+      "Bersedia bergabung secepatnya.",
+      "Bersedia ditempatkan di seluruh wilayah penempatan yang dibutuhkan"
+    ],
+    "deskripsi": [],
+    "wilayah": [
+      "JAWA TENGAH",
+      "JAWA BARAT",
+      "LAMPUNG"
+    ],
+    "cities": [
+      {
+        "code": "000E,PORT BANDUNG",
+        "name": "PORT BANDUNG"
+      },
+      {
+        "code": "000E,PORT KALIWUNGU",
+        "name": "PORT KALIWUNGU"
+      },
+      {
+        "code": "000E,PORT B LAMPUNG",
+        "name": "PORT B LAMPUNG"
+      }
+    ]
+  },
+  {
+    "title": "STAFF ARMADA",
+    "kualifikasi": [
+      "- Laki-laki.",
+      "Pendidikan minimal D3 semua jurusan (S1 lebih disukai).",
+      "Terbuka untuk Freshgraduate dan berpengalaman kerja lebih disukai.",
+      "Mahir dalam Microsoft Office maupun Google Workspace.",
+      "Memiliki kemampuan multitasking.",
+      "Memiliki Jiwa Kepemimpinan.",
+      "Mampu berkomunikasi dengan baik, bekerja sama dengan tim, jujur, disiplin, teliti, bertanggung jawab dan memiliki komitmen kerja.",
+      "Sehat Jasmani dan Rohani.",
+      "Bersedia penempatan di seluruh cabang DS FUN LOGISTIC."
+    ],
+    "deskripsi": [],
+    "wilayah": [
+      "DKI JAKARTA"
+    ],
+    "cities": [
+      {
+        "code": "003B,PUSAT",
+        "name": "PUSAT"
+      }
+    ]
+  },
+  {
+    "title": "STAFF PERSONALIA",
+    "kualifikasi": [
+      "- Laki-laki.",
+      "Pendidikan minimal S1 semua jurusan (diutamakan Psikologi / Ekonomi-Manajemen SDM / Hukum).",
+      "Diutamakan berpengalaman sebagai Personalia/HRD minimal 1 tahun.",
+      "Mahir dalam mengoperasikan Microsoft Office / Google Workspace.",
+      "Memiliki tanggungjawab, loyalitas, jujur dan disiplin, serta siap bekerja lembur (longshift).",
+      "Memiliki pemahaman Manajemen Logistik Bisnis.",
+      "Bersedia melakukan perjalanan dinas.",
+      "Bersedia ditempatkan di seluruh wilayah penempatan yang dibutuhkan"
+    ],
+    "deskripsi": [
+      "Mengumpulkan dan Melaporkan data administrasi (data pribadi karyawan).",
+      "Mengumpulkan dan Melaporkan data BPJS Karyawan.",
+      "Menganalisa kebutuhan rekrutmen karyawan untuk pemenuhan tenaga kerja POOL/CABANG/AGEN.",
+      "Melaksanakan dan membantu Manajer HRD dalam kebutuhan data laporan.",
+      "Mengevaluasi Karyawan yang melakukan pelanggaran peraturan perusahaan dengan penindakan baik teguran tertulis maupun hukuman baik denda ataupun yang lainnya (Tindakan)."
+    ],
+    "wilayah": [
+      "KALIMANTAN TIMUR",
+      "BANTEN"
+    ],
+    "cities": [
+      {
+        "code": "004B,PORT TANGERANG",
+        "name": "PORT TANGERANG"
+      },
+      {
+        "code": "004B,PORT BALIKPAPAN",
+        "name": "PORT BALIKPAPAN"
+      }
+    ]
+  },
+  {
+    "title": "SECURITY",
+    "kualifikasi": [
+      "- Laki-laki",
+      "Pendidikan minimal SMP sederajat.",
+      "Berpengalaman kerja sebagai Security minimal 1-3 Tahun.",
+      "Memiliki sertifikat Gada Pratama dan KTA yang masih aktif (lebih disukai).",
+      "Mampu memahami tugas dan tanggung jawab serta kewajiban security.",
+      "Mampu berkomunikasi dengan baik, bekerja sama dengan tim, jujur, disiplin, teliti, dan bertanggung jawab.",
+      "Memiliki komitmen kerja dan bersedia longshift (lembur).",
+      "Sehat Jasmani dan Rohani.",
+      "Bersedia bergabung secepatnya dan ditempatkan diseluruh cabang DS FUN LOGISTIC"
+    ],
+    "deskripsi": [],
+    "wilayah": [
+      "SUMATERA UTARA"
+    ],
+    "cities": [
+      {
+        "code": "000H,PORT DELISERDANG",
+        "name": "PORT DELISERDANG"
+      }
+    ]
+  },
+  {
+    "title": "CLEANING SERVICE",
+    "kualifikasi": [
+      "- Laki-laki.",
+      "Pendidikan minimal SMP sederajat.",
+      "Bertanggung jawab, komunikasi yang baik, kerjasama tim, jujur dan disiplin.",
+      "Memiliki komitmen kerja.",
+      "Sehat Jasmani dan Rohani.",
+      "Bersedia ditempatkan di seluruh cabang DS FUN LOGISTIC."
+    ],
+    "deskripsi": [],
+    "wilayah": [
+      "JAWA TENGAH"
+    ],
+    "cities": [
+      {
+        "code": "000I,PORT KALIWUNGU",
+        "name": "PORT KALIWUNGU"
+      }
+    ]
+  },
+  {
+    "title": "KEPALA SARPRAS",
+    "kualifikasi": [
+      "- Laki-Laki",
+      "Pendidikan minimal S1 Teknik Sipil",
+      "Diutamakan memiliki pengalaman bekerja 1 tahun di bidang pengawas lapangan",
+      "Mahir kemampuan Microsoft Office, Autocad, dan Sketchup",
+      "Memahami perhitungan RAB Pembangunan",
+      "Melakukan pengecekan rutin terhadap kondisi gedung, utilitas, dan sarana operasional",
+      "Terbiasa mengelola pekerejaan sekaligus dan mampu menyelesaikannya sesuai prioritas dan target",
+      "Teliti dan tergonasir dalam mengelola data serta dokumen administrasi",
+      "Dapat bekerja secara berkoordinasi dengan tim",
+      "Sehat Jasmani dan Rohani",
+      "Bersedia melakukan perjalanan dinas dan bergabung secepatnya",
+      "Bersedia ditempatkan di HEAD OFFICE DS FUN LOGISTIC -DKI JAKARTA"
+    ],
+    "deskripsi": [
+      "Tugas &amp; Tanggung Jawab",
+      "Mengawasi proyek yang dimiliki DS FUN LOGISTIC",
+      "Analisis RAB yang diajukan oleh HR daerah perihal Sarpras",
+      "Pengarsipan dan perapian dokumen administrasi dan data pengajuan",
+      "Membuat layout pembangunan proyek DS FUN LOGISTIC"
+    ],
+    "wilayah": [
+      "JAKARTA"
+    ],
+    "cities": [
+      {
+        "code": "006C,HEAD OFFICE DS FUN LOGISTIC",
+        "name": "HEAD OFFICE DS FUN LOGISTIC"
+      }
+    ]
+  },
+  {
+    "title": "KEPALA CS",
+    "kualifikasi": [
+      "Laki - Laki.",
+      "Pendidikan terakhir minimal S1 dari jurusan relevan (diutamakan jurusan Ilmu Komunikasi/Manajamen/Psikologi/Administrasi Bisnis).",
+      "Memiliki pengalaman minimal 1–3 tahun di bidang Customer Service/Customer Experience/Contact Center.",
+      "Minimal 1 tahun pengalaman sebagai Team Leader/Supervisor atau posisi leadership.",
+      "Berpengalaman mengelola tim dan sistem kerja shift.",
+      "Memahami KPI, SLA, ticketing system, CRM, Omnichannel, complaint handling, dan customer service.",
+      "Mampu melakukan monitoring kinerja, coaching, briefing, serta evaluasi tim.",
+      "Memiliki kemampuan komunikasi, koordinasi, problem solving, dan leadership yang baik.",
+      "Mampu menggunakan Microsoft Office, khususnya Excel/Google Sheets.",
+      "Bersedia bekerja dengan sistem shift dan menghadapi kondisi operasional dengan volume pelanggan tinggi.",
+      "Sehat Jasmani &amp; Rohani.",
+      "Bersedia bergabung secepatnya &amp; ditempatkan di HEAD OFFICE DS FUN LOGISTIC - CIPAYUNG, JAKARTA TIMUR"
+    ],
+    "deskripsi": [
+      "Tugas &amp; Tanggung Jawab :",
+      "Memimpin operasional harian, jadwal shift, dan kedisiplinan tim CS serta Support Internal.",
+      "Memantau pencapaian KPI tim, kecepatan respons, dan akurasi pembuatan tiket ke sistem.",
+      "Mengontrol kualitas jawaban staf agar selalu sopan, tepat, dan solutif sesuai SOP.",
+      "Mengoordinasikan kendala operasional tim dengan divisi terkait.",
+      "Mengadakan briefing harian untuk mengevaluasi kendala komunikasi staf CS dan SI di lapangan.",
+      "Menyusun laporan periodik serta mem-backup penanganan saat antrean melonjak atau staff berhalangan."
+    ],
+    "wilayah": [
+      "DKI JAKARTA"
+    ],
+    "cities": [
+      {
+        "code": "004C,PUSAT",
+        "name": "PUSAT"
+      }
+    ]
+  },
+  {
+    "title": "STAFF IT PUSAT",
+    "kualifikasi": [
+      "Laki - Laki.",
+      "Pendidikan minimal D3/S1 jurusan Teknik Informatika, IT Support.",
+      "Memiliki pengalaman di bidang IT Helpdesk, IT Support, Application Support, atau sejenisnya.",
+      "Memahami troubleshooting hardware, software, jaringan, dan aplikasi.",
+      "Mampu menangani dan memonitor tiket permasalahan IT sampai dengan penyelesaiannya.",
+      "Mampu melakukan remote support kepada karyawan/Customer Service.",
+      "Memahami konsep RBAC dan user access management menjadi nilai tambah.",
+      "Mahir dalam Microsoft Excel dan Google Spreadsheet tingkat lanjut.",
+      "Sehat Jasmani dan Rohani.",
+      "Bersedia bergabung secepatnya dan ditempatkan di HEAD OFFICE DS FUN LOGISTIC - CIPAYUNG, JAKARTA TIMUR"
+    ],
+    "deskripsi": [
+      "1. Mengembangkan, menguji, dan memperbarui aplikasi atau sistem digital perusahaan secara penuh (Full-Stack).",
+      "2. Memantau kesehatan server, melakukan pembaruan berkala pada tech stack, serta memperbaiki bug/error.",
+      "3. Mengelola infrastruktur cloud server pada platform DigitalOcean (Droplet, Snapshot, Backup).",
+      "4. Melakukan input, koreksi, pembersihan, dan backup berkala pada database utama (Revisi Data).",
+      "5. Mengelola akun email profesional kantor serta membantu tim CS menyelesaikan keluhan sistemis pelanggan."
+    ],
+    "wilayah": [
+      "DKI JAKARTA"
+    ],
+    "cities": [
+      {
+        "code": "003E,PUSAT",
+        "name": "PUSAT"
+      }
+    ]
+  }
+]

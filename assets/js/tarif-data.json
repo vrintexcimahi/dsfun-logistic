@@ -1,0 +1,2796 @@
+{
+  "origins": [
+    {
+      "group": "JAWA BARAT",
+      "options": [
+        {
+          "code": "TNB",
+          "name": "BOGOR BARAT"
+        },
+        {
+          "code": "TNB",
+          "name": "BOGOR TIMUR"
+        },
+        {
+          "code": "TNB",
+          "name": "BOGOR CIAPUS"
+        },
+        {
+          "code": "TNB",
+          "name": "BOGOR CIOMAS"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG BARAT"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG TIMUR"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG CARINGIN"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG DULATIP"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG TKI"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG CIGONDEWAH"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG BARAT"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG SELATAN"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG UTARA"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG ADIYASA"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG B CEPER"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG CIKUPA"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG CILEDUG"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG CIPADU"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG CIPONDOH"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG JATIUWUNG"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG KARAWACI"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG KRESEK"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG KUTABUMI"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG P KAMIS"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG RAJEG"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG SERPONG"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG TIGA RAKSA"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG TL NAGA"
+        },
+        {
+          "code": "BANTEN-02",
+          "name": "SERANG"
+        },
+        {
+          "code": "BANTEN-02",
+          "name": "SERANG TIMUR"
+        },
+        {
+          "code": "BANTEN-02",
+          "name": "RANGKAS BITUNG"
+        },
+        {
+          "code": "BANTEN-02 RING2",
+          "name": "CILEGON"
+        },
+        {
+          "code": "BANTEN-02 RING2",
+          "name": "PANDEGLANG"
+        },
+        {
+          "code": "BODEP",
+          "name": "BGR JONGGOL"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR UTARA"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR BJ GEDE"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR CIAMPEA"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR CIAWI"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR CILEUNGSI"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR KEDUNGHALANG"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR LEUWILIANG"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR PARUNG"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR SENTUL"
+        },
+        {
+          "code": "BODEP-02",
+          "name": "SUKABUMI"
+        },
+        {
+          "code": "BODEP-02",
+          "name": "CIANJUR"
+        },
+        {
+          "code": "BODEP-02",
+          "name": "SUKABUMI CICURUG"
+        },
+        {
+          "code": "BODEP-02",
+          "name": "SUKABUMI KADUPUGUR"
+        },
+        {
+          "code": "BODEP-02",
+          "name": "SUKABUMI CIBADAK"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG LEMBANG"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "CICALENGKA"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "PADALARANG"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "SOREANG"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "SUMEDANG"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG BANJARAN"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG BATU JAJAR"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG BUAH BATU"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG CIMAHI"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG CIPARAY"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG GEGERKALONG"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG MAJALAYA"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG PADASUKA"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG RANCAEKEK"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "SUMEDANG TANJUNGSARI"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "GARUT"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "TASIK CIAWI"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "TASIKMALAYA"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "CIAMIS"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "BANJAR"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "GARUT LELES"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "TASIK CIKURUBUK"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "TASIK MANON JY"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "TASIK SINGAPARNA"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "TASIK SUKARAJA"
+        },
+        {
+          "code": "PANTURA",
+          "name": "KARAWANG"
+        },
+        {
+          "code": "PANTURA",
+          "name": "KARAWANG UTARA"
+        },
+        {
+          "code": "PANTURA",
+          "name": "KARAWANG CIKAMPEK"
+        },
+        {
+          "code": "PANTURA",
+          "name": "PURWAKARTA"
+        },
+        {
+          "code": "PANTURA",
+          "name": "PAMANUKAN"
+        },
+        {
+          "code": "PANTURA",
+          "name": "INDRAMAYU"
+        },
+        {
+          "code": "PANTURA",
+          "name": "SUBANG"
+        },
+        {
+          "code": "PANTURA",
+          "name": "CIREBON"
+        },
+        {
+          "code": "PANTURA",
+          "name": "LOSARI"
+        },
+        {
+          "code": "PANTURA",
+          "name": "KARAWANG PURWASARI"
+        },
+        {
+          "code": "PANTURA",
+          "name": "KARAWANG TL JAMBE"
+        },
+        {
+          "code": "PANTURA",
+          "name": "KALIJATI"
+        },
+        {
+          "code": "PANTURA",
+          "name": "INDRAMAYU JATIBARANG"
+        },
+        {
+          "code": "PANTURA",
+          "name": "CIREBON T GUBUG"
+        },
+        {
+          "code": "PANTURA",
+          "name": "CIREBON KR SEMBUNG"
+        },
+        {
+          "code": "PANTURA",
+          "name": "CIREBON PELABUHAN"
+        },
+        {
+          "code": "PANTURA RING 2",
+          "name": "KUNINGAN"
+        },
+        {
+          "code": "PANTURA RING 2",
+          "name": "MAJALENGKA"
+        },
+        {
+          "code": "PANTURA RING 2",
+          "name": "MAJALENGKA CIKIJING"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG LENGKONG"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG CIJERAH"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG SUKAMENAK"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "PANGANDARAN"
+        }
+      ]
+    },
+    {
+      "group": "JAWA TENGAH",
+      "options": [
+        {
+          "code": "JATENG-01 VIP",
+          "name": "TEGAL"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "BREBES"
+        },
+        {
+          "code": "JATENG-01 VIP",
+          "name": "TEGAL SELATAN"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "PEMALANG"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "PEKALONGAN"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "BATANG"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "TEGAL ADIWERNA"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "PEMALANG COMAL"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "PEKALONGAN KR ANYAR"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "PEKALONGAN KR DADAP"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "PEKALONGAN WIRADESA"
+        },
+        {
+          "code": "JATENG-01 RING2",
+          "name": "PEMALANG SELATAN"
+        },
+        {
+          "code": "JATENG-02 VIP",
+          "name": "PURWOKERTO"
+        },
+        {
+          "code": "JATENG-02",
+          "name": "BUMIAYU"
+        },
+        {
+          "code": "JATENG-02",
+          "name": "BANJARNEGARA"
+        },
+        {
+          "code": "JATENG-02",
+          "name": "PURBALINGGA"
+        },
+        {
+          "code": "JATENG-02 RING2",
+          "name": "CILACAP"
+        },
+        {
+          "code": "JATENG-02 RING2",
+          "name": "KEBUMEN"
+        },
+        {
+          "code": "JATENG-02 RING2",
+          "name": "PURWOREJO"
+        },
+        {
+          "code": "JATENG-02 RING2",
+          "name": "WONOSOBO"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SEMARANG BARAT"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SEMARANG"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SOLO"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SEMARANG ARTERI"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SEMARANG BANYUMANIK"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SEMARANG BETENG"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SEMARANG KRAPYAK"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SEMARANG SIMONGAN"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SOLO GEMOLONG"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SOLO KARTOSURO"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SOLO P KLEWER"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "KENDAL"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "UNGARAN"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "DEMAK"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "KUDUS"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "BOYOLALI"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "SALATIGA"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "MAGELANG"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "KUDUS DAWE"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "KUDUS P KLIWON"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "KUDUS PURWOSARI"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "MAGELANG MUNTILAN"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "JEPARA"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "PATI"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "PURWODADI"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "TEMANGGUNG"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "KLATEN"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "SUKOHARJO"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "KARANGANYAR"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "SRAGEN"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "WONOGIRI"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "JEPARA MAYONG"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "PATI JUWANA"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "GROBOGAN GUBUG"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "KLATEN PEDAN"
+        },
+        {
+          "code": "JOGJA VIP",
+          "name": "YOGYAKARTA"
+        },
+        {
+          "code": "JOGJA VIP",
+          "name": "YOGYA P BERINGHARJO"
+        },
+        {
+          "code": "JOGJA",
+          "name": "YOGYAKARTA UTARA"
+        },
+        {
+          "code": "JOGJA",
+          "name": "BANTUL"
+        },
+        {
+          "code": "JOGJA",
+          "name": "YOGYA KULONPROGO"
+        },
+        {
+          "code": "JOGJA",
+          "name": "YOGYA MEGUWO"
+        },
+        {
+          "code": "JOGJA",
+          "name": "YOGYA MONJALI"
+        },
+        {
+          "code": "JOGJA",
+          "name": "YOGYA PRAMBANAN"
+        },
+        {
+          "code": "JOGJA",
+          "name": "BANTUL KASIHAN"
+        },
+        {
+          "code": "JOGJA RING 2",
+          "name": "WONOSARI"
+        },
+        {
+          "code": "REMBANG-01",
+          "name": "REMBANG"
+        },
+        {
+          "code": "REMBANG-02",
+          "name": "BLORA"
+        },
+        {
+          "code": "JATENG-03 RING2",
+          "name": "PURWODADI GUBUG"
+        }
+      ]
+    },
+    {
+      "group": "JAWA TIMUR",
+      "options": [
+        {
+          "code": "REMBANG-02",
+          "name": "BOJONEGORO"
+        },
+        {
+          "code": "REMBANG-02",
+          "name": "TUBAN"
+        },
+        {
+          "code": "REMBANG-02",
+          "name": "LAMONGAN"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA BARAT"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA SELATAN"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA TIMUR"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA BONGKARAN"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA K JEPUN"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA KAPASAN"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA KEDUNGDORO"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA BENOWO"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA LAKARSANTRI"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA P JIWO"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "GRESIK"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO TIMUR"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "MOJOKERTO"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO KAHURIPAN"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO KLETEK"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO KRIAN"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO SEDATI"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO TANGGULANGIN"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "MOJOKERTO MOJOSARI"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "BANGKALAN"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "PAMEKASAN"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "SUMENEP"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "JOMBANG"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "PASURUAN"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "PROBOLINGGO"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "LUMAJANG"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "PROBOLINGGO KRAKSAAN"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "PASURUAN SUKOREJO"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "PASURUAN BANGIL"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MADIUN"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG BARAT"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG TIMUR"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG BLIMBING"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG KEPANJEN"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG LAWANG"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG P BESAR"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MADIUN P BESAR"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "BATU"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "MADIUN CARUBAN"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "NGAWI"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "MAGETAN"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "PONOROGO"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "NGANJUK"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "KEDIRI"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "TULUNGAGUNG"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "BLITAR"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "TRENGGALEK"
+        },
+        {
+          "code": "JEMBER-01",
+          "name": "JEMBER"
+        },
+        {
+          "code": "JEMBER-01",
+          "name": "JEMBER SELATAN"
+        },
+        {
+          "code": "JEMBER-01",
+          "name": "JEMBER P TANJUNG"
+        },
+        {
+          "code": "JEMBER-02",
+          "name": "BONDOWOSO"
+        },
+        {
+          "code": "JEMBER-02",
+          "name": "SITUBONDO"
+        },
+        {
+          "code": "JEMBER-02 RING2",
+          "name": "BYW GENTENG"
+        },
+        {
+          "code": "JEMBER-02 RING2",
+          "name": "BANYUWANGI"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG SELATAN"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "GRESIK SELATAN"
+        },
+        {
+          "code": "JEMBER-02 RING2",
+          "name": "BANYUWANGI KETAPANG"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "PACITAN"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SURABAYA"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO BUDURAN"
+        }
+      ]
+    },
+    {
+      "group": "BALI",
+      "options": [
+        {
+          "code": "BALI-01",
+          "name": "DENPASAR"
+        },
+        {
+          "code": "BALI-01",
+          "name": "DENPASAR KUTA"
+        },
+        {
+          "code": "BALI-02",
+          "name": "GIANYAR"
+        },
+        {
+          "code": "BALI-02",
+          "name": "BADUNG MENGWI"
+        },
+        {
+          "code": "BALI-02",
+          "name": "TABANAN"
+        },
+        {
+          "code": "BALI-02 RING2",
+          "name": "BULELENG"
+        },
+        {
+          "code": "BALI-02",
+          "name": "KARANGASEM"
+        },
+        {
+          "code": "BALI-02",
+          "name": "JEMBRANA"
+        }
+      ]
+    },
+    {
+      "group": "JAMBI",
+      "options": [
+        {
+          "code": "JAMBI",
+          "name": "JAMBI"
+        },
+        {
+          "code": "JAMBI",
+          "name": "JAMBI PASAR"
+        },
+        {
+          "code": "JAMBI-02",
+          "name": "MUARA BUNGO"
+        },
+        {
+          "code": "JAMBI",
+          "name": "JAMBI TIMUR"
+        }
+      ]
+    },
+    {
+      "group": "KALIMANTAN TIMUR",
+      "options": [
+        {
+          "code": "BALIKPAPAN",
+          "name": "BALIKPAPAN"
+        },
+        {
+          "code": "SAMARINDA",
+          "name": "SAMARINDA"
+        },
+        {
+          "code": "BONTANG",
+          "name": "BONTANG"
+        },
+        {
+          "code": "TANAH GROGOT",
+          "name": "TANAH GROGOT"
+        },
+        {
+          "code": "SAMARINDA",
+          "name": "TENGGARONG"
+        },
+        {
+          "code": "SAMARINDA",
+          "name": "SAMARINDA TIMUR"
+        }
+      ]
+    },
+    {
+      "group": "KALIMANTAN SELATAN",
+      "options": [
+        {
+          "code": "BANJARMASIN",
+          "name": "BANJARMASIN"
+        },
+        {
+          "code": "BANJARMASIN-02",
+          "name": "BANJARBARU"
+        },
+        {
+          "code": "KANDANGAN",
+          "name": "KANDANGAN"
+        },
+        {
+          "code": "TANJUNG",
+          "name": "TANJUNG"
+        },
+        {
+          "code": "BATULICIN",
+          "name": "BATULICIN"
+        }
+      ]
+    },
+    {
+      "group": "KALIMANTAN BARAT",
+      "options": [
+        {
+          "code": "PONTIANAK",
+          "name": "PONTIANAK"
+        },
+        {
+          "code": "PONTIANAK-02",
+          "name": "MEMPAWAH"
+        },
+        {
+          "code": "SINGKAWANG",
+          "name": "SINGKAWANG"
+        },
+        {
+          "code": "SAMBAS",
+          "name": "SAMBAS"
+        }
+      ]
+    },
+    {
+      "group": "KALIMANTAN TENGAH",
+      "options": [
+        {
+          "code": "PALANGKARAYA",
+          "name": "PALANGKARAYA"
+        },
+        {
+          "code": "SAMPIT",
+          "name": "SAMPIT"
+        },
+        {
+          "code": "PBUN",
+          "name": "PANGKALAN BUN"
+        },
+        {
+          "code": "PALANGKARAYA",
+          "name": "PALANGKARAYA UTARA"
+        }
+      ]
+    },
+    {
+      "group": "SUMATRA BARAT",
+      "options": [
+        {
+          "code": "SUMBAR",
+          "name": "BUKITTINGGI"
+        },
+        {
+          "code": "SUMBAR",
+          "name": "PADANG"
+        },
+        {
+          "code": "SUMBAR",
+          "name": "BUKITTINGGI PASAR"
+        },
+        {
+          "code": "SUMBAR",
+          "name": "PADANG PASAR RAYA"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "BATUSANGKAR"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "PADANG PANJANG"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "PARIAMAN"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "PAYAKUMBUH"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "SAWAHLUNTO"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "SOLOK"
+        },
+        {
+          "code": "SUMBAR",
+          "name": "PADANG UTARA"
+        },
+        {
+          "code": "SUMBAR",
+          "name": "DHARMASRAYA"
+        }
+      ]
+    },
+    {
+      "group": "RIAU",
+      "options": [
+        {
+          "code": "RIAU",
+          "name": "PEKANBARU"
+        },
+        {
+          "code": "RIAU",
+          "name": "PEKANBARU TIMUR"
+        },
+        {
+          "code": "RIAU",
+          "name": "PEKANBARU PASAR"
+        },
+        {
+          "code": "RIAU-02",
+          "name": "DUMAI"
+        },
+        {
+          "code": "RIAU-02",
+          "name": "DURI"
+        },
+        {
+          "code": "BATAM",
+          "name": "BATAM"
+        },
+        {
+          "code": "-",
+          "name": "TANJUNGPINANG"
+        },
+        {
+          "code": "RIAU-02",
+          "name": "BAGAN BATU"
+        }
+      ]
+    },
+    {
+      "group": "SUMATRA SELATAN",
+      "options": [
+        {
+          "code": "SUMSEL",
+          "name": "PALEMBANG SELATAN"
+        },
+        {
+          "code": "SUMSEL",
+          "name": "PALEMBANG UTARA"
+        },
+        {
+          "code": "SUMSEL",
+          "name": "PALEMBANG PASAR"
+        },
+        {
+          "code": "SUMSEL-02",
+          "name": "BATURAJA"
+        },
+        {
+          "code": "SUMSEL-02",
+          "name": "PRABUMULIH"
+        },
+        {
+          "code": "SUMSEL-02",
+          "name": "MUARA ENIM"
+        },
+        {
+          "code": "SUMSEL",
+          "name": "PALEMBANG TIMUR"
+        },
+        {
+          "code": "BENGKULU",
+          "name": "LAHAT"
+        }
+      ]
+    },
+    {
+      "group": "SUMATRA UTARA",
+      "options": [
+        {
+          "code": "SUMUT",
+          "name": "MEDAN TIMUR"
+        },
+        {
+          "code": "SUMUT",
+          "name": "MEDAN BARAT"
+        },
+        {
+          "code": "SUMUT",
+          "name": "MEDAN PAJAK IKAN"
+        },
+        {
+          "code": "SUMUT",
+          "name": "MEDAN HELVETIA"
+        },
+        {
+          "code": "SUMUT",
+          "name": "MEDAN RAHMADSYAH"
+        },
+        {
+          "code": "SUMUT",
+          "name": "MEDAN SETIABUDI"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "KISARAN"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "RANTAU PRAPAT"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "PEMATANG SIANTAR"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "TEBING TINGGI"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "DELISERDANG"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "BINJAI"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "PADANG SIDEMPUAN"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "SIBOLGA"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "BALIGE"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "DELISERDANG SELATAN"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "KABANJAHE"
+        }
+      ]
+    },
+    {
+      "group": "LAMPUNG",
+      "options": [
+        {
+          "code": "LAMPUNG",
+          "name": "BANDAR LAMPUNG"
+        },
+        {
+          "code": "LAMPUNG",
+          "name": "B LAMPUNG TJ KR TIMUR"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "BANDARJAYA"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "KALIANDA"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "KOTABUMI"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "METRO"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "PRINGSEWU"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "TULANG BAWANG"
+        }
+      ]
+    },
+    {
+      "group": "NTB",
+      "options": [
+        {
+          "code": "MATARAM-01",
+          "name": "MATARAM"
+        },
+        {
+          "code": "MATARAM-01",
+          "name": "MATARAM SANDUBAYA"
+        },
+        {
+          "code": "MATARAM-02",
+          "name": "LOMBOK TIMUR"
+        },
+        {
+          "code": "MATARAM-01",
+          "name": "PRAYA"
+        },
+        {
+          "code": "-",
+          "name": "SUMBAWA"
+        }
+      ]
+    },
+    {
+      "group": "BANTEN",
+      "options": [
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG PAMULANG"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG PASAR BARU"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG KRESEK"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG PORIS"
+        }
+      ]
+    },
+    {
+      "group": "JADEBEK",
+      "options": [
+        {
+          "code": "TNB",
+          "name": "JAKARTA KAPUK"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA ASEMKA"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA D KOSAMBI"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA KREKOT"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA PERNIAGAAN"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA PIK"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA SENEN 02"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA SUNTER"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA TELUK GONG"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA TONGKOL"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA AURI"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA BLOK B"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA CIDENG"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA JATINEGARA"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA JATINEGARA 02"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA K BALI"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA THAMRIN"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "JAKARTA SELATAN"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "JAKARTA TIMUR"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "JAKARTA BARAT"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "JAKARTA PUSAT"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "JAKARTA UTARA"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "JAKARTA ROXY"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "JAKARTA SENEN"
+        },
+        {
+          "code": "BODEP",
+          "name": "DEPOK"
+        },
+        {
+          "code": "BODEP",
+          "name": "DEPOK CIBINONG"
+        },
+        {
+          "code": "BODEP",
+          "name": "DEPOK SAWANGAN"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA CIPUTAT"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA KRAMATJATI"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA P GEMBRONG"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA P KOPI"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA P LABU"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA P MINGGU"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA GLODOK/SPA"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA GLODOK/SPG"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA K GADING"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA MG 2"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA P KECIL"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA P PAGI MG2"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA SUKAPURA"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA T PRIOK"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI SELATAN"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI B GEBANG"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI CIBITUNG"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI GOLDEN CITY"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI H INDAH"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI JUANDA"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI P UNGU"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI PEKAYON"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI TAMBUN"
+        },
+        {
+          "code": "CIKARANG",
+          "name": "CIKARANG BARAT"
+        },
+        {
+          "code": "CIKARANG",
+          "name": "CIKARANG TIMUR"
+        },
+        {
+          "code": "CIKARANG",
+          "name": "BEKASI CKR CIBARUSA"
+        },
+        {
+          "code": "CIKARANG",
+          "name": "BEKASI CKR SGC"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA JAYAKARTA"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "PORT CIPAYUNG"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "JAKARTA CENGKARENG"
+        },
+        {
+          "code": "JAKARTA VIP",
+          "name": "JAKARTA KEBON JERUK"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA MUARA ANGKE"
+        },
+        {
+          "code": "TNB",
+          "name": "JAKARTA JIS"
+        }
+      ]
+    },
+    {
+      "group": "MADURA",
+      "options": [
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "SAMPANG"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI",
+      "options": [
+        {
+          "code": "MAKASSAR",
+          "name": "MAKASSAR"
+        },
+        {
+          "code": "MAKASSAR-02",
+          "name": "GOWA"
+        },
+        {
+          "code": "MAKASSAR-02",
+          "name": "MAROS"
+        },
+        {
+          "code": "PAREPARE",
+          "name": "PAREPARE"
+        }
+      ]
+    },
+    {
+      "group": "ACEH",
+      "options": [
+        {
+          "code": "LHOK",
+          "name": "LHOKSEUMAWE"
+        },
+        {
+          "code": "LHOK-02",
+          "name": "LANGSA"
+        },
+        {
+          "code": "ACEH",
+          "name": "BANDA ACEH"
+        },
+        {
+          "code": "BIREUEN",
+          "name": "BIREUEN"
+        },
+        {
+          "code": "ACEH",
+          "name": "ACEH BARAT"
+        }
+      ]
+    },
+    {
+      "group": "BENGKULU",
+      "options": [
+        {
+          "code": "BENGKULU",
+          "name": "BENGKULU"
+        },
+        {
+          "code": "BENGKULU",
+          "name": "LUBUK LINGGAU"
+        },
+        {
+          "code": "BENGKULU",
+          "name": "BENGKULU UTARA"
+        }
+      ]
+    },
+    {
+      "group": "BANGKA BELITUNG",
+      "options": [
+        {
+          "code": "BABEL",
+          "name": "PANGKALPINANG"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI TENGAH",
+      "options": [
+        {
+          "code": "PALU",
+          "name": "PALU"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI UTARA",
+      "options": [
+        {
+          "code": "MANADO",
+          "name": "MANADO"
+        },
+        {
+          "code": "GORONTALO",
+          "name": "GORONTALO"
+        },
+        {
+          "code": "MANADO",
+          "name": "BITUNG"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI BARAT",
+      "options": [
+        {
+          "code": "PALU",
+          "name": "MAMUJU"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI TENGGARA",
+      "options": [
+        {
+          "code": "-",
+          "name": "KENDARI"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI SELATAN",
+      "options": [
+        {
+          "code": "MAKASSAR",
+          "name": "MAKASSAR UTARA"
+        }
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "group": "JAWA BARAT",
+      "options": [
+        {
+          "code": "BODEP",
+          "name": "BOGOR BARAT"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR TIMUR"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG BARAT"
+        },
+        {
+          "code": "BANDUNG VIP",
+          "name": "BANDUNG TIMUR"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG BARAT"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG SELATAN"
+        },
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG UTARA"
+        },
+        {
+          "code": "BANTEN-02",
+          "name": "SERANG"
+        },
+        {
+          "code": "BANTEN-02",
+          "name": "SERANG TIMUR"
+        },
+        {
+          "code": "BANTEN-02",
+          "name": "RANGKAS BITUNG"
+        },
+        {
+          "code": "BANTEN-02 RING2",
+          "name": "CILEGON"
+        },
+        {
+          "code": "BANTEN-02 RING2",
+          "name": "PANDEGLANG"
+        },
+        {
+          "code": "BODEP",
+          "name": "BGR JONGGOL"
+        },
+        {
+          "code": "BODEP",
+          "name": "BOGOR UTARA"
+        },
+        {
+          "code": "BODEP-02",
+          "name": "SUKABUMI"
+        },
+        {
+          "code": "BODEP-02",
+          "name": "CIANJUR"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "BANDUNG LEMBANG"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "CICALENGKA"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "PADALARANG"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "SOREANG"
+        },
+        {
+          "code": "BANDUNG",
+          "name": "SUMEDANG"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "GARUT"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "TASIK CIAWI"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "TASIKMALAYA"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "CIAMIS"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "BANJAR"
+        },
+        {
+          "code": "PANTURA",
+          "name": "KARAWANG"
+        },
+        {
+          "code": "PANTURA",
+          "name": "KARAWANG UTARA"
+        },
+        {
+          "code": "PANTURA",
+          "name": "KARAWANG CIKAMPEK"
+        },
+        {
+          "code": "PANTURA",
+          "name": "PURWAKARTA"
+        },
+        {
+          "code": "PANTURA",
+          "name": "PAMANUKAN"
+        },
+        {
+          "code": "PANTURA",
+          "name": "INDRAMAYU"
+        },
+        {
+          "code": "PANTURA",
+          "name": "SUBANG"
+        },
+        {
+          "code": "PANTURA",
+          "name": "CIREBON"
+        },
+        {
+          "code": "PANTURA",
+          "name": "LOSARI"
+        },
+        {
+          "code": "PANTURA RING 2",
+          "name": "KUNINGAN"
+        },
+        {
+          "code": "PANTURA RING 2",
+          "name": "MAJALENGKA"
+        },
+        {
+          "code": "BANDUNG RING2",
+          "name": "PANGANDARAN"
+        }
+      ]
+    },
+    {
+      "group": "JAWA TENGAH",
+      "options": [
+        {
+          "code": "JATENG-01 VIP",
+          "name": "TEGAL"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "BREBES"
+        },
+        {
+          "code": "JATENG-01 VIP",
+          "name": "TEGAL SELATAN"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "PEMALANG"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "PEKALONGAN"
+        },
+        {
+          "code": "JATENG-01",
+          "name": "BATANG"
+        },
+        {
+          "code": "JATENG-01 RING 2",
+          "name": "PEMALANG SELATAN"
+        },
+        {
+          "code": "JATENG-02 VIP",
+          "name": "PURWOKERTO"
+        },
+        {
+          "code": "JATENG-02",
+          "name": "BUMIAYU"
+        },
+        {
+          "code": "JATENG-02",
+          "name": "BANJARNEGARA"
+        },
+        {
+          "code": "JATENG-02",
+          "name": "PURBALINGGA"
+        },
+        {
+          "code": "JATENG-02 RING 2",
+          "name": "CILACAP"
+        },
+        {
+          "code": "JATENG-02 RING 2",
+          "name": "KEBUMEN"
+        },
+        {
+          "code": "JATENG-02 RING 2",
+          "name": "PURWOREJO"
+        },
+        {
+          "code": "JATENG-02 RING 2",
+          "name": "WONOSOBO"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SEMARANG BARAT"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SEMARANG"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "SOLO"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "KENDAL"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "UNGARAN"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "DEMAK"
+        },
+        {
+          "code": "JATENG-03 VIP",
+          "name": "KUDUS"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "BOYOLALI"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "SALATIGA"
+        },
+        {
+          "code": "JATENG-03",
+          "name": "MAGELANG"
+        },
+        {
+          "code": "JATENG-03 RING 2",
+          "name": "JEPARA"
+        },
+        {
+          "code": "JATENG-03 RING 2",
+          "name": "PATI"
+        },
+        {
+          "code": "JATENG-03 RING 2",
+          "name": "PURWODADI"
+        },
+        {
+          "code": "JATENG-03 RING 2",
+          "name": "TEMANGGUNG"
+        },
+        {
+          "code": "JATENG-03 RING 2",
+          "name": "KLATEN"
+        },
+        {
+          "code": "JATENG-03 RING 2",
+          "name": "SUKOHARJO"
+        },
+        {
+          "code": "JATENG-03 RING 2",
+          "name": "KARANGANYAR"
+        },
+        {
+          "code": "JATENG-03 RING 2",
+          "name": "SRAGEN"
+        },
+        {
+          "code": "JATENG-03 RING 2",
+          "name": "WONOGIRI"
+        },
+        {
+          "code": "JOGJA VIP",
+          "name": "YOGYAKARTA"
+        },
+        {
+          "code": "JOGJA",
+          "name": "YOGYAKARTA UTARA"
+        },
+        {
+          "code": "JOGJA",
+          "name": "BANTUL"
+        },
+        {
+          "code": "JOGJA RING 2",
+          "name": "WONOSARI"
+        },
+        {
+          "code": "REMBANG-01",
+          "name": "REMBANG"
+        },
+        {
+          "code": "REMBANG-02",
+          "name": "BLORA"
+        }
+      ]
+    },
+    {
+      "group": "JAWA TIMUR",
+      "options": [
+        {
+          "code": "REMBANG-02",
+          "name": "BOJONEGORO"
+        },
+        {
+          "code": "REMBANG-02",
+          "name": "TUBAN"
+        },
+        {
+          "code": "REMBANG-02",
+          "name": "LAMONGAN"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA BARAT"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA SELATAN"
+        },
+        {
+          "code": "JATIM-01 VIP",
+          "name": "SURABAYA TIMUR"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "GRESIK"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "SIDOARJO TIMUR"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "MOJOKERTO"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "BANGKALAN"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "PAMEKASAN"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "SUMENEP"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "JOMBANG"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "PASURUAN"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "PROBOLINGGO"
+        },
+        {
+          "code": "JATIM-01 RING 2",
+          "name": "LUMAJANG"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MADIUN"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG BARAT"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG TIMUR"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "BATU"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "MADIUN CARUBAN"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "NGAWI"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "MAGETAN"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "PONOROGO"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "NGANJUK"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "KEDIRI"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "TULUNGAGUNG"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "BLITAR"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "TRENGGALEK"
+        },
+        {
+          "code": "JEMBER-01",
+          "name": "JEMBER"
+        },
+        {
+          "code": "JEMBER-01",
+          "name": "JEMBER SELATAN"
+        },
+        {
+          "code": "JEMBER-02",
+          "name": "BONDOWOSO"
+        },
+        {
+          "code": "JEMBER-02",
+          "name": "SITUBONDO"
+        },
+        {
+          "code": "JEMBER-02 RING 2",
+          "name": "BYW GENTENG"
+        },
+        {
+          "code": "JEMBER-02 RING 2",
+          "name": "BANYUWANGI"
+        },
+        {
+          "code": "JATIM-02",
+          "name": "MALANG SELATAN"
+        },
+        {
+          "code": "JATIM-01",
+          "name": "GRESIK SELATAN"
+        },
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "PACITAN"
+        }
+      ]
+    },
+    {
+      "group": "BALI",
+      "options": [
+        {
+          "code": "BALI-01",
+          "name": "DENPASAR"
+        },
+        {
+          "code": "BALI-02",
+          "name": "GIANYAR"
+        },
+        {
+          "code": "BALI-02",
+          "name": "BADUNG MENGWI"
+        },
+        {
+          "code": "BALI-02",
+          "name": "TABANAN"
+        },
+        {
+          "code": "BALI-02 RING 2",
+          "name": "BULELENG"
+        },
+        {
+          "code": "BALI-02",
+          "name": "KARANGASEM"
+        },
+        {
+          "code": "BALI-02",
+          "name": "JEMBRANA"
+        }
+      ]
+    },
+    {
+      "group": "JAMBI",
+      "options": [
+        {
+          "code": "JAMBI",
+          "name": "JAMBI"
+        },
+        {
+          "code": "JAMBI-02",
+          "name": "MUARA BUNGO"
+        },
+        {
+          "code": "JAMBI",
+          "name": "JAMBI TIMUR"
+        }
+      ]
+    },
+    {
+      "group": "KALIMANTAN TIMUR",
+      "options": [
+        {
+          "code": "BALIKPAPAN",
+          "name": "BALIKPAPAN"
+        },
+        {
+          "code": "SAMARINDA",
+          "name": "SAMARINDA"
+        },
+        {
+          "code": "BONTANG",
+          "name": "BONTANG"
+        },
+        {
+          "code": "TANAH GROGOT",
+          "name": "TANAH GROGOT"
+        },
+        {
+          "code": "SAMARINDA",
+          "name": "TENGGARONG"
+        },
+        {
+          "code": "SAMARINDA",
+          "name": "SAMARINDA TIMUR"
+        }
+      ]
+    },
+    {
+      "group": "KALIMANTAN SELATAN",
+      "options": [
+        {
+          "code": "BANJARMASIN",
+          "name": "BANJARMASIN"
+        },
+        {
+          "code": "BANJARMASIN-02",
+          "name": "BANJARBARU"
+        },
+        {
+          "code": "KANDANGAN",
+          "name": "KANDANGAN"
+        },
+        {
+          "code": "TANJUNG",
+          "name": "TANJUNG"
+        },
+        {
+          "code": "BATULICIN",
+          "name": "BATULICIN"
+        }
+      ]
+    },
+    {
+      "group": "KALIMANTAN BARAT",
+      "options": [
+        {
+          "code": "PONTIANAK",
+          "name": "PONTIANAK"
+        },
+        {
+          "code": "PONTIANAK-02",
+          "name": "MEMPAWAH"
+        },
+        {
+          "code": "SINGKAWANG",
+          "name": "SINGKAWANG"
+        },
+        {
+          "code": "SAMBAS",
+          "name": "SAMBAS"
+        }
+      ]
+    },
+    {
+      "group": "KALIMANTAN TENGAH",
+      "options": [
+        {
+          "code": "PALANGKARAYA",
+          "name": "PALANGKARAYA"
+        },
+        {
+          "code": "SAMPIT",
+          "name": "SAMPIT"
+        },
+        {
+          "code": "P BUN",
+          "name": "PANGKALAN BUN"
+        },
+        {
+          "code": "PALANGKARAYA",
+          "name": "PALANGKARAYA UTARA"
+        }
+      ]
+    },
+    {
+      "group": "SUMATRA BARAT",
+      "options": [
+        {
+          "code": "SUMBAR",
+          "name": "BUKITTINGGI"
+        },
+        {
+          "code": "SUMBAR",
+          "name": "PADANG"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "BATUSANGKAR"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "PADANG PANJANG"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "PARIAMAN"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "PAYAKUMBUH"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "SAWAHLUNTO"
+        },
+        {
+          "code": "SUMBAR-02",
+          "name": "SOLOK"
+        },
+        {
+          "code": "SUMBAR",
+          "name": "PADANG UTARA"
+        },
+        {
+          "code": "SUMBAR",
+          "name": "DHARMASRAYA"
+        }
+      ]
+    },
+    {
+      "group": "RIAU",
+      "options": [
+        {
+          "code": "RIAU",
+          "name": "PEKANBARU"
+        },
+        {
+          "code": "RIAU",
+          "name": "PEKANBARU TIMUR"
+        },
+        {
+          "code": "RIAU-02",
+          "name": "DUMAI"
+        },
+        {
+          "code": "RIAU-02",
+          "name": "DURI"
+        },
+        {
+          "code": "BATAM",
+          "name": "BATAM"
+        },
+        {
+          "code": "BATAM-02",
+          "name": "TANJUNGPINANG"
+        },
+        {
+          "code": "RIAU-02",
+          "name": "BAGAN BATU"
+        }
+      ]
+    },
+    {
+      "group": "SUMATRA SELATAN",
+      "options": [
+        {
+          "code": "SUMSEL",
+          "name": "PALEMBANG SELATAN"
+        },
+        {
+          "code": "SUMSEL",
+          "name": "PALEMBANG UTARA"
+        },
+        {
+          "code": "SUMSEL-02",
+          "name": "BATURAJA"
+        },
+        {
+          "code": "SUMSEL-02",
+          "name": "PRABUMULIH"
+        },
+        {
+          "code": "SUMSEL-02",
+          "name": "MUARA ENIM"
+        },
+        {
+          "code": "SUMSEL",
+          "name": "PALEMBANG TIMUR"
+        },
+        {
+          "code": "BENGKULU",
+          "name": "LAHAT"
+        }
+      ]
+    },
+    {
+      "group": "SUMATRA UTARA",
+      "options": [
+        {
+          "code": "SUMUT",
+          "name": "MEDAN TIMUR"
+        },
+        {
+          "code": "SUMUT",
+          "name": "MEDAN BARAT"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "KISARAN"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "RANTAU PRAPAT"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "PEMATANG SIANTAR"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "TEBING TINGGI"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "DELISERDANG"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "BINJAI"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "PADANG SIDEMPUAN"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "SIBOLGA"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "BALIGE"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "DELISERDANG SELATAN"
+        },
+        {
+          "code": "SUMUT-02",
+          "name": "KABANJAHE"
+        }
+      ]
+    },
+    {
+      "group": "LAMPUNG",
+      "options": [
+        {
+          "code": "LAMPUNG",
+          "name": "BANDAR LAMPUNG"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "BANDARJAYA"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "KALIANDA"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "KOTABUMI"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "METRO"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "PRINGSEWU"
+        },
+        {
+          "code": "LAMPUNG-02",
+          "name": "TULANG BAWANG"
+        }
+      ]
+    },
+    {
+      "group": "NTB",
+      "options": [
+        {
+          "code": "MATARAM-01",
+          "name": "MATARAM"
+        },
+        {
+          "code": "MATARAM-02",
+          "name": "LOMBOK TIMUR"
+        },
+        {
+          "code": "MATARAM-01",
+          "name": "PRAYA"
+        },
+        {
+          "code": "SUMBAWA",
+          "name": "SUMBAWA"
+        }
+      ]
+    },
+    {
+      "group": "BANTEN",
+      "options": [
+        {
+          "code": "BANTEN",
+          "name": "TANGERANG KRESEK"
+        }
+      ]
+    },
+    {
+      "group": "JADEBEK",
+      "options": [
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA SELATAN"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA TIMUR"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA BARAT"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA PUSAT"
+        },
+        {
+          "code": "JAKARTA",
+          "name": "JAKARTA UTARA"
+        },
+        {
+          "code": "BODEP",
+          "name": "DEPOK"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI"
+        },
+        {
+          "code": "BEKASI",
+          "name": "BEKASI SELATAN"
+        },
+        {
+          "code": "CIKARANG",
+          "name": "CIKARANG BARAT"
+        },
+        {
+          "code": "CIKARANG",
+          "name": "CIKARANG TIMUR"
+        }
+      ]
+    },
+    {
+      "group": "MADURA",
+      "options": [
+        {
+          "code": "JATIM-02 RING 2",
+          "name": "SAMPANG"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI",
+      "options": [
+        {
+          "code": "MAKASSAR",
+          "name": "MAKASSAR"
+        },
+        {
+          "code": "MAKASSAR-02",
+          "name": "GOWA"
+        },
+        {
+          "code": "MAKASSAR-02",
+          "name": "MAROS"
+        },
+        {
+          "code": "PAREPARE",
+          "name": "PAREPARE"
+        }
+      ]
+    },
+    {
+      "group": "ACEH",
+      "options": [
+        {
+          "code": "LHOK",
+          "name": "LHOKSEUMAWE"
+        },
+        {
+          "code": "LHOK-02",
+          "name": "LANGSA"
+        },
+        {
+          "code": "ACEH",
+          "name": "BANDA ACEH"
+        },
+        {
+          "code": "LHOK",
+          "name": "BIREUEN"
+        },
+        {
+          "code": "ACEH",
+          "name": "ACEH BARAT"
+        }
+      ]
+    },
+    {
+      "group": "BENGKULU",
+      "options": [
+        {
+          "code": "BENGKULU",
+          "name": "BENGKULU"
+        },
+        {
+          "code": "BENGKULU",
+          "name": "LUBUK LINGGAU"
+        },
+        {
+          "code": "BENGKULU",
+          "name": "BENGKULU UTARA"
+        }
+      ]
+    },
+    {
+      "group": "BANGKA BELITUNG",
+      "options": [
+        {
+          "code": "BABEL",
+          "name": "PANGKALPINANG"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI TENGAH",
+      "options": [
+        {
+          "code": "PALU",
+          "name": "PALU"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI UTARA",
+      "options": [
+        {
+          "code": "MANADO",
+          "name": "MANADO"
+        },
+        {
+          "code": "GORONTALO",
+          "name": "GORONTALO"
+        },
+        {
+          "code": "MANADO",
+          "name": "BITUNG"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI BARAT",
+      "options": [
+        {
+          "code": "PALU",
+          "name": "MAMUJU"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI TENGGARA",
+      "options": [
+        {
+          "code": "KENDARI",
+          "name": "KENDARI"
+        }
+      ]
+    },
+    {
+      "group": "SULAWESI SELATAN",
+      "options": [
+        {
+          "code": "MAKASSAR",
+          "name": "MAKASSAR UTARA"
+        }
+      ]
+    }
+  ]
+}

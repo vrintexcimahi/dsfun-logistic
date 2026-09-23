@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-09-23T07:30:59.719Z",
+  "menus": [
+    {
+      "id": "menu_beranda",
+      "label": "Beranda",
+      "url": "/",
+      "visible": true,
+      "order": 1,
+      "description": "Halaman utama website DS Fun Logistic"
+    },
+    {
+      "id": "menu_cek_resi",
+      "label": "Cek Resi",
+      "url": "cek-resi.html",
+      "visible": true,
+      "order": 2,
+      "description": "Layanan pelacakan status waybill/resi kargo"
+    },
+    {
+      "id": "menu_cek_tarif",
+      "label": "Cek Tarif",
+      "url": "cek-tarif.html",
+      "visible": true,
+      "order": 3,
+      "description": "Simulasi perkiraan ongkos kirim kargo & kelontongan"
+    },
+    {
+      "id": "menu_lokasi_cabang",
+      "label": "Lokasi Cabang",
+      "url": "lokasi-cabang.html",
+      "visible": true,
+      "order": 4,
+      "description": "Peta sebaran kantor cabang & cover area pengiriman"
+    },
+    {
+      "id": "menu_karir",
+      "label": "Karir",
+      "url": "karir.html",
+      "visible": true,
+      "order": 5,
+      "description": "Informasi lowongan pekerjaan & rekrutmen DS Fun"
+    },
+    {
+      "id": "menu_profil",
+      "label": "Profil",
+      "url": "tentang-kami.html",
+      "visible": true,
+      "order": 6,
+      "description": "Profil perusahaan, visi misi & legalitas"
+    },
+    {
+      "id": "menu_hubungi_kami",
+      "label": "Hubungi Kami",
+      "url": "hubungi-kami.html",
+      "visible": true,
+      "order": 7,
+      "description": "Formulir kontak & saluran bantuan pelanggan"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "active": true,
+      "title": "Brand Utama",
+      "headline": "Kepuasan Pelanggan Adalah Prioritas Kami",
+      "subheadline": "Solusi Ekspedisi Kargo Cepat, Aman, dan Terpercaya ke Seluruh Indonesia",
+      "img": "assets/img/hero-banner-1.png",
+      "link": "tentang-kami.html"
+    },
+    {
+      "id": 2,
+      "active": true,
+      "title": "Jaringan Nasional",
+      "headline": "Jaringan Pengiriman Nasional Sabang Sampai Merauke",
+      "subheadline": "Armada Lengkap Menjangkau Pelosok Nusantara",
+      "img": "assets/img/hero-banner-2.png",
+      "link": "cover-area.html"
+    },
+    {
+      "id": 3,
+      "active": true,
+      "title": "Cargo & Trucking",
+      "headline": "Armada Tangguh & Pengiriman Partai Besar",
+      "subheadline": "Spesialis Kargo Grosir, Proyek, dan Industri",
+      "img": "assets/img/hero-banner-3.png",
+      "link": "cek-tarif.html"
+    },
+    {
+      "id": 4,
+      "active": true,
+      "title": "Pengiriman Express",
+      "headline": "Pengiriman Express — Sampai Lebih Cepat & Aman",
+      "subheadline": "Lacak Real-Time dari Pengambilan Hingga Tiba di Tujuan",
+      "img": "assets/img/hero-banner-4.png",
+      "link": "cek-resi.html"
+    }
+  ],
+  "alerts": {
+    "show_warning_penipuan": true,
+    "warning_text": "WASPADA PENIPUAN: Rekening resmi pembayaran kargo hanya atas nama PT DS FUN LOGISTIC.",
+    "show_bebas_pungli": true,
+    "bebas_pungli_text": "BEBAS PUNGLI: Laporkan segala bentuk pungutan liar di luar tagihan resmi.",
+    "show_ticker": true,
+    "ticker_text": "DS FUN LOGISTIC melayani pengiriman kargo partai besar & kelontongan ke seluruh Indonesia dengan jaminan aman dan tepat waktu."
+  },
+  "rates_config": {
+    "min_weight_kg": 10,
+    "rate_multiplier": 1,
+    "lead_time_note": "Estimasi pengiriman kargo darat 2-4 hari kerja."
+  },
+  "contact": {
+    "cs_whatsapp": "628100000000",
+    "call_center": "(021) 00000000",
+    "email": "customercare@dsfunlogistic.id",
+    "address": "Jl. Raya Setu No. 88, Cipayung, Jakarta Timur",
+    "operational_hours": "Senin - Sabtu: 08:00 - 18:00 WIB"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "dsfun-logistic-web",
+  "version": "1.0.0",
+  "description": "Website Resmi DS Fun Logistic — Logistik Cepat, Aman & Terpercaya",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "dsfun-logistic",
+    "ds-fun",
+    "cargo",
+    "ekspedisi",
+    "logistik",
+    "pengiriman"
+  ],
+  "author": "DS Fun Logistic",
+  "license": "ISC"
+}

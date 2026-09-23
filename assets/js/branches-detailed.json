@@ -1,0 +1,3882 @@
+[
+  {
+    "province": "BALI",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Denpasar",
+        "address": "Jl. Pondok Indah III No. 14b, Pemecutan Kaja, Denpasar Utara, Kota Denpasar",
+        "phone": "081236967575",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/XgZKWRqViBgYHjVcA"
+      },
+      {
+        "no": "2",
+        "name": "Singaraja",
+        "address": "Jl. Pulau Komodo No 29X, Banyuning Utara, Buleleng, Singaraja, Bali",
+        "phone": "082147063798",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/qB7St5t8Lpvu7g9f6"
+      },
+      {
+        "no": "3",
+        "name": "Tabanan",
+        "address": "Jl. Dr. Ir. Soekarno No.33-18, Banjar Anyar, Kec. Kediri, Kabupaten Tabanan, Bali 82121",
+        "phone": "081338879660",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/B15Hz15Mn8x68qiR9"
+      },
+      {
+        "no": "4",
+        "name": "Gianyar",
+        "address": "Jl. By Pass Dharma Giri, Bitera, Kec. Gianyar, Kabupaten Gianyar, Bali",
+        "phone": "085601594119",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/vzG4d4Rhy7iKm5ps5"
+      },
+      {
+        "no": "5",
+        "name": "Badung Mengwi",
+        "address": "JL BUKIT TINGGI 99, Desa Kapal , Kec. Mengwi, Kab. Badung, Prov. Bali",
+        "phone": "085141279710",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/SbYQ3hyXvJ7Shtch9"
+      },
+      {
+        "no": "6",
+        "name": "Kuta",
+        "address": "Jl. Bypass Ngurah Rai No. 102 Z, Tuban, Desa Ungasan , Kec. Kuta Selatan, Kab. Badung, Prov. Bali",
+        "phone": "081337924674",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/E75Z4CiyC332WHqm8"
+      },
+      {
+        "no": "7",
+        "name": "Bitera",
+        "address": "Jl. By Pass Dharma Giri, Desa Bitera , Kec. Gianyar, Kab. Gianyar, Prov. Bali",
+        "phone": "085601594119",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/iwvYLz8fTMHgxSBJ6"
+      },
+      {
+        "no": "8",
+        "name": "Karangasem",
+        "address": "Jl. Raya Perasi, Subagan, Kec. Karangasem, Kabupaten Karangasem, Bali 80813",
+        "phone": "088989473475",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/QQ9wMm9LKq6CK8UW6"
+      },
+      {
+        "no": "9",
+        "name": "Tukadmungga",
+        "address": "Jl Seririt-Singaraja, Desa Tukadmungga , Kec. Buleleng, Kab. Buleleng, Prov. Bali",
+        "phone": "089671895363",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Rr9PD2LK3h4hCpNU7"
+      }
+    ]
+  },
+  {
+    "province": "BANGKA BELITUNG",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Pangkal Pinang",
+        "address": "Jl, Desa Melintang, Kec. Rangkui, Kab. Pangkal Pinang, Prov. Bangka Belitung",
+        "phone": "082298314030",
+        "penerimaan": false,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/3hsmDZn2sYtTseYu5"
+      }
+    ]
+  },
+  {
+    "province": "BANTEN",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Kosambi - Bandara Tgr",
+        "address": "Jl. Raya Kosambi Tim. No.9b, Dadap, Kec. Kosambi, Kabupaten Tangerang, Banten 15213",
+        "phone": "081928748490",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/d28cHVHiYu8bCB9o7"
+      },
+      {
+        "no": "2",
+        "name": "Cikupa",
+        "address": "jl raya serang km 18 bojong cikupa tangerang ( samping asrama TNI RUDAL\r\n003 ), TANGERANG",
+        "phone": "08295795034",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/1EcZJGUThZR6prUe7"
+      },
+      {
+        "no": "3",
+        "name": "Jatiuwung",
+        "address": "Jl. Raden Kiang Santang Pasar Baru No 1 C, Desa Sangiang Jaya , Kec. Periuk, Kab. Tangerang, Prov. Banten",
+        "phone": "085215596931",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/Fx1RNzf1vy8SQtuM8"
+      },
+      {
+        "no": "4",
+        "name": "Tiga Raksa",
+        "address": "Jl Arya Jaya Santika Kp.Gudang Pasir Nangka Tigaraksa Tangerang",
+        "phone": "082122457455",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/c89xLfFHCzJNhYUX8"
+      },
+      {
+        "no": "5",
+        "name": "Cipondoh",
+        "address": "JL H.MANSYUR PRTIGAAN LAMPU MERAH GONDRONG-CIPONDOH, TANGERANG",
+        "phone": "081388622027",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/TAkrJHcrGeM1aEef7"
+      },
+      {
+        "no": "6",
+        "name": "Serpong",
+        "address": "Ruko Boulevard Tekno, Jl. Tekno Widya No.A17, Setu, Kec. Setu, Kota Tangerang Selatan, Banten 15314",
+        "phone": "08388617475",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/EhGjwh9RUUYJijHt7"
+      },
+      {
+        "no": "7",
+        "name": "Cilegon",
+        "address": "Raya Bojonegara (Piere Tendean), Ruko Acing No. 8A, RT 01/05, Panggung\r\nRawi Kec. Jombang, Cilegon.",
+        "phone": "081212448473",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/afv8ZcJRY6AahtPz9"
+      },
+      {
+        "no": "8",
+        "name": "Karawaci",
+        "address": "Jl. Imam Bonjol No.40, RT.003/RW.006, Panunggangan Bar., Kec. Karawaci,\r\nKota Tangerang",
+        "phone": "081287948242",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/F62BJUSXn1TXGWM49"
+      },
+      {
+        "no": "9",
+        "name": "Pasar Kemis - Tangerang",
+        "address": "Jl. Raya Ps. Kemis No.18, Gelam Jaya, Kec. Ps. Kemis, Kabupaten Tangerang, Banten 15560",
+        "phone": "+6289623321047",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/n7GjYSJro5PHuQbs7"
+      },
+      {
+        "no": "10",
+        "name": "Benda - Tangerang",
+        "address": "Jl Raya Prancis Mutiara Kosambi Blok B-3, Desa Benda , Kec. Benda, Kab. Tangerang, Prov. Banten",
+        "phone": "085811079001",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/cyTqvQEbw6acgmp9A"
+      },
+      {
+        "no": "11",
+        "name": "Ciputat",
+        "address": "Jl. Ir H. Juanda No.57, Ciputat, Kec. Ciputat, Kota Tangerang Selatan,\r\nBanten 15411",
+        "phone": "081387611416",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/5LtMYZiuFc1gAmXR7"
+      },
+      {
+        "no": "12",
+        "name": "Kutabumi",
+        "address": "RT.001/RW.005, Periuk, Kec. Periuk, Kota Tangerang, Banten",
+        "phone": "08318555161",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/JovJRbE9pRAoAMXF8"
+      },
+      {
+        "no": "13",
+        "name": "Serang Kota",
+        "address": "Jl Ayip Usman kebaharan,kebaharan Lopang serang, (Samping Apotik Kimia Farma Ayip Usman), Desa Lopang , Kec. Serang, Kab. Serang, Prov. Banten",
+        "phone": "+6287782313678",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/UAABxia9noJCZiBx5"
+      },
+      {
+        "no": "14",
+        "name": "Cipadu",
+        "address": "JL WAHID HASYIM RUKO ANUGRAH 2 NO 7, Desa Jurang Mangu Timur , Kec. Pondok Aren, Kab. Tangerang Selatan, Prov. Banten",
+        "phone": "081296936582",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/YepqXjo8bJdsRh4P6"
+      },
+      {
+        "no": "15",
+        "name": "Adiyasa",
+        "address": "Jl Cisoka - Adhiyasa, Kp. Cisalak, RT.04, RW.02 Desa Cireundeu, Kec. Solear, Tangerang Banten",
+        "phone": "08384317484 / 085280477810",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/eTNCVWaostTfmhZA8"
+      },
+      {
+        "no": "16",
+        "name": "Serang - Cikande",
+        "address": "Jl. Raya Cikande Rangkasbitung km 0.5 , Desa Cikande , Kec. Cikande, Kab. Serang, Prov. Banten",
+        "phone": "081294478445",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/dTbszDds9RNXqx3v7"
+      },
+      {
+        "no": "17",
+        "name": "Serdang Wetan - Tgr Barat",
+        "address": "Jl raya Curug blokeng RT 04 RW 03 seredang wetan kec legok, Serdang Wetan, Tangerang, Kabupaten Tangerang, Banten 15810",
+        "phone": "081314384044",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/DqKVFDzGwxxBdc7j7"
+      },
+      {
+        "no": "18",
+        "name": "Rangkas Bitung",
+        "address": "Jl. SOEKARNO-HATTA, CIJORO PASIR, KEC. RANGKAS BITUNG, KAB.LEBAK, BANTEN",
+        "phone": "082169372518",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/cjged5uDtyeNwJwa6"
+      },
+      {
+        "no": "19",
+        "name": "Batu Ceper",
+        "address": "Jl. Garuda No. 60 Rt 06/Rw 04, Kel Batu Ceper Kec. Batu ceper, Kota Tangerang",
+        "phone": "081288841337",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/qrSa7dECPTJJzujZA"
+      },
+      {
+        "no": "20",
+        "name": "Teluk Naga",
+        "address": "Jl. kampung melayu, kp Wates RT 9 Rw 4 kampung Melayu Timur, Kec. teluk naga. Tangerang",
+        "phone": "081399964788",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/UtwT33Yw96xXk8kz7"
+      },
+      {
+        "no": "21",
+        "name": "Kresek - Tgr",
+        "address": "Kampung Ceplak Rt 002 Rw 001, Desa Patra Sana , Kec. Kresek, Kab. Tangerang, Prov. Banten",
+        "phone": "081385987381",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/MqFmypqtXYGhpLUv7"
+      },
+      {
+        "no": "22",
+        "name": "Serpong Park",
+        "address": "Jln Serpong Park Boulevar Bv A2 No 63 Lengkong Karya Serpong Utara Tangerang Selatan",
+        "phone": "081347256156",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/buwLe22QwxbMw3Sy9"
+      },
+      {
+        "no": "23",
+        "name": "Pandeglang",
+        "address": "Sukamanah, Kaduhejo, Pandeglang Regency, Banten 42252",
+        "phone": "085695173967 / 085711918347",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/R75DfqV3Rq9o6UDH7"
+      },
+      {
+        "no": "24",
+        "name": "Rajeg",
+        "address": "Jl Raya Rajeg Mauk Kebon Kelapa, Desa Rajeg , Kec. Rajeg, Kab. Tangerang, Prov. Banten",
+        "phone": "081384317484",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/tRQzXKpMPNTqaFVU6"
+      },
+      {
+        "no": "25",
+        "name": "Pasar Baru",
+        "address": "Dekat, Jl. Moh. Toha No.7-12, RT.001/RW.002, Ps. Baru, Kec. Karawaci, Kota Tangerang, Banten 15113",
+        "phone": "081313053048",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/4VfwZHvVuy6y39h97"
+      },
+      {
+        "no": "26",
+        "name": "Pamulang",
+        "address": "Jl. Siliwangi No.72, Pd. Benda, Kec. Pamulang, Kota Tangerang Selatan, Banten 15416",
+        "phone": "081356034549",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": ""
+      },
+      {
+        "no": "27",
+        "name": "Sukadamai",
+        "address": "Jl Kp Cirewed No 5, Desa Suka Damai , Kec. Cikupa, Kab. Tangerang, Prov. Banten",
+        "phone": "081313962903",
+        "penerimaan": false,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/DRKhqB1n5s2z5Puy6"
+      }
+    ]
+  },
+  {
+    "province": "BENGKULU",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Bengkulu",
+        "address": "Jln Depati payung negara , no 10 , Rt 19 rw 04, Desa Pagar Dewa , Kec. Selebar, Kab. Bengkulu, Prov. Bengkulu",
+        "phone": "082151105013",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/r6Hq2Sww473nvnh16"
+      }
+    ]
+  },
+  {
+    "province": "DI YOGYAKARTA",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Yogyakarta",
+        "address": "Jl. Imogiri Timur No : 218, Desa Giwangan , Kec. Umbulharjo, Kab. Yogyakarta, Prov. Di Yogyakarta",
+        "phone": "081249715522",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/EqFiA7QAdhB7sL6G9"
+      },
+      {
+        "no": "2",
+        "name": "Kulon progo",
+        "address": "Jl Pahlawan Km 3 Cangkring, Desa Bendungan , Kec. Wates, Kab. Kulon Progo, Prov. Di Yogyakarta",
+        "phone": "089687445429",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/QikCMJcYKdUTm1Et5"
+      },
+      {
+        "no": "3",
+        "name": "Yogyakarta Monjali",
+        "address": "Jl. Monjali No.38, Gemawang, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284",
+        "phone": "085226303116",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": ""
+      },
+      {
+        "no": "4",
+        "name": "Bantul",
+        "address": "Jl.Parangtritis km 12,5, Ngaglik, Patalan, Bantul. Yogyakarta ( depan makam pahlawan jalan Parangtritis)",
+        "phone": "081216365770",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/NdYrqhDgyoCzwqKr6"
+      },
+      {
+        "no": "5",
+        "name": "Meguwoharjo",
+        "address": "Jl. Ring Road Utara, Kembang, Maguwoharjo, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55282",
+        "phone": "085979711615",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/JijwWQkhNH8KmxSp8"
+      },
+      {
+        "no": "6",
+        "name": "Ngestiharjo - Kasihan",
+        "address": "Jl. Sidorejo, Sonopakis Lor, Ngestiharjo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55182",
+        "phone": "087766528451",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/oh8HWMnCzK38W9Jc7"
+      },
+      {
+        "no": "7",
+        "name": "Margoagung",
+        "address": "Jl Raya, Desa Margoagung , Kec. Seyegan, Kab. Sleman, Prov. DI Yogyakarta",
+        "phone": "08895432145",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/aAhXwkrUEKPTtkPr9"
+      },
+      {
+        "no": "8",
+        "name": "Kepek",
+        "address": "Jl Kyai Legi Ruko Lily No 4, Desa Kepek , Kec. Wonosari, Kab. Gunung Kidul, Prov. Di Yogyakarta",
+        "phone": "088226489139",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/MFermBvAEYbvoW5W8"
+      }
+    ]
+  },
+  {
+    "province": "GORONTALO",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Gorontalo",
+        "address": "Jl Drs Achmad Najamudin, Desa Limba U Dua (Limba U Ii) , Kec. Kota Selatan, Kab. Gorontalo, Prov. Gorontalo",
+        "phone": "082195982016",
+        "penerimaan": false,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/wZ99RzvxbNAF9zkr9"
+      }
+    ]
+  },
+  {
+    "province": "JAKARTA",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Tongkol",
+        "address": "Jl. Tongkol No.23a, Kota Tua, Desa Ancol , Kec. Pademangan, Kab. Jakarta Utara, Prov. Dki Jakarta",
+        "phone": "085211291621",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/tL175sVRqsWuGoF6A"
+      },
+      {
+        "no": "2",
+        "name": "Tanah Abang - Blok B",
+        "address": "Pasar Tanah Abang Blok B Pintu Barat Lantai SLG depan Jakmart, Kp. Bali, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 1",
+        "phone": "081283787096",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/8N3b7qPTxSi6V3Gz8"
+      },
+      {
+        "no": "3",
+        "name": "Kampung Bali",
+        "address": "Jl. Kp. Bali I No.31, RT.5/RW.7, Kp. Bali, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10250",
+        "phone": "082112572250",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/qBZ49Smqv4LW6PQW6"
+      },
+      {
+        "no": "4",
+        "name": "Cideng",
+        "address": "RT.6/RW.3, Kampung Bali, Tanah Abang, Central Jakarta City, Jakarta",
+        "phone": "08317173187 / 081286140860",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/gGkdPozhCX87f16T7"
+      },
+      {
+        "no": "5",
+        "name": "AURI - Tanah Abang",
+        "address": "Tanah Abang Bukit, Block E, Ex-AURI, Jl. H. Fachrudin, Daerah Khusus Ibukota Jakarta 10270",
+        "phone": "081281863188",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/WbDomFgDDJrnS1QSA"
+      },
+      {
+        "no": "6",
+        "name": "Sukapura",
+        "address": "Jalan Tipar Cakung,GG SMU 83 ,No.22 ,RT.004/04, Desa Sukapura , Kec. Cilincing, Kab. Jakarta Utara, Prov. DKI Jakarta",
+        "phone": "082232993222",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/5njYGKPkK74WeQVCA"
+      },
+      {
+        "no": "7",
+        "name": "Pondok Kopi",
+        "address": "Jl. Raya Penggilingan No.45/13, Depan JPO Halte Busway, RT.13/RW.4, Penggilingan, Kec. Cakung, Kota Jakarta Timur, DKI Jakarta 13940",
+        "phone": "081389655277",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/PAVCpbCwKMT16Jot9"
+      },
+      {
+        "no": "8",
+        "name": "Pasar Senen",
+        "address": "Ps. Senen, Jl. Senen Raya No.13 Blok V Lt V No. E2, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110",
+        "phone": "085691308827",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/VcJ8TKqyiHNMbarZ7"
+      },
+      {
+        "no": "9",
+        "name": "Krekot",
+        "address": "Jl. Krekot Jaya No.11 A Blok C II No.D-1, Desa Pasar Baru, Kec. Sawah Besar, Kab. Jakarta Pusat, Prov. Dki Jakarta",
+        "phone": "(021)-3506908",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/nxrwzUsePYDfWBU18"
+      },
+      {
+        "no": "10",
+        "name": "Cengkareng Ruko 1000",
+        "address": "Komplek Ruko 1000 Blok Y 25-26 / Ruko Pelangi, Jln Taman Palem Lestari Rt 02 Rw 17, Kelurahan Cengkareng Timur, Kecamatan Cengkareng, Kota Jakarta Barat",
+        "phone": "085692795373",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/qyzZq2bxNtMzNisp7"
+      },
+      {
+        "no": "11",
+        "name": "Glodok (SPG)",
+        "address": "Pertokoan Glodok Plaza Blok F No.87, Desa Glodok , Kec. Taman Sari, Kab. Jakarta Barat, Prov. DKI Jakarta",
+        "phone": "082112405617",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/uv1A4EKoQ6doVUNK8"
+      },
+      {
+        "no": "12",
+        "name": "Glodok (SPGA)",
+        "address": "KOMPLEK RUKO GLODOK PLASA BLOK F 45, Desa Mangga Besar , Kec. Taman Sari, Kab. Jakarta Barat, Prov. DKI Jakarta",
+        "phone": "085219007535",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/ipSWCqN2vi2KnuQ1A"
+      },
+      {
+        "no": "13",
+        "name": "Asemka",
+        "address": "GEDUNG PASAR GROSIR ASEMKA (GEDUNG WARNA BIRU), LT. BASEMENT BLOK D NO. 11\r\n( A S K )",
+        "phone": "(021)- 6313456",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/PYhiK9CPmYLm4GJv9"
+      },
+      {
+        "no": "14",
+        "name": "Perniagaan",
+        "address": "Jl Perniagaan Timur No 1 Patokan Depan Gereja GKI, Roa Malaka, Kec. Tambora, Kab. Jakarta Barat, Jakarta",
+        "phone": "(021) - 6906329/081219255450",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/eAscEs351e4R7vEM6"
+      },
+      {
+        "no": "15",
+        "name": "Sunter",
+        "address": "Jl sunter kemayoran no 17 rt 003/07 sunter jaya, Desa Sunter Jaya , Kec. Tanjung Priok, Kab. Jakarta Utara, Prov. DKI Jakarta",
+        "phone": "081383750741",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/H9qaLRQAzr1usijK7"
+      },
+      {
+        "no": "16",
+        "name": "Teluk Gong",
+        "address": "Jl Kapuk Muara, Komp. Duta Harapan Indah Blok Kk, No 83, Teluk Gong Jakarta Utara",
+        "phone": "085869619701",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/F8tFquEcww38Y8PA6"
+      },
+      {
+        "no": "17",
+        "name": "Pintu Kecil",
+        "address": "Jl. Telepon Kota No.14 RT.6/RW.2, Roa Malaka Kec. Tambora Kota Jakarta\r\nBarat Daerah Khusus Ibukota Jakarta 11230",
+        "phone": "08294334077",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/iwjbQPLs3XnEN5JF6"
+      },
+      {
+        "no": "18",
+        "name": "Tj. Barat - Pasar Minggu",
+        "address": "Jl. Raya Tj. Barat No.37F 1, RT.1/RW.2, Lenteng Agung, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12610",
+        "phone": "08218702026",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/B56Jw4Gvc7pFYdqv6"
+      },
+      {
+        "no": "19",
+        "name": "Roxy",
+        "address": "Ruko Roxy Mas, Jl. KH. Hasyim Ashari No.26 blok.C2, Cideng, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10150",
+        "phone": "081284148979",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/svDBYstdJPWm3Xkq7"
+      },
+      {
+        "no": "20",
+        "name": "Pasar Gembrong",
+        "address": "Jl. Jend. Basuki Rachmat No. 115A, RT.2/RW.3, Pd. Bambu, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13430",
+        "phone": "081282199686",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/KxemNHMmmX2VtXWb9"
+      },
+      {
+        "no": "21",
+        "name": "Pasar Pagi (MG2)",
+        "address": "PASAR PAGI MG2 LT SEMIBASEMENT BLOK PA NO 17, Desa Ancol , Kec. Pademangan, Kab. Jakarta Utara, Prov. DKI Jakarta",
+        "phone": "081385783731",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/Ny2hEcJKtWPsMrjM9"
+      },
+      {
+        "no": "22",
+        "name": "Ciledug",
+        "address": "JL CILEDUG RAYA NO 53 RT 6 RW 4 KEC PESANGGARAHAN KEL,PETUKANGAN UTARA",
+        "phone": "082113134753",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/Kpqt634SXRNyRSy9A"
+      },
+      {
+        "no": "23",
+        "name": "Kelapa Gading",
+        "address": "Jalan Pegangsaan Dua no.138, Desa Pegangsaan Dua , Kec. Kelapa Gading, Kab. Jakarta Utara, Prov. DKI Jakarta",
+        "phone": "081212002668",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/B7c7wVBQDtioU16S9"
+      },
+      {
+        "no": "24",
+        "name": "Duri Sel - JakPus",
+        "address": "Jl. Duri Raya Selatan No.5, RW.2, Duri Sel., Kec. Tambora, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11270",
+        "phone": "081311566755",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/fZ151wAej8Jx1w4k8"
+      },
+      {
+        "no": "25",
+        "name": "Jakarta Barat",
+        "address": "Ruko Niaga Kencana Sakti, Jl. Daan Mogot Km.14, No.6D, Cengkareng Bar., Kec. Kalideres, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730",
+        "phone": "085218301463",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/BJfdXyyP7dYcSMox9"
+      },
+      {
+        "no": "26",
+        "name": "Pasar Senen 02",
+        "address": "Jl. Bangau IV No.2C, RT.9/RW.8, Gn. Sahari Sel., Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10610",
+        "phone": "081291718488",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/xkaW5otDVexw6cHj8"
+      },
+      {
+        "no": "27",
+        "name": "Pondok Labu Ipin - JakSel",
+        "address": "JL HAJI IPIN NO 47, Desa Pondok Labu , Kec. Cilandak, Kab. Jakarta Selatan, Prov. DKI Jakarta",
+        "phone": "085282072447",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/ujpgompfAVKPkvH2A"
+      },
+      {
+        "no": "28",
+        "name": "Marinatama - JakUt",
+        "address": "Ruko Permata Ancol Blok N No.40, Desa Pademangan Barat , Kec. Pademangan, Kab. Jakarta Utara, Prov. Dki Jakarta",
+        "phone": "085280477188",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/hfNW8bzVC85G2fcU6"
+      },
+      {
+        "no": "29",
+        "name": "Thamrin",
+        "address": "KIOS LOS 5A & LOS 6A, JLN KEBON KACANG 41, Desa Kebon Kacang , Kec. Tanah Abang, Kab. Jakarta Pusat, Prov. DKI Jakarta",
+        "phone": "085819228970",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/JC3xgcmisxP9RQ4v5"
+      },
+      {
+        "no": "30",
+        "name": "Kramatjati - JakTim",
+        "address": "JL. RAYA BOGOR KRAMAT JATI NO 28C RT 05, RW 010, Desa Kramat Jati , Kec. Kramat Jati, Kab. Jakarta Timur, Prov. DKI Jakarta",
+        "phone": "085281466577",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/A22bn549ar8cuZ4f9"
+      },
+      {
+        "no": "31",
+        "name": "Tanjung Priok",
+        "address": "Jl. Yos Sudarso, Lorong 101 Timur No 49, Rt.05/02, Desa Koja (Utara, Selatan) , Kec. Koja, Kab. Jakarta Utara, Prov. Dki Jakarta",
+        "phone": "082112228829",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/u3CqtqneLajzdQi3A"
+      },
+      {
+        "no": "32",
+        "name": "Susukan - JakTim",
+        "address": "Jl. Raya Bogor KM.24 No.36, RT.6/RW.1, Susukan, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13750",
+        "phone": "081388480037",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/dp5c4XuMrWGf8Txc6"
+      },
+      {
+        "no": "33",
+        "name": "Kapuk Raya - PIK",
+        "address": "Jl Kapuk Raya, Desa Kapuk , Kec. Cengkareng, Kab. Jakarta Barat, Prov. DKI Jakarta",
+        "phone": "082258417806",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/ntRQTKDk27bZkA7U8"
+      },
+      {
+        "no": "34",
+        "name": "Jayakarta",
+        "address": "Jl P Jayakarta Komp No 117 No B 10, Desa Mangga Dua Selatan , Kec. Sawah Besar, Kab. Jakarta Pusat, Prov. Dki Jakarta",
+        "phone": "081385044058",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/a4E3Hieir3s8jNS57"
+      },
+      {
+        "no": "35",
+        "name": "Muara Angke",
+        "address": "Jl Raya Tubagus Angke, Blok D1 No.12, Desa Wijaya Kusuma , Kec. Grogol Petamburan, Kab. Jakarta Barat, Prov. Dki Jakarta",
+        "phone": "085211291621",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/6gofYw3jYvz1mQkN6"
+      },
+      {
+        "no": "36",
+        "name": "Jakarta Kb Jeruk",
+        "address": "Jl. Lapangan Bola No.34 E 4, RT.4/RW.10, Kb. Jeruk, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11530",
+        "phone": "0",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/gxgX14RP7YVX3qsV6"
+      },
+      {
+        "no": "37",
+        "name": "Kebun Jeruk",
+        "address": "Jl. Lapangan Bola No34F, RT04/RW10, Desa Kebon Jeruk , Kec. Kebon Jeruk, Kab. Jakarta Barat, Prov. Jakarta",
+        "phone": "081212830100",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/afVQYSG1hEWtntFu5"
+      },
+      {
+        "no": "38",
+        "name": "Jatinegara",
+        "address": "Pasar Jatinegara Parkir Lantai 1 Balimeater, Desa Kampung Melayu , Kec. Jatinegara, Kab. Jakarta Timur, Prov. Jakarta",
+        "phone": "085813499248",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/CuHRC1zRoCQSzUGV6"
+      },
+      {
+        "no": "39",
+        "name": "Bojong Indah",
+        "address": "Ruko Bojong Permai, Jl. Bojong Indah Raya No.47F, Rawa Buaya, Cengkareng, West Jakarta City, Jakarta 11740",
+        "phone": "082315409673",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/3iBXZ7gDx1tY2LUL8"
+      },
+      {
+        "no": "40",
+        "name": "Kampung Melayu",
+        "address": "Jl Jatinegara Barat, Desa Kampung Melayu , Kec. Jatinegara, Kab. Jakarta Timur, Prov. Dki Jakarta",
+        "phone": "085813499248",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/AhTiZyK2ERfQQmGH7"
+      }
+    ]
+  },
+  {
+    "province": "JAMBI",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Jambi",
+        "address": "Jl. lingkar barat 3 no 08, RT 71, Kel. kenali besar, Kec. alam barajo",
+        "phone": "085333614524",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/am3zmZv1YVBLvMXD9"
+      },
+      {
+        "no": "2",
+        "name": "Muara Bungo",
+        "address": "Jl. Lintas Sumatera, RT 07 RW 03, No 28, Kel. Manggis, Kec. Bathin III, Kab. Bungo",
+        "phone": "085357753366",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/tHhTpH8jJnKduyFBA"
+      },
+      {
+        "no": "3",
+        "name": "Jambi Pasar",
+        "address": "Jl. Akses Ps. Modern, Kebun Handil, Kec. Jelutung, Kota Jambi, Jambi 36124",
+        "phone": "082182517560",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/MXMWCCEWyB3HDtTu5"
+      },
+      {
+        "no": "4",
+        "name": "Lingkar Selatan II",
+        "address": "Jl. Lkr. Sel. II 18, Lkr. Sel., Kec. Jambi Sel., Kota Jambi, Jambi 36128",
+        "phone": "08137937273",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/H7r6UBK4n7FN2ZnG7"
+      }
+    ]
+  },
+  {
+    "province": "JAWA BARAT",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Pekayon",
+        "address": "Jl Raya Pekayon Kp Utan No 28 RT 02 RW 02, Desa Jaka Setia , Kec. Bekasi Selatan, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "082227222533",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/HPpWrEJhXRNxUjPg8"
+      },
+      {
+        "no": "2",
+        "name": "Bogor",
+        "address": "Jl. Ciwaringin No.12 (Blkg Bioskop President Teater), Desa Ciwaringin , Kec. Bogor Tengah - Kota, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "082112243408",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/9EESqtkWbVXRPfjh7"
+      },
+      {
+        "no": "3",
+        "name": "Ciapus",
+        "address": "JL KP YUSUF RT 1 RW 7 RUKO GG JNEGKOL NO 105 KOTA BATU BOGOR SELATAN",
+        "phone": "083089305391",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/v6nF2wUcBKscVspw9"
+      },
+      {
+        "no": "4",
+        "name": "Depok",
+        "address": "JL RAYA KALIMULYA, Desa Kalimulya , Kec. Cilodong, Kab. Depok, Prov. Jawa Barat",
+        "phone": "082232993222",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Kh8gX4J26ky9cMfM9"
+      },
+      {
+        "no": "5",
+        "name": "Sawangan",
+        "address": "JL.RAYA SAWANGAN NO.27 ,Mampang, Kec. Pancoran Mas, Kab. Depok, Jawa Barat",
+        "phone": "081389916248",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/fm9E4ZQmU9dzYPhW9"
+      },
+      {
+        "no": "6",
+        "name": "Bekasi Pondok Ungu",
+        "address": "Ruko, Jl. Sultan Agung No.km 38, RT.04 rw06/RW.no.38, Medan Satria, Kecamatan Medan Satria, Kota Bks, Jawa Barat 17143",
+        "phone": "082114321300",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/sof1zUysBwyMxJPXA"
+      },
+      {
+        "no": "7",
+        "name": "Tambun",
+        "address": "JL.SETIA DARMA 2 NO.55-24 KAMPUNG PASAR RT 03/02 DUSUN 2 DESA SETIADARMA\r\nKEC. TAMBUN SELATAN",
+        "phone": "082112389794",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/KytWgvC2SCY45GFn9"
+      },
+      {
+        "no": "8",
+        "name": "Golden City",
+        "address": "Jl Kali Abang Tengah No 99, Desa Kali Abang Tengah , Kec. Bekasi Utara, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "087724318285",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/9EQvgwx2dnsdWLLw8"
+      },
+      {
+        "no": "9",
+        "name": "Cikarang",
+        "address": "Jl. Raya Industri, Mekarmukti, Kec. Cikarang Utara, Kabupaten Bekasi, Jawa Barat 17530",
+        "phone": "081317014077",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/hYhLkmxoibjZ5Eqc9"
+      },
+      {
+        "no": "10",
+        "name": "Cibarusah",
+        "address": "Jl. Raya Serang Cibarusah, Sukasari, Kec. Serang Baru, Kabupaten Bekasi, Jawa Barat 17330",
+        "phone": "081311789811",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/cKT6P1AjpVc2cU2G6"
+      },
+      {
+        "no": "11",
+        "name": "Karawang",
+        "address": "Jl. Wr. Bambu - Surotokunto km.5, Warungbambu, Kec. Karawang Tim., Karawang, Jawa Barat",
+        "phone": "081219687532",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/QE75FZQKaA7LKzbz9"
+      },
+      {
+        "no": "12",
+        "name": "Cileungsi",
+        "address": "Jl. Raya Cileungsi - Jonggol, Cileungsi Kidul, Kec. Cileungsi, Kabupaten Bogor, Jawa Barat 16820",
+        "phone": "08316260827",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/MsoDcNXCtcvCas1G6"
+      },
+      {
+        "no": "13",
+        "name": "Bekasi Djuanda",
+        "address": "JL. IR. H. JUANDA NO. 75 005/001, BEKASI TIMUR, JAWA BARAT",
+        "phone": "085290157084",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/7hTjCyBWmVJUBXe89"
+      },
+      {
+        "no": "14",
+        "name": "Bekasi Harapan Indah",
+        "address": "RUKO ASIA TROPIS BLOK AT 12 NO 15 ( Harapan indah kabupaten bekasi.)",
+        "phone": "0895630650495",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/vKBpr2GNhkWtTUV78"
+      },
+      {
+        "no": "15",
+        "name": "Bantar Gebang",
+        "address": "Jl. Raya Mustikasari 3-1, Bantargebang, Kec. Bantar Gebang, Kota Bks, Jawa Barat 17151",
+        "phone": "085716542471 / 082227222533",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/Mx8TU6YQWppNcVJX8"
+      },
+      {
+        "no": "16",
+        "name": "Cibitung",
+        "address": "Jl Raya Imam Bonjol, Desa Sukadanau , Kec. Cikarang Barat, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "085775889207",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/2omEaPxRyC4AAm4Z7"
+      },
+      {
+        "no": "17",
+        "name": "Sukabumi",
+        "address": "Jl. Raya Rambay, Sukamantri, Kec. Cisaat, Kabupaten Sukabumi, Jawa Barat 43352",
+        "phone": "082124974293",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/XV8j2dgYmEU3B7RL9"
+      },
+      {
+        "no": "18",
+        "name": "Caringin",
+        "address": "Jl. Caringin No.4, Kopo, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40223",
+        "phone": "085294402294",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/URC7vw3KuxXTB6M48"
+      },
+      {
+        "no": "19",
+        "name": "Bandung (Dulatip)",
+        "address": "Jl. Dulatip No.78, Kb. Jeruk, Kec. Andir, Kota Bandung, Jawa Barat 40181",
+        "phone": "082295069933",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/UyNCxbNuKVC5sKov7"
+      },
+      {
+        "no": "20",
+        "name": "Garut",
+        "address": "2, Jl. Jendral Sudirman No.2, Kota Kulon, Kec. Garut Kota, Kabupaten Garut, Jawa Barat 44112",
+        "phone": "085295226005",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/4wiEA6Joh6vshEnP7"
+      },
+      {
+        "no": "21",
+        "name": "Tasikmalaya",
+        "address": "Jl. Mayor S.L. Tobing No.108, Sambongpari, Kec. Mangkubumi, Kab. Tasikmalaya, Jawa Barat 46181",
+        "phone": "081322429491",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/XgEBSgknAZLawwt3A"
+      },
+      {
+        "no": "22",
+        "name": "Banjar Patroman",
+        "address": "JHRC+P4P, National Rte 3, Raharja, Purwaharja, Banjar City, West Java 46334",
+        "phone": "082311756390",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/rX1iN1UxioHYk3HdA"
+      },
+      {
+        "no": "23",
+        "name": "Terusan - Indramayu",
+        "address": "Jl MT Haryono, Rt 01 Rw 01 Desa Terusan Kecamatan Sindang Kabupaten Indramayu Kode Pos 45221",
+        "phone": "085211435218",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/jjcRrxScrKh4LWTy6"
+      },
+      {
+        "no": "24",
+        "name": "Cirebon",
+        "address": "Jl. Fatahillah Plered-Sumber No. 80 ( Sebelah Utara Smp At-Taqwiyah / Alfa\r\nMart ) Desa Megu Cilik Kec. Weru Kab. Cirebon",
+        "phone": "082115357630",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/8ZHVRz22N1DHjsE28"
+      },
+      {
+        "no": "25",
+        "name": "Purwakarta",
+        "address": "Jl. Ibrahim Singadilaga RT 016/010 (RUKO SUN LIFE), Desa Nagrikaler , Kec. Purwakarta, Kab. Purwakarta, Prov. Jawa Barat",
+        "phone": "082310261747",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/RvMEYMrTfDYfGWh78"
+      },
+      {
+        "no": "26",
+        "name": "Pabuaran - Cibinong",
+        "address": "Jl. Raya Jakarta-Bogor No.89, rt 001/013, Desa Pabuaran , Kec. Cibinong, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "085770537397",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/GTiiMvKKEsrrgZ7x6"
+      },
+      {
+        "no": "27",
+        "name": "Pamanukan",
+        "address": "Jl.Cece Jakaria Rt01 Rw12 Budi Sari (Depan Pasar Impres Pamanukan) , Desa Pamanukan , Kec. Pamanukan, Kab. Subang, Prov. Jawa Barat",
+        "phone": "08388356915 / 087782313678",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/9LTwtEKWZNpADTQeA"
+      },
+      {
+        "no": "28",
+        "name": "Cianjur",
+        "address": "Jl Raya Sukabumi KM 5 RT 04 RW 01 Kp. Cibinong, Desa Rancagoong , Kec. Cilaku, Kab. Cianjur, Prov. Jawa Barat",
+        "phone": "082180867160",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/uogS6NAAMUJuHayk9"
+      },
+      {
+        "no": "29",
+        "name": "Cicalengka",
+        "address": "Jl. Raya Barat Cicalengka, KM 27 Pakuon, RT. 3, RW.5, Sindangpakuon, Kec. Cimanggung, Kabupaten Sumedang",
+        "phone": "082127466668",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/ZpwbzJRtsP72gJWSA"
+      },
+      {
+        "no": "30",
+        "name": "Padalarang",
+        "address": "Jl Simpang Utara No 29, Desa Kertajaya , Kec. Padalarang, Kab. Bandung Barat, Prov. Jawa Barat",
+        "phone": "085294896634",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/UYJWtyMFUbhF2HSu9"
+      },
+      {
+        "no": "31",
+        "name": "Soreang",
+        "address": "Jl. Gandasari Warung Lobak - G 18, Desa Gandasari , Kec. Katapang, Kab. Bandung, Prov. Jawa Barat",
+        "phone": "081313455918",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/DzQWEdNvh4aV1cbb9"
+      },
+      {
+        "no": "32",
+        "name": "Ciamis",
+        "address": "JL RAYA CIKONENG - IMBANAGARA RAYA ( DEPAN INDOMARET SINDANGSARI ) CIAMIS\r\nJAWA BARAT 46219",
+        "phone": "08273995933",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/Fgqe3cw3JG7e9py56"
+      },
+      {
+        "no": "33",
+        "name": "Margamulya",
+        "address": "Jl. Nasional III No.16, Margamulya, Kec. Sukaresik, Jamanis Kabupaten Tasikmalaya, Jawa Barat 46175",
+        "phone": "088228703222",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": ""
+      },
+      {
+        "no": "34",
+        "name": "Cimahi",
+        "address": "Jl. Amir Machmud, No. 762 Rt/RW 5/12. Kel. Padasuka, Kec. Cimahi Tengah, Kota Cimahi.\r\n(Samping Kanan Dealer Yamaha & Samping Kiri Kopi Kenangan)",
+        "phone": "08288392367",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/Me5dGWJzdCHqxB9WA"
+      },
+      {
+        "no": "35",
+        "name": "Majalengka",
+        "address": "Jln Raya Kadipaten, Samping Lpk Karisma Jaya, Blok Sawah, Panglayungan, Kec. Panyingkiran, Kabupaten Majalengka, Jawa Barat 45459",
+        "phone": "087864612877",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/RxJBuu2JBHzUZ7pk9"
+      },
+      {
+        "no": "36",
+        "name": "Cikampek - Karawang",
+        "address": "Jl Bypass Jomin Barat No 87 Rt 02 Rw 02, Desa Jomin Barat , Kec. Kotabaru, Kab. Karawang, Prov. Jawa Barat",
+        "phone": "081212480672",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/UkgAo8uCMJLNBuj6A"
+      },
+      {
+        "no": "37",
+        "name": "Ciampea",
+        "address": "Jl. Raya Cibanteng, Km 11, (Depan Ahas Wira Agung Lestari), Ciampea, Jawa Barat",
+        "phone": "083163186005",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/xdXgZrKFNMuMzQ8r8"
+      },
+      {
+        "no": "38",
+        "name": "Sumedang",
+        "address": "Jl. Prabu Gajah Agung No. 141, RT 01/RW 07, Kel. Situ, Kec. Sumedang Utara, Kabupaten Sumedang, Jawa Barat 45621 (Patokan: Seberang POM Bensin Prabu Gajah, samping Indomaret)",
+        "phone": "082240010246",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/xnEBnSofX2coWLzJ9"
+      },
+      {
+        "no": "39",
+        "name": "Kuningan",
+        "address": "JL MOCH HATTA NO 01 RT 01/04, Desa Cijoho , Kec. Kuningan, Kab. Kuningan, Prov. Jawa Barat",
+        "phone": "082129970623",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/bA3uoSWkSi6QzEAZ8"
+      },
+      {
+        "no": "40",
+        "name": "Cigondewah",
+        "address": "Jl. Taman Holis Indah II ruko 2a No.10, Cigondewah Kaler, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40214",
+        "phone": "082240022545",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/yyRY21pAWDZw9vZv7"
+      },
+      {
+        "no": "41",
+        "name": "Majalaya",
+        "address": "Jl. Anyar, Majakerta, Kec. Majalaya, Kabupaten Bandung",
+        "phone": "0895361179881",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/NZCZM9BYjcDuXVZPA"
+      },
+      {
+        "no": "42",
+        "name": "Rancaekek",
+        "address": "Perum KENCANA RANCAEKEK\r\nJl. Nusa Indah Raya No.105 RT.007, RW.002\r\nKel. Rancaekek, Kencana Kec. Rancaekek\r\nKab. Bandung 40394",
+        "phone": "087848100800",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/cEVhg6e1gxQqFbgr7"
+      },
+      {
+        "no": "43",
+        "name": "Cogreg - Bogor Utara",
+        "address": "Jl Raya Pahlawan Rt 004 Rw 002, Desa Cogreg , Kec. Parung, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "085691127266",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/osRQwj4fAUNRAJ3E7"
+      },
+      {
+        "no": "44",
+        "name": "Bojong Gede",
+        "address": "Jl. Raya Sudimampir No.33, RT.01/RW.04, Cimanggis, Kecamatan Bojonggede, Kabupaten Bogor, Jawa Barat 16920",
+        "phone": "089502259899",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/2rbjHHX82SyDjqAt5"
+      },
+      {
+        "no": "45",
+        "name": "Tegal Gubug - Cirebon",
+        "address": "Jl Raya Pantura Bypass Jakarta - Cirebon, Desa Tegalgubug , Kec. Arjawinangun, Kab. Cirebon, Prov. Jawa Barat",
+        "phone": "085172128955",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/EhUfJDSNg6pjuUhK6"
+      },
+      {
+        "no": "46",
+        "name": "Bogor Sentul - Leuwinutug",
+        "address": "Jln Pahlawan Rt001/Rw006, Desa Leuwinutug , Kec. Citeureup, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "087877405644",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/BxSACFuKD1A7tGdu6"
+      },
+      {
+        "no": "47",
+        "name": "Bandung - Padasuka",
+        "address": "Jl. A. Yani No.917, Pasirlayung, Kec. Cibeunying Kidul, Kota Bandung, Jawa Barat 40192",
+        "phone": "082177991263",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/iHYJy4EMtmCwfmoe9"
+      },
+      {
+        "no": "48",
+        "name": "Margabakti",
+        "address": "Jl. Raya Manonjaya, Kp. Kudang, Margabakti, Kec. Cibeureum, Kota Tasikmalaya, Jawa Barat 46156",
+        "phone": "087791190223",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/2QdpKGGx7xaAaLPZ8"
+      },
+      {
+        "no": "49",
+        "name": "Bandung Lembang",
+        "address": "Sebelah baso SAERAH, Jl. Adiwarta No.13a, Lembang, Kec. Lembang, Kabupaten Bandung Barat, Jawa Barat 40391",
+        "phone": "08990899006",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/ARWbUD9EvZjMFXd26"
+      },
+      {
+        "no": "50",
+        "name": "Kedunghalang",
+        "address": "Jalan KS. Tubun No. 23, Kedung Halang, RT.01/RW.03, Cibuluh, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16158",
+        "phone": "085174229044",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/kRxuFvH3oLWcs2vx8"
+      },
+      {
+        "no": "51",
+        "name": "BANDUNG - Gegerkalong",
+        "address": "Jl. Cibogo No.24, Sukawarna, Kec. Sukajadi, Kota Bandung, Jawa Barat 40164",
+        "phone": "085943503411",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/78f6egpjRXww3fvQ8"
+      },
+      {
+        "no": "52",
+        "name": "Ciparay",
+        "address": "Jl. Raya Laswi, No. 288,  Kec. Ciparay, Kabupaten Bandung, Jawa Barat 40381",
+        "phone": "082177991260",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/7Mfr47KBsohiVaFFA"
+      },
+      {
+        "no": "53",
+        "name": "Buah Batu",
+        "address": "Jl Terusan Buah Batu, Ds Cipagalo, Bojongsoang ( Depan Transmart Buahbatu ), Kab. Bandung, Jawa Barat",
+        "phone": "0881023016658",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/f2VZkSq3zfDmzgvK9"
+      },
+      {
+        "no": "54",
+        "name": "Subang",
+        "address": "Jln Pejuang 45 No. 12 Karanganyar ID 41211 Kec Subang Kab. Subang",
+        "phone": "081347273125",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/G4cdu6CBdVnxPkjm8"
+      },
+      {
+        "no": "55",
+        "name": "Cikijing",
+        "address": "Jl. Raya Ciamis Cikijing No.123, Cikijing, Majalengka",
+        "phone": "081288308688",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/sxi3XYfUcW1CXvV3A"
+      },
+      {
+        "no": "56",
+        "name": "Sumedang Tanjungsari",
+        "address": "Jl. Raya Tanjungsari KM. 29, Gunungmanik, Kec. Tanjungsari, Kabupaten Sumedang",
+        "phone": "0895385767412",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/oGNxdU6Xzwwv9FF19"
+      },
+      {
+        "no": "57",
+        "name": "Bogor - Jonggol",
+        "address": "Jl. Raya Simpang Tiga Cibucil, RT 08/ RW 03, Desa Sukamanah, Kec, Jonggol, Kab, Bogor",
+        "phone": "082141477457",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/kLcDkSVoggzXKjc36"
+      },
+      {
+        "no": "58",
+        "name": "Purwasari Karawang",
+        "address": "Jl. Raya Tamelang, Mekarjaya, Kec. Purwasari, Karawang, Jawa Barat 41373",
+        "phone": "085280474139",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/yvZGS2mpxSYWVz9u6"
+      },
+      {
+        "no": "59",
+        "name": "Bekasi Kranji",
+        "address": "Jl. Pemuda Kranji No.85, RT.004/RW.003, Kranji, Kec. Bekasi Bar., Kota Bks, Jawa Barat 17135",
+        "phone": "081219516959",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/g7gVSwzMHXZJehQt7"
+      },
+      {
+        "no": "60",
+        "name": "Losari",
+        "address": "Jl. Raya Soekarno - Hatta No.168, Losari Lor, Kec. Losari, Kabupaten Cirebon, Jawa Barat 45192",
+        "phone": "082115167100",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/EmWbRskKpE4QZ4Tg9"
+      },
+      {
+        "no": "61",
+        "name": "Cipatik - Bandung Barat",
+        "address": "Jl. Raya Cipatik 7, Desa Cipatik , Kec. Cihampelas, Kab. Bandung Barat, Prov. Jawa Barat",
+        "phone": "082129986489",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Du2QoLYp2YmC6aA48"
+      },
+      {
+        "no": "62",
+        "name": "Kopo Indah",
+        "address": "JL Taman Kopo Indah 2 Ruko 2A No 12, Desa Margaasih , Kec. Margaasih, Kab. Bandung, Prov. Jawa Barat",
+        "phone": "081312877900",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/MMzDuYAypG773yjr9"
+      },
+      {
+        "no": "63",
+        "name": "Ciomas",
+        "address": "Jl. Raya Taman Pagelaran No.54, RT.3/RW.5, Desa Padasuka , Kec. Ciomas, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "083819305391",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/gEZXi9dAyAGZaoaR7"
+      },
+      {
+        "no": "64",
+        "name": "Pelabuhan - Cirebon",
+        "address": "JL SISINGAMANGARAJA PELABUHAN RUKO MARITIME NO 10, Desa Panjunan , Kec. Lemahwungkuk, Kab. Cirebon, Prov. Jawa Barat",
+        "phone": "089524098859",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/iQraYgjRCjAkd43u9"
+      },
+      {
+        "no": "65",
+        "name": "Jatimekar",
+        "address": "Jl. Raya Kodau 31B, Desa Jati Mekar , Kec. Jatiasih, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "085697236554",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/gLUZgcq5L53jYvD46"
+      },
+      {
+        "no": "66",
+        "name": "Cibadak",
+        "address": "Jl. Suryakencana, Cibadak, Kec. Cibadak, Kabupaten Sukabumi, Jawa Barat",
+        "phone": "085215425256",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/d5gdS2hXcxWCv6Mn7"
+      },
+      {
+        "no": "67",
+        "name": "Tegal Gundil - BOGOR TMR",
+        "address": "Achmad Adnawijaya St 21-16, Desa Tegal Gundil , Kec. Bogor Utara - Kota, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "081214247572",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/y8nxP3NG67pLEz37A"
+      },
+      {
+        "no": "68",
+        "name": "Rengasdengklok - Karawang Utara",
+        "address": "A ,Rengasdengklok Selatan, Kec. Rengasdengklok, Kab. Karawang, Jawa Barat",
+        "phone": "081401836360",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/PW1RBKZxpzC99edC6"
+      },
+      {
+        "no": "69",
+        "name": "Tanjungsari",
+        "address": "Jl Raya Urip Sumoharjo No 080 Rt 002/001 Dusun I, Desa Tanjungsari , Kec. Cikarang Utara, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "085283125629",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/aogDFxV1zERdc39S7"
+      },
+      {
+        "no": "70",
+        "name": "Jatibarang",
+        "address": "Jl. Letnan Joni RT 21 RW 05, Jatibarang Baru, Kab. Indramayu Jawa Barat 45273",
+        "phone": "082114111887",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/ZnJR43peyRF9VXAm6"
+      },
+      {
+        "no": "71",
+        "name": "Kadupugur",
+        "address": "Patokan depan pabrik MGL, JL Raya kadupugur km 10 5-8 desa Cijalingan kec. Cicantayan, Kab. Sukabumi, Kabupaten Sukabumi, Jawa Barat 43155",
+        "phone": "082249615290",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/pvzmsq7ZX8FYSvoA6"
+      },
+      {
+        "no": "72",
+        "name": "Leles",
+        "address": "Jl Raya Leles No 09, Desa Leles , Kec. Leles, Kab. Garut, Prov. Jawa Barat",
+        "phone": "082324917476",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/1d7ysRvq96PUnPeJA"
+      },
+      {
+        "no": "73",
+        "name": "Lebakwangi",
+        "address": "Jl Raya Banjaran Barat No 615, Desa Lebakwangi , Kec. Arjasari, Kab. Bandung, Prov. Jawa Barat",
+        "phone": "08817646313",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/xn9GfS4oNi1aE1yi6"
+      },
+      {
+        "no": "74",
+        "name": "Linggajaya",
+        "address": "Pasar Cikurubuk Ruko No15 Blok 7, Desa Linggajaya , Kec. Mangkubumi, Kab. Tasikmalaya, Prov. Jawa Barat",
+        "phone": "082119791463",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/23RnJZpWJpRhtssj8"
+      },
+      {
+        "no": "75",
+        "name": "Tasik Singaparna",
+        "address": "Jl. Raya Singaparna No. 13 - 14, Cilampunghilir, Kec. Padakembang, Kabupaten Tasikmalaya, Jawa Barat.",
+        "phone": "081211690667",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/mM1DWvgRzULL53aT9"
+      },
+      {
+        "no": "76",
+        "name": "Sukamenak",
+        "address": "Jl. Sukamenak No.114, Sukamenak, Kec. Margahayu, Kabupaten Bandung, Jawa Barat",
+        "phone": "082118400239",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/K4fVUmcA3LN9hy1R6"
+      },
+      {
+        "no": "77",
+        "name": "Ciawi",
+        "address": "Jl. Mayjen H.R. Edi Sukma No.12, RT.01/RW.03, Desa Ciawi, Kec. Ciawi, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "085211627919",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/ei3e3X46GnfwZQFg8"
+      },
+      {
+        "no": "78",
+        "name": "Curug",
+        "address": "Jl Raya Bogor No. 11, Desa Curug, Kec. Cimanggis, Kab. Depok, Prov. Jawa Barat",
+        "phone": "081320008849",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/tc2oL3qwLgk9DmaF7"
+      },
+      {
+        "no": "79",
+        "name": "Cisaranten Kidul",
+        "address": "Jl. Gedebage Selatan No.147a, Cisaranten Kidul, Kec. Gedebage, Kota Bandung, Jawa Barat 40295",
+        "phone": "087723687188",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Y6f9SjTnX295CHnA6"
+      },
+      {
+        "no": "80",
+        "name": "Pasir Gombong",
+        "address": "Jl Raya Industri, Desa Pasir Gombong , Kec. Cikarang Utara, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "08",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/F41N4pQUSaEaa6uH6"
+      },
+      {
+        "no": "81",
+        "name": "Burangrang",
+        "address": "Jl. Karapitan No.53, Burangrang, Kec. Lengkong, Kota Bandung, Jawa Barat 40261",
+        "phone": "085353307162",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/yNihobBDdmh1kRXX8"
+      },
+      {
+        "no": "82",
+        "name": "Mekar Wangi",
+        "address": "Jl Raya Setu, Desa Mekar Wangi , Kec. Cikarang Barat, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "085789814134",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/YFN7UgjtCBYpfr6j7"
+      },
+      {
+        "no": "83",
+        "name": "Cijerah",
+        "address": "Jl Raya Cijerah No 262, Desa Cijerah , Kec. Bandung Kulon, Kab. Bandung, Prov. Jawa Barat",
+        "phone": "081367073812",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/KgbzANWHZeJvEjw78"
+      },
+      {
+        "no": "84",
+        "name": "Parung",
+        "address": "Jl Raya Parung Bogor, Desa Parung , Kec. Parung, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "08989028713",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/nn1n6Pde5LHgXejK9"
+      },
+      {
+        "no": "85",
+        "name": "Tanjungmekar",
+        "address": "Jl Raya Tanjungpura No, Desa Tanjungmekar , Kec. Karawang Barat, Kab. Karawang, Prov. Jawa Barat",
+        "phone": "08132317669",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/dFDLZDD9JWWarLWdA"
+      },
+      {
+        "no": "86",
+        "name": "Gunungmanik",
+        "address": "Jl. Raya Tanjungsari KM. 29, Desa Gunungmanik , Kec. Tanjungsari, Kab. Sumedang, Prov. Jawa Barat",
+        "phone": "0881023134057",
+        "penerimaan": false,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/kfpsNumUNRM1J1Tf9"
+      },
+      {
+        "no": "87",
+        "name": "Janggala",
+        "address": "Jl. Raya Karangnunggal, Desa Janggala, Kec. Sukaraja, Kabupaten Tasikmalaya, Jawa Barat 46483\r\n(Patokan: Samping Pos Giro Sukaraja)",
+        "phone": "082227781496",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/ceXqxxKb9WZYzghR7"
+      },
+      {
+        "no": "88",
+        "name": "Tasik Manon Jaya",
+        "address": "Jl. Raya Manonjaya, Kp. Kudang, Margabakti, Kec. Cibeureum, Kota Tasikmalaya, Jawa Barat 46156",
+        "phone": "087791190223",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": ""
+      },
+      {
+        "no": "89",
+        "name": "Karanganyar",
+        "address": "Jl. Kalipah Apo No.48B, Desa Karanganyar , Kec. Astana Anyar, Kab. Bandung, Prov. Jawa Barat",
+        "phone": "082396027727",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/BFF1prVS5HSFfyEEA"
+      },
+      {
+        "no": "90",
+        "name": "Jatisari",
+        "address": "Jl Wibawa Mukti II Rt001 Rw 006, Desa Jatisari , Kec. Jatiasih, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "081310393710",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/8gt9yMhfBxNY3GTL6"
+      },
+      {
+        "no": "91",
+        "name": "Gunung Sari",
+        "address": "Jl Mahkota Dewa I Blok C1 No 7, Desa Gunung Sari , Kec. Citeureup, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "08212269852",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/3Ctd7ExNDT6zWsky7"
+      }
+    ]
+  },
+  {
+    "province": "JAWA TENGAH",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Tegal",
+        "address": "Jalan mataram RT.07/RW.03, Desa Pesurungan Lor , Kec. Margadana, Kab. Tegal, Prov. Jawa Tengah",
+        "phone": "082119595911",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/H7V8o3YgQVKEjvhF6"
+      },
+      {
+        "no": "2",
+        "name": "Pemalang",
+        "address": "Jl Raya Printis Kemerdekaan Rt 44 Rw 07, Desa Widodaren , Kec. Petarukan, Kab. Pemalang, Prov. Jawa Tengah",
+        "phone": "081298466147",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/2hp4sFbDGtwVQPAn7"
+      },
+      {
+        "no": "3",
+        "name": "Pekalongan",
+        "address": "Jl. Dr. Sutomo No.165, Baros, Kec. Pekalongan Tim., Kota Pekalongan, Jawa Tengah 51123",
+        "phone": "08389388037",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/tP2ZQRjZa7g6YgEG6"
+      },
+      {
+        "no": "4",
+        "name": "Purwokerto",
+        "address": "Jl. Patikraja - Purwokerto, Sidabowa RT 3 RW 3, Desa Sidabowa , Kec. Patikraja, Kab. Banyumas, Prov. Jawa Tengah",
+        "phone": "085218756887",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/JCMhkFpumq4RinVP7"
+      },
+      {
+        "no": "5",
+        "name": "Kebumen",
+        "address": "Jl Lingkar Selatan Desa Podoluhur Rt.04 Rw.03, Desa Podoluhur , Kec. Klirong, Kab. Kebumen, Prov. Jawa Tengah",
+        "phone": "082134750872",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://g.page/BarakaKebumen?share"
+      },
+      {
+        "no": "6",
+        "name": "Pedurungan Kidul",
+        "address": "Jl. Majapahit No.601a, Pedurungan Kidul, Kec. Pedurungan, Kota Semarang, Jawa Tengah 50192",
+        "phone": "081326604164",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/BgBoYEp5sjJwAK55A"
+      },
+      {
+        "no": "7",
+        "name": "Semarang - Alteri",
+        "address": "Jl. Arteri Soekarno-Hatta No. 180A, Kel. Palebon, Kec. Pedurungan, Kota Semarang, Jawa Tengah 50193",
+        "phone": "0895383162130",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/U5fmErru2tVMKkin9"
+      },
+      {
+        "no": "8",
+        "name": "Kudus",
+        "address": "Jl. Mejobo No.205, Megawon, Kec. Jati, Kabupaten Kudus, Jawa Tengah 59342",
+        "phone": "085385040180",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/mHgSHWJjFt2aDRCJA"
+      },
+      {
+        "no": "9",
+        "name": "Blora",
+        "address": "Jl. Jendral Sudirman No.126, Bangkle, Kec. Blora, Kabupaten Blora, Jawa Tengah 58218",
+        "phone": "082327048324",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/bfv6MbLziffBH3gEA"
+      },
+      {
+        "no": "10",
+        "name": "Magelang",
+        "address": "JALAN URIP SUMOHARJO NO 31 (DEPAN RUMAH DUKA RUMAH SAKIT TENTARA)KEL WATES\r\nMAGELANG/ JL. NASIONAL 14 NO 252 WATES MAGELANG UTARA",
+        "phone": "08380222509",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/WjMZhnYcQZDQh3eE7"
+      },
+      {
+        "no": "11",
+        "name": "Pulutan - Salatiga",
+        "address": "JLS .SALATIGA AREA PASAR TIBAN, Desa Pulutan , Kec. Sidorejo, Kab. Salatiga, Prov. Jawa Tengah",
+        "phone": "082137132409",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/6TLte69uJHigadSf7"
+      },
+      {
+        "no": "12",
+        "name": "Solo",
+        "address": "Jl. Ir. Juanda No.256, Pucangsawit, Kec. Jebres, Kota Surakarta, Surakarta, Jawa Tengah, 57125",
+        "phone": "081228407881",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/G46dS6yr834NuT4y5"
+      },
+      {
+        "no": "13",
+        "name": "Gajahan Klewer",
+        "address": "Jl. Gajah Suranto No.5, Gajahan, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57144",
+        "phone": "082257404444",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/yw2q2keAqDY2UggD9"
+      },
+      {
+        "no": "14",
+        "name": "Ketandan",
+        "address": "Jl. Mataram, Ketandan, Kec. Klaten Utara, Kabupaten Klaten, Jawa Tengah 57438\r\n(Patokan: Depan SMK N 4 Klaten Selatan / Lampu Merah Rumah Sakit Islam)",
+        "phone": "081392441377",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/799KU36Pve6P8EEC6"
+      },
+      {
+        "no": "15",
+        "name": "Kendal",
+        "address": "Jl. Manggisan, RT.05/RW.06, Mannggisan, Langenharjo, Kec. Kendal, Kabupaten Kendal, Jawa Tengah 51351",
+        "phone": "082265498867",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/rSnsjkoJ3sMX4RGf9"
+      },
+      {
+        "no": "16",
+        "name": "Kebayanan",
+        "address": "Jl. Dukuh Wirun, RT.019, Kebayanan 1, Desa Sidoharjo , Kec. Sidoharjo, Kab. Sragen, Prov. Jawa Tengah",
+        "phone": "087700264345",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/aB5ahB6tptwh5Drt6"
+      },
+      {
+        "no": "17",
+        "name": "Purwodadi Grobogan",
+        "address": "Jl. Raya Blora - Purwodadi No.KM.01 No.22, Krajan, Getasrejo, Kec. Grobogan, Kabupaten Grobogan, Jawa Tengah 58152",
+        "phone": "08390274330",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/szTULCAUNAKFT6qcA"
+      },
+      {
+        "no": "18",
+        "name": "Ungaran",
+        "address": "Jl. Jendral Soedirman No 10. Mijen,Gedanganak, Ungaran Timur [ Sebrang Sdn 1 Gedanganak ]",
+        "phone": "081326935124",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Pk4pDdUwYAPZWC667"
+      },
+      {
+        "no": "19",
+        "name": "Purworejo",
+        "address": "RUKO BUMDES MANUNGGAL JAYA, Desa Candingasinan , Kec. Banyuurip, Kab. Purworejo, Prov. Jawa Tengah",
+        "phone": "085291917272",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/LdK364N4w9A8R6R96"
+      },
+      {
+        "no": "20",
+        "name": "Cilacap",
+        "address": "Jl. Raya Karangkandri No. 35-37, RT 02/RW 03, Karangkandri Wetan, Kec. Kesugihan, Kabupaten Cilacap, Jawa Tengah 53274",
+        "phone": "08320825446",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/tBBj3Jm58S8pr7Fr9"
+      },
+      {
+        "no": "21",
+        "name": "Kluwut",
+        "address": "JL Raya Pantura Kluwut Ruko Hollywood No. 03, Desa Kluwut , Kec. Bulakamba, Kab. Brebes, Prov. Jawa Tengah",
+        "phone": "081391761166",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/iM3x1DRWgRsgJ8jU7"
+      },
+      {
+        "no": "22",
+        "name": "Wonosobo",
+        "address": "Jl.lingkar Marong no 9, Dsn.Marong, Ds.Karangluhur Rt.05 RW.05,\r\nKec.Kertek, Kab.Wonosobo, Jawa Tengah 56371",
+        "phone": "082138423339",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/NJiXCL9vzp5K6Z5g6"
+      },
+      {
+        "no": "23",
+        "name": "Temanggung",
+        "address": "Pakisan, Candi Mulyo, Kec. Kedu, Kabupaten Temanggung, Jawa Tengah 56252",
+        "phone": "0895385916603",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/XQ1EAsyRCK8YmXjw5"
+      },
+      {
+        "no": "24",
+        "name": "Penggung",
+        "address": "Jl Raya Boyolali - Semarang, Desa Penggung , Kec. Boyolali, Kab. Boyolali, Prov. Jawa Tengah 57317",
+        "phone": "082136209581",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/D37iCZApoewLTvmm9"
+      },
+      {
+        "no": "25",
+        "name": "Purbalingga",
+        "address": "Jln Letnan Yusuf Babakan RT 19 RW 05, Desa Babakan , Kec. Kalimanah, Kab. Purbalingga, Prov. Jawa Tengah",
+        "phone": "081391605958",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/eUHYgVHabLWgqkLk6"
+      },
+      {
+        "no": "26",
+        "name": "Jepara",
+        "address": "Jl. Kabul, RT 01/RW 03, Desa Pecangaan Kulon, Kec. Pecangaan, Kabupaten Jepara, Jawa Tengah 59462",
+        "phone": "082141079881",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/obz1wXYL2yWrmPk17"
+      },
+      {
+        "no": "27",
+        "name": "Pati",
+        "address": "Jl. P. Sudirman, Gebyaran, Puri, Kec. Margorejo, Kabupaten Pati, Jawa Tengah (Depan SMUN 03 Plagitan, Pati)",
+        "phone": "082220544253",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/7cgcZmzGoyQW6iJX6"
+      },
+      {
+        "no": "28",
+        "name": "Semarang Beteng",
+        "address": "Jl. Beteng No.46, Kranggan, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50139",
+        "phone": "081235467737",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/9pzqMranMQtytSJj6"
+      },
+      {
+        "no": "29",
+        "name": "Semarang Simongan",
+        "address": "Jl.Simongan Raya No.34 Ngemplak Simongan, Desa Ngemplak Simongan , Kec. Semarang Barat, Kab. Semarang, Prov. Jawa Tengah",
+        "phone": "083146846260",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/YqnDV47zrwfE1Sk68"
+      },
+      {
+        "no": "30",
+        "name": "Tegal Adiwerna",
+        "address": "JL.LEMAHDUWUR, EXIT TOL DESA, LEMAH DUWUR, Kec. Adiwerna, Kabupaten Tegal, Jawa Tengah 52194",
+        "phone": "081239213512",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/SHNo99JNzC5MDexf9"
+      },
+      {
+        "no": "31",
+        "name": "Solo Kartosuro",
+        "address": "Jl.Ahmad Yani No.229B Gembangan, Desa Gumpang , Kec. Kartasura, Kab. Sukoharjo, Prov. Jawa Tengah",
+        "phone": "087721564073",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/cu66qKkdbLQ8SbbZ7"
+      },
+      {
+        "no": "32",
+        "name": "Jepara Mayong",
+        "address": "Jl. Raya Mayong, Desa Pelemkerep, Kec. Mayong, Kabupaten Jepara, Jawa Tengah 59465",
+        "phone": "087834469203",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/FChuRvHmBVamskfVA"
+      },
+      {
+        "no": "33",
+        "name": "Pekalongan Karanganyar",
+        "address": "Jl. Raya Kayugeritan- Karanganyar, Ruko No. 09 ( depan kolam renang Graha wisata karanganyar), Kecamatan Karanganyar, Kabupaten Pekalongan",
+        "phone": "085842282480",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": ""
+      },
+      {
+        "no": "34",
+        "name": "Kudus Pasar Kliwon",
+        "address": "Mlati Lor, Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59319",
+        "phone": "082147800962",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/JGwxubcTMAytumcE6"
+      },
+      {
+        "no": "35",
+        "name": "Cendono - Kudus",
+        "address": "Jl Raya Dawe-Gebog, Desa Samirejo , Kec. Dawe, Kab. Kudus, Prov. Jawa Tengah",
+        "phone": "081235666866 / 082133372933",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/R4QkxfiTf3MDvp3z9"
+      },
+      {
+        "no": "36",
+        "name": "Karang Dadap",
+        "address": "Jl. Donolayan, Desa Pagumengan Mas , Kec. Karangdadap, Kab. Pekalongan, Prov. Jawa Tengah",
+        "phone": "085290155824",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/Ho6Qs6LK5wUzZo3X7"
+      },
+      {
+        "no": "37",
+        "name": "Sragen Gemolong",
+        "address": "Jl. Solo - Purwodadi, Dusun 2, Gemolong, Kec. Gemolong, Kabupaten Sragen, Jawa Tengah 50274",
+        "phone": "087735489654",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/dN9QXCqZR5Gbxkow5"
+      },
+      {
+        "no": "38",
+        "name": "Bumiayu",
+        "address": "Jl. Raya Talok No.3, RT.03/RW.06, Taloksari, Desa Dukuhturi , Kec. Bumiayu, Kab. Brebes, Prov. Jawa Tengah",
+        "phone": "081225103335",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/n3WNWaddvzV6ZfUi8"
+      },
+      {
+        "no": "39",
+        "name": "Demak",
+        "address": "jl lingkar timur No.km.4, Mekarsapi, Mranak, Kec. Wonosalam, Kabupaten Demak, Jawa Tengah 59571",
+        "phone": "081216727791",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/eUrar7RwqsfzumPS6"
+      },
+      {
+        "no": "40",
+        "name": "Muntilan",
+        "address": "JL. Tentara Pelajar No. 03, Panolan Muntilan, Magelang",
+        "phone": "085878921443",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/gDooCVsD5d2jDRwt8"
+      },
+      {
+        "no": "41",
+        "name": "Wonogiri",
+        "address": "Brubuh, RT.4/RW.1, Ngadirojo Lor, Kec. Ngadirojo, Kabupaten Wonogiri, Jawa Tengah 57681",
+        "phone": "083196706978",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/37W64mumyw2dhZvP9"
+      },
+      {
+        "no": "42",
+        "name": "Wiradesa",
+        "address": "Jl. Raya Bojong, Deleg, Delegtukang, Kec. Wiradesa, Kabupaten Pekalongan, Jawa Tengah 51152",
+        "phone": "081288871685",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/F4EtagMRCMj6Cc6c8"
+      },
+      {
+        "no": "43",
+        "name": "Clapar",
+        "address": "Jalan Raya No.KM 14, RW.5, Gondangsari, Desa Clapar , Kec. Subah, Kab. Batang, Prov. Jawa Tengah 51262",
+        "phone": "087814067533",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/TqMsx7HpwBLWLZVx8"
+      },
+      {
+        "no": "44",
+        "name": "Purwosari Kudus",
+        "address": "Jl Purwosari, Desa Purwosari , Kec. Kudus Kota, Kab. Kudus, Prov. Jawa Tengah",
+        "phone": "082226699381",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/cN6goabc3JfH6UWq9"
+      },
+      {
+        "no": "45",
+        "name": "Klaten Pedan",
+        "address": "Jalan Kedungan & Jl. Ceper, Jeklok, Desa Kedungan , Kec. Pedan, Kab. Klaten, Prov. Jawa Tengah",
+        "phone": "085600492604",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/wHvdEHhJ2GXZWX6k8"
+      },
+      {
+        "no": "46",
+        "name": "Sukoharjo",
+        "address": "Jl Raya Cuplik - Sukoharjo, Dk Tegalsari, Desa Bulakan , Kec. Sukoharjo, Kab. Sukoharjo, Prov. Jawa Tengah",
+        "phone": "082220912339",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/cGEAPC4NLGJJyXvX6"
+      },
+      {
+        "no": "47",
+        "name": "Semarang - Banyumanik",
+        "address": "Jl. Durian Jaya No. 68, Kel. Pedalangan, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50268",
+        "phone": "085600567901",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/52NUS1EskYJwK1Vt8"
+      },
+      {
+        "no": "48",
+        "name": "Prambanan",
+        "address": "Jl Yogya-Solo Tlogo-Prambanan, Desa Tlogo , Kec. Prambanan, Kab. Klaten, Prov. Jawa Tengah",
+        "phone": "082342932416",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/cQeVQZzZivQysNcJA"
+      },
+      {
+        "no": "49",
+        "name": "Banjarnegara",
+        "address": "JL MANTRIANOM KM. 7 NO 52 RT 02 RW 03, Desa Bawang , Kec. Bawang, Kab. Banjarnegara, Prov. Jawa Tengah",
+        "phone": "081227814733",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/EFGW73RVdaGCFz768"
+      },
+      {
+        "no": "50",
+        "name": "Juwana",
+        "address": "JL.KOMODO NO 2 (KOM. PERTOKOAN TERMINAL), Desa Kauman , Kec. Juwana, Kab. Pati, Prov. Jawa Tengah",
+        "phone": "087778984083",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/kDjPYNbN55HtG73RA"
+      },
+      {
+        "no": "51",
+        "name": "Comal",
+        "address": "jl raya pantura RT 02 RW 01 no 13, Desa Rowosari , Kec. Ulujami, Kab. Pemalang, Prov. Jawa Tengah",
+        "phone": "085893435425",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/3SQFf1KvMnsSEvdD7"
+      },
+      {
+        "no": "52",
+        "name": "Penusupan",
+        "address": "Jl. Raya Randudongkal-Warungpring KM 2, 21, RW.1, Sawah, Penusupan, Kec. Randudongkal, Kabupaten Pemalang, Jawa Tengah 52358",
+        "phone": "085213358003",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/NvKi2WucToQ3t1qe8"
+      },
+      {
+        "no": "53",
+        "name": "Tegal Selatan",
+        "address": "Jl. Raya Banjaran, Dagan, Procot, Kec. Slawi, Kabupaten Tegal, Jawa Tengah 52471",
+        "phone": "082258042775",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/BQzLXt7QgbkQCbtr9"
+      },
+      {
+        "no": "54",
+        "name": "Karanganyar",
+        "address": "Jl. Jend. A. Yani, Rt 05/01, Kranggan, Buran, Kec. Tasikmadu, Kabupaten Karanganyar, Jawa Tengah 57722",
+        "phone": "085136509697",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": ""
+      },
+      {
+        "no": "55",
+        "name": "Rembang",
+        "address": "Jl Nasional 1 Rt 02 Rw 02, Desa Kutoharjo , Kec. Rembang, Kab. Rembang, Prov. Jawa Tengah",
+        "phone": "081216811674",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/mG2N1gRd1kVXkgwbA"
+      },
+      {
+        "no": "56",
+        "name": "Tanjungrejo",
+        "address": "Jl. Sambirejo, Dusun Sawit, Desa Tanjungrejo, Kec. Wirosari, Kabupaten Grobogan, Jawa Tengah 58192\r\n(Patokan: Depan Pabrik PT Gachi Jaya)",
+        "phone": "085166427369",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/wZQXJQfQjKizjaP9A"
+      },
+      {
+        "no": "57",
+        "name": "Bringin",
+        "address": "Jl Mr.Moh Ichsan Ngaliyan, Desa Bringin , Kec. Ngaliyan, Kab. Semarang, Prov. Jawa Tengah",
+        "phone": "-",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/nYgT6vgDkdJqLh9Q6"
+      },
+      {
+        "no": "58",
+        "name": "Bangkle",
+        "address": "Jl Jendral Sudirman No 62, Desa Bangkle , Kec. Blora Kota, Kab. Blora, Prov. Jawa Tengah",
+        "phone": "085293660609",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Mi2RUT8uJfknMPpEA"
+      },
+      {
+        "no": "59",
+        "name": "Kayugeritan",
+        "address": "Jl. Raya Kayugeritan- Karanganyar, Ruko No. 09, Desa Kayugeritan , Kec. Karanganyar, Kab. Pekalongan, Prov. Jawa Tengah",
+        "phone": "085842282480",
+        "penerimaan": false,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/V4bcfDa33SUX8H866"
+      },
+      {
+        "no": "60",
+        "name": "Limpung",
+        "address": "Terminal Limpung Blok B No 70, Desa Limpung , Kec. Limpung, Kab. Batang, Prov. Jawa Tengah",
+        "phone": "085974717681",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/kEYeum7jguq2VjzZA"
+      },
+      {
+        "no": "61",
+        "name": "Pilang Kidul",
+        "address": "Jl. Pemuda, RT.04/RW.06, Pilang Kidul, Desa Gubug , Kec. Gubug, Kab. Grobogan, Prov. Jawa Tengah",
+        "phone": "08",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": ""
+      }
+    ]
+  },
+  {
+    "province": "JAWA TIMUR",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Surabaya Margomulyo",
+        "address": "Pergudangan Margomulyo Permai, Greges, Kec. Asem Rowo, Surabaya, Jawa Timur 60183",
+        "phone": "081298259252",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/KSvaPyGv2N9iKA8V8"
+      },
+      {
+        "no": "2",
+        "name": "Gudang Gundih",
+        "address": "Jl Demak Timur No.28 Gudang nomor 2, Desa Gundih, Kec. Bubutan, Surabaya, Prov. Jawa Timur",
+        "phone": "082197853160",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/oBpTkQ6oGyVuzqJT7"
+      },
+      {
+        "no": "3",
+        "name": "Surabaya Bongkaran",
+        "address": "Jl. Bongkaran No.08, Bongkaran, Kec. Pabean Cantikan, Surabaya, Jawa Timur",
+        "phone": "083135949554",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/Htdew5eCedNiDcwCA"
+      },
+      {
+        "no": "4",
+        "name": "Panjang Jiwo",
+        "address": "Jl. Raya Panjang Jiwo Permai No. 2, Kel. Panjang Jiwo, Kec. Tenggilis Mejoyo, Kota Surabaya, Jawa Timur 60299\r\n(Patokan: Samping Denim Goods)",
+        "phone": "082210339154",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/KKAhc3EkC8LRvnx66"
+      },
+      {
+        "no": "5",
+        "name": "Sidoarjo",
+        "address": "Ketimang, Kec. Wonoayu, Kabupaten Sidoarjo, Jawa Timur 61261",
+        "phone": "081333625441",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Y2MA4Gz2yLGJfjnm8"
+      },
+      {
+        "no": "6",
+        "name": "Malang",
+        "address": "JL MAYJEN SUNGKONO RT 02 RW 02, Desa Wonokoyo , Kec. Kedungkandang, Kab. Malang, Prov. Jawa Timur",
+        "phone": "082141583515",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/kBMs4HRtv4XkNsVBA"
+      },
+      {
+        "no": "7",
+        "name": "Kediri",
+        "address": "Jl. Gatot Subroto No. 160, Kel. Mrican, Kec. Mojoroto, Kota Kediri, Jawa Timur 64112\r\n(Patokan: Depan PO Harapan Jaya)",
+        "phone": "081292184363",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/gAosFSw8bpzoexHo7"
+      },
+      {
+        "no": "8",
+        "name": "Mojokerto",
+        "address": "Jl. R.A Basuni No.9, Kepindan, Japan, Kec. Sooko, Kabupaten Mojokerto, Jawa Timur 61361",
+        "phone": "081217198096",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/abw4qjPAFm9YYEiK8"
+      },
+      {
+        "no": "9",
+        "name": "Nganjuk",
+        "address": "Godean, Kec. Loceret, Kabupaten Nganjuk, Jawa Timur 64471",
+        "phone": "082257210097",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/GTyhAX4JZFoxxpeQ8"
+      },
+      {
+        "no": "10",
+        "name": "Blitar",
+        "address": "JALAN RAYA TULUNGAGUN BLITAR DESA PLOSOSARANG",
+        "phone": "08235629975/ 085856551295",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/amW2W5EdRHdYaJuP8"
+      },
+      {
+        "no": "11",
+        "name": "Tulungagung",
+        "address": "Jl. Letjen S. Parman, RT 02/RW 02, Desa Rejoagung, Kec. Kedungwaru, Kabupaten Tulungagung, Jawa Timur 66225",
+        "phone": "081357311997",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/csHYKbY3UEUK1Ec47"
+      },
+      {
+        "no": "12",
+        "name": "Tapelan Kapas",
+        "address": "Tapel wates Tanjung harjo - Tapelan, Tapelan, Tapelan Lor, Tj. Harjo, Kec. Kapas, Kabupaten Bojonegoro, Jawa Timur 62181",
+        "phone": "082338440206",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/gJqoPi2GwpX8CNRNA"
+      },
+      {
+        "no": "13",
+        "name": "Pasuruan",
+        "address": "JL PETAHUNAN RT04 RW04, Desa Petahunan , Kec. Gadingrejo, Kab. Pasuruan, Prov. Jawa Timur",
+        "phone": "081213132201",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/XZU7mPHZ96uLmWZ59"
+      },
+      {
+        "no": "14",
+        "name": "Probolinggo",
+        "address": "Jl Prof Dr Hamka Ruko Grand Bromo Residence No 06, Desa Laweyan , Kec. Sumberasih, Kab. Probolinggo, Prov. Jawa Timur",
+        "phone": "082133730308",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/H13CAs54rGi3iz528"
+      },
+      {
+        "no": "15",
+        "name": "Lumajang",
+        "address": "JL.RAYA SIMPANG 3,KRAJAN-WONOREJO-KEDUNGJAJANG( TIMUR PATUNG JARAN KENCAK\r\n)",
+        "phone": "085259493044",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/tBW4A1cx5yMjpZiZ8"
+      },
+      {
+        "no": "16",
+        "name": "Jember pasar Tanjung",
+        "address": "Jl. KH Shiddiq No.96, Kelurahan Jember Kidu, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur",
+        "phone": "081328569099",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/t3c5auG3sd47mmkh6"
+      },
+      {
+        "no": "17",
+        "name": "Jember",
+        "address": "Jl. Slamet Riyadi No.250B, Baratan Wetan, Baratan, Kec. Patrang, Kabupaten Jember, Jawa Timur 68111",
+        "phone": "082124392074",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/bRsGpcT8X6LwJNgu8"
+      },
+      {
+        "no": "18",
+        "name": "Banyuwangi",
+        "address": "JL. JEMBER NO. 155 KEDAYUNAN - KABAT, Desa Kedayunan , Kec. Kabat, Kab. Banyuwangi, Prov. Jawa Timur",
+        "phone": "081450044438",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/dCgT64YU8acJ1bQA7"
+      },
+      {
+        "no": "19",
+        "name": "Bangkalan",
+        "address": "Jl. RE Martadinata, Kel. Mlajah, Kec. Bangkalan, Kabupaten Bangkalan, Jawa Barat 69116\r\n(Patokan: Depan gang SMAN 3 Bangkalan)",
+        "phone": "08232377871",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/9gQrY3tYNd3iKXQPA"
+      },
+      {
+        "no": "20",
+        "name": "Ponorogo",
+        "address": "Jl. Sukarno Hatta Kav.No 15 Utara Patung Sukowati Jarakan Timur(Depan\r\nDealer MPM Motor),Ponorogo. Jawa Timur (63411)",
+        "phone": "081314730086",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/3kWb7FSc2nodY9Dp6"
+      },
+      {
+        "no": "21",
+        "name": "Ngawi",
+        "address": "Jl. Samratulangi No.RT 03/02, Tunggul, Kersoharjo, Kec. Geneng, Kabupaten Ngawi, Jawa Timur 63271",
+        "phone": "081252989998",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/ane88ZxDwvrs7kEu7"
+      },
+      {
+        "no": "22",
+        "name": "Magetan",
+        "address": "Jl. Letjen S. Parman, Banjarmlati, RT 01/RW 03, Kel. Sukowinangun, Kec. Magetan, Kabupaten Magetan, Jawa Timur 63311",
+        "phone": "082223459102",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/SQtuU7AkL7SfsHb1A"
+      },
+      {
+        "no": "23",
+        "name": "Pamekasan",
+        "address": "jl raya kangenan no 18A laden kec pamekasan",
+        "phone": "08216334220",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/jZxuQC3ndH9xofXb9"
+      },
+      {
+        "no": "24",
+        "name": "Malang Blimbing",
+        "address": "Jl. Sunandar Priyo Sudarmo No, 20 Pandean - Kel Purwantoro - Kec. Blimbing",
+        "phone": "082334715727",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://g.page/BARAKAMALANGBLIMBING?share"
+      },
+      {
+        "no": "25",
+        "name": "Durenan - Trenggalek",
+        "address": "Jl. Raya Durenan - Pandean, Desa Pandean, Kec. Durenan, Kabupaten Trenggalek, Jawa Timur 66381",
+        "phone": "085704831537",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/usLtmhkzAW4yumY89"
+      },
+      {
+        "no": "26",
+        "name": "Kedungdoro",
+        "address": "Ruko Grand Flower 17 b, Jl. Pasar Kembang, Kupang Krajan, Kota SBY, Jawa\r\nTimur",
+        "phone": "081233726419",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://g.page/baraka-kedungdoro-grandflower?share"
+      },
+      {
+        "no": "27",
+        "name": "Situbondo",
+        "address": "jln panglima santri patokan kec situbondo, Jawa Timur 68311",
+        "phone": "082233172411",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/pmej9iHqAxSpcmoHA"
+      },
+      {
+        "no": "28",
+        "name": "Bondowoso",
+        "address": "JL BONDOWOSO JEMBER BUNDER PACORAN KECAMATAN BONDOWOSO",
+        "phone": "082232794869",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/DWwD1H3j2XLmdAcy9"
+      },
+      {
+        "no": "29",
+        "name": "Gresik",
+        "address": "JL KH.SYAFII RUKO TOWN HOUSE EMERALD AA 09 DAHAN REJO GRESIK",
+        "phone": "08318596269",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/fdfaniFTU2qPpbtK7"
+      },
+      {
+        "no": "30",
+        "name": "Malang, Pasar Besar",
+        "address": "Jl. Sulawesi No.A6, Kasin, Kec. Klojen, Kota Malang, Jawa Timur 65117",
+        "phone": "085649635014",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/VFYnYxZMUvYjGcEq7"
+      },
+      {
+        "no": "31",
+        "name": "Jombang",
+        "address": "PERUMAHAN ASTAPADA INDAH 3 BLOK A1-A2, JL CINDERA WASIH, PLOSOGENENG,\r\nJOMBANG",
+        "phone": "085742463702",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/9LxzRwJ8wad6YQDc8"
+      },
+      {
+        "no": "32",
+        "name": "Sumenep",
+        "address": "Jl urip sumoharjo Pabian Sumenep (depan SMA Muhammadiyah Sumenep)",
+        "phone": "08806730772",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/gpFdz9ESigjQQXFd8"
+      },
+      {
+        "no": "33",
+        "name": "Banyuwangi - Genteng",
+        "address": "Selatan Lapangan sumbersari Kecamatan Srono, Desa Sumbersari , Kec. Srono, Kab. Banyuwangi, Prov. Jawa Timur",
+        "phone": "082233566054",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/guy1mKWHRCGw3Wg66"
+      },
+      {
+        "no": "34",
+        "name": "Tuban",
+        "address": "Jl Raya Merakurak - Tuban, Mandirejo, Kec. Merakurak, Kab. Tuban",
+        "phone": "087766883443",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/VW4fE5C9pxwWBVr27"
+      },
+      {
+        "no": "35",
+        "name": "Lamongan",
+        "address": "Jl.Raya Babat Lamongan Bulu Trate , Desa Sumur Genuk , Kec. Babat, Kab. Lamongan, Prov. Jawa Timur",
+        "phone": "081359535885",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/D7YUxm5AwSpxDo329"
+      },
+      {
+        "no": "36",
+        "name": "Surabaya Lakarsantri",
+        "address": "JL. RAYA JERUK NO.228, JERUK LAKARSANTRI SURABAYA",
+        "phone": "08238986928",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/YZczomYe7QMSqNM87"
+      },
+      {
+        "no": "37",
+        "name": "Sidoarjo Kletek",
+        "address": "JL RAYA TAMAN 17 B, SEPANJANG SDA",
+        "phone": "08238986917",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/cHs4j24g1HTwTGQg7"
+      },
+      {
+        "no": "38",
+        "name": "Sidoarjo Sedati",
+        "address": "Jl. Raya By pass Juanda, Manyar,, Desa Sedati Agung , Kec. Sedati, Kab. Sidoarjo, Prov. Jawa Timur",
+        "phone": "085810973072",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/qJHa5d1RgDj2ztkh9"
+      },
+      {
+        "no": "39",
+        "name": "Sidoarjo Tanggulangin",
+        "address": "JL. RAYA KLUDAN KEC.TANGGULANGIN SIDOARJO (SEBELAH RUMAH MAKAN SATE GULAI)",
+        "phone": "081252446150",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/sQ2ancuB6Qtop3L78"
+      },
+      {
+        "no": "40",
+        "name": "Surabaya Benowo",
+        "address": "Ruku Green Ambasador Kan, Jl. Singgapur No. B07, Benowo, Kec. Pakal, Surabaya, Jawa Timur 60196",
+        "phone": "082146102847",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/EvrUy5prC3k8Wr4D9"
+      },
+      {
+        "no": "41",
+        "name": "Mojokerto - Mojosari",
+        "address": "Jl. Raya Pekukuhan No.16, RT.01/RW.02, Mojogeneng, Pekukuhan, Kec. Mojosari, Kabupaten Mojokerto, Jawa Timur 61382",
+        "phone": "082229493727",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/Pu2VQBCXEQygZ1TY8"
+      },
+      {
+        "no": "42",
+        "name": "Madiun Pasar Besar",
+        "address": "Jl. Soekarno-Hatta No. 42, Desa Demangan , Kec. Taman, Kab. Madiun, Prov. Jawa Timur",
+        "phone": "081313145166",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/dWAFXE65UtSqkNjf8"
+      },
+      {
+        "no": "43",
+        "name": "Surabaya Kembang Jepun",
+        "address": "KEMBANG JEPUN 2/1, Desa Bongkaran , Kec. Pabean Cantikan, Kab. Surabaya, Prov. Jawa Timur",
+        "phone": "082111000466",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/w5KFMEc2KAQ5hwQ78"
+      },
+      {
+        "no": "44",
+        "name": "Jember Kabupaten",
+        "address": "Jl. Ambulu, Sumber Kadut, Balung Kidul, Kec. Balung, Kabupaten Jember, Jawa Timur 68161",
+        "phone": "081216866743",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/tmu4wpqABHRDyH48A"
+      },
+      {
+        "no": "45",
+        "name": "Malang Lawang",
+        "address": "Jl. Raya Randuagung No.97c, Karangkunci, Randuangung, Kec. Singosari, Kabupaten Malang, Jawa Timur 65153",
+        "phone": "083117562642",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/SygHV5PUEgz6186L9"
+      },
+      {
+        "no": "46",
+        "name": "Malang Kepanjen",
+        "address": "Jl. Sumedang No.313, Cepokomulyo, Kec. Kepanjen, Kabupaten Malang, Jawa Timur 65163",
+        "phone": "082134966566",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/HXPJW593GyHDV7217"
+      },
+      {
+        "no": "47",
+        "name": "Sidodadi",
+        "address": "Jl. Kampung Seng No27, Desa Sidodadi , Kec. Simokerto, Kab. Surabaya, Prov. Jawa Timur",
+        "phone": "082331525176",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/zhQzqoYrh23n5sXL9"
+      },
+      {
+        "no": "48",
+        "name": "Batu - Malang",
+        "address": "Jl Pattimura No 36 B, Desa Temas , Kec. Batu, Kab. Batu, Prov. Jawa Timur",
+        "phone": "082225255994",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/593PrmbZx4PjKrECA"
+      },
+      {
+        "no": "49",
+        "name": "Kalijudan",
+        "address": "Perumahan Nugraha Indah, Komplek Wiguna Blok H No. 135, Kel. Kalijudan, Kec. Mulyorejo, Kota Surabaya, Jawa Timur 60114",
+        "phone": "085737014551",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/sRKEGw5jtmyHTF6f9"
+      },
+      {
+        "no": "50",
+        "name": "Girimoyo - Malang",
+        "address": "Jl. SUROPATI NO ,Girimoyo, Kec. Karangploso, Kab. Malang, Jawa Timur",
+        "phone": "085731556885",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/fJ43WuJr9M2uHC9V9"
+      },
+      {
+        "no": "51",
+        "name": "Kalirejo",
+        "address": "Bangil, Desa Kalirejo , Kec. Bangil, Kab. Pasuruan, Prov. Jawa Timur",
+        "phone": "081213132201",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/3WPsZpN8xFnLmLEq9"
+      },
+      {
+        "no": "52",
+        "name": "Alassumur Kulon",
+        "address": "Jl. Raya Dr. Sutomo No 08, Desa Alassumur Kulon , Kec. Kraksaan, Kab. Probolinggo, Prov. Jawa Timur",
+        "phone": "085642020213",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/bnEj8h4tpaaV85AR9"
+      },
+      {
+        "no": "53",
+        "name": "Sumput",
+        "address": "Jl Kahuripan Nirvana Vilage No 16, Desa Sumput , Kec. Sidoarjo, Kab. Sidoarjo, Prov. Jawa Timur",
+        "phone": "0895351845933",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/BJtSFsbhyepAMUqMA"
+      },
+      {
+        "no": "54",
+        "name": "Ngegong",
+        "address": "Jl. Ring Road Barat Ruko, Desa Ngegong , Kec. Manguharjo, Kab. Madiun, Prov. Jawa Timur",
+        "phone": "081230572717",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/h9URxahLNc6cKajz8"
+      },
+      {
+        "no": "55",
+        "name": "Rangkahkidul",
+        "address": "Pergudangan Safe And Lock Blok Au 5282, Desa Rangkahkidul , Kec. Sidoarjo, Kab. Sidoarjo, Prov. Jawa Timur",
+        "phone": "082231385630",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/cYry5H56CN15q9UW8"
+      },
+      {
+        "no": "56",
+        "name": "Mojotengah",
+        "address": "Jl. Raya Bringkang, Ruko Perum Taman Menganti, Desa Mojotengah , Kec. Menganti, Kab. Gresik, Prov. Jawa Timur",
+        "phone": "085857900129",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/gEcaL9UcdhdGRnVT9"
+      },
+      {
+        "no": "57",
+        "name": "Pagerwojo",
+        "address": "Ruko Taman Dhika BL 4 No.3A, Desa Pagerwojo , Kec. Buduran, Kab. Sidoarjo, Prov. Jawa Timur",
+        "phone": "0821354163451",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/DmVVAchfKo2s76bD9"
+      },
+      {
+        "no": "58",
+        "name": "Madiun Caruban",
+        "address": "Ruko Delta Mas, Pertigaan Pasar Baru Caruban Dusun Karangpilang, Desa Ngampel, Kec. Mejayan, Kabupaten Madiun",
+        "phone": "085119921165",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/5cF62jiEGZ1wZYFK6"
+      },
+      {
+        "no": "59",
+        "name": "Purwosari",
+        "address": "Jl Raya Purwosari Pasuruan No, Desa Purwosari , Kec. Purwosari, Kab. Pasuruan, Prov. Jawa Timur",
+        "phone": "081330086074",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/mNfybXmXnHC9pCnA9"
+      },
+      {
+        "no": "60",
+        "name": "Bulusan",
+        "address": "Jl Lingkar Kp Baru, Desa Bulusan , Kec. Kalipuro, Kab. Banyuwangi, Prov. Jawa Timur",
+        "phone": "081231901233",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/2AYEdUd79UhbCibp9"
+      },
+      {
+        "no": "61",
+        "name": "Bangunsari",
+        "address": "Jl. Sasuit Tubun No. 22, Desa Bangunsari , Kec. Pacitan, Kab. Pacitan, Prov. Jawa Timur",
+        "phone": "082338602261",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/xKL5Gf8NtTJm3SM97"
+      },
+      {
+        "no": "62",
+        "name": "Ploso",
+        "address": "Jl. Ploso 12 No.25, Desa Ploso , Kec. Tambaksari, Kab. Surabaya, Prov. Jawa Timur",
+        "phone": "082342806534",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/kj8sYSLuRdapD4ES7"
+      },
+      {
+        "no": "63",
+        "name": "Tanggul Wetan",
+        "address": "Jl Urip Sumoharjo Curahbamban, Desa Tanggul Wetan , Kec. Tanggul, Kab. Jember, Prov. Jawa Timur",
+        "phone": "082164436341",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/kcqucCv2dXNs9wZLA"
+      },
+      {
+        "no": "64",
+        "name": "Dahanrejo",
+        "address": "Jl Kh.Syafii Ruko Town House Emerald Aa 09, Desa Dahanrejo , Kec. Kebomas, Kab. Gresik, Prov. Jawa Timur",
+        "phone": "081318596269",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/PGqyizkBHdf4PapG6"
+      },
+      {
+        "no": "65",
+        "name": "Ngebruk",
+        "address": "Jl Raya Ngebruk, Desa Ngebruk , Kec. Sumberpucung, Kab. Malang, Prov. Jawa Timur",
+        "phone": "081217472395",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/sKYzphf2qNKvyGrZ6"
+      },
+      {
+        "no": "66",
+        "name": "Kenanti",
+        "address": "Jl. Raya Semarang - Tuban No.Km 30, Desa Kenanti , Kec. Tambakboyo, Kab. Tuban, Prov. Jawa Timur",
+        "phone": "08132627249",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/zt559xsQm9DM6oBQ6"
+      }
+    ]
+  },
+  {
+    "province": "KALIMANTAN BARAT",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Pontianak",
+        "address": "Jl. Komodor Yos Sudarso No.9, Sungai Jawi Luar, Kec. Pontianak Bar., Kota Pontianak, Kalimantan Barat 78244",
+        "phone": "085750449865",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/g8NAr8PmKrwvuSGL8"
+      },
+      {
+        "no": "2",
+        "name": "Sedau",
+        "address": "Jl. Yohana Godang Ruko No.84, Pasiran, Kec. Singkawang Bar., Singkawang Barat, Kalimantan Barat 79123",
+        "phone": "082154290875",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/KMUpMjk7XWmFYd1G6"
+      },
+      {
+        "no": "3",
+        "name": "Tengah - Mempawah",
+        "address": "Jl. Sujarwo No.87-84, Ruko No. 5, Tengah, Kec. Mempawah Hilir, Kab. Mempawah, Kalimantan Barat 78912",
+        "phone": "082254836161",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/NU8AbvJk5KGmPMAN7"
+      },
+      {
+        "no": "4",
+        "name": "Saing Rambi",
+        "address": "Jl Ahmad Yani Ruko No 2 (Depan Yonif 645), Desa Saing Rambi , Kec. Sambas, Kab. Sambas, Prov. Kalimantan Barat",
+        "phone": "085184895635",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/qaU8QULvAo4nr15J7"
+      },
+      {
+        "no": "5",
+        "name": "Tanjung Hulu",
+        "address": "Jl YA M Sabran No 5 Sampai 6, Desa Tanjung Hulu , Kec. Pontianak Timur, Kab. Pontianak, Prov. Kalimantan Barat",
+        "phone": "085787364151",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/yp7mhtXm9bek3ArL8"
+      }
+    ]
+  },
+  {
+    "province": "KALIMANTAN SELATAN",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Kandangan",
+        "address": "Jl. Brigadir Jenderal Hasan Basri, Karasikan, Kec. Sungai Raya, Kabupaten Hulu Sungai Selatan, Kalimantan Selatan",
+        "phone": "082154032785",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/kz4pwvn3wN81Vz2V8"
+      },
+      {
+        "no": "2",
+        "name": "Banjarbaru",
+        "address": "JL. MISTER COKROKUSUMO, Desa Loktabat Selatan , Kec. Banjar Baru Selatan, Kab. Banjarbaru, Prov. Kalimantan Selatan",
+        "phone": "081255958963",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/aHwvHjLkjht3k4CL7"
+      },
+      {
+        "no": "3",
+        "name": "Mabuun - TANJUNG",
+        "address": "Jln. Ir. Ph Moch Noor Samping Mhr Speedshop , Desa Mabuun , Kec. Murung Pudak, Kab. Tabalong, Prov. Kalimantan Selatan",
+        "phone": "081346811434",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/HBJBshXZH1RyHVH2A"
+      },
+      {
+        "no": "4",
+        "name": "Mandar Sari",
+        "address": "Jl A . Yani Km 9.600 (Ruko Orange), Desa Mandar Sari , Kec. Kertak Hanyar, Kab. Banjar, Prov. Kalimantan Selatan",
+        "phone": "082148096199",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/mfcnjbDaSUgdJBgS9"
+      },
+      {
+        "no": "5",
+        "name": "Kampung Baru",
+        "address": "Jl Raya Batulicin No 26, Desa Kampung Baru , Kec. Simpang Empat, Kab. Tanah Bumbu, Prov. Kalimantan Selatan",
+        "phone": "085124238965",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/G26jt21mnzFo8ZFU9"
+      }
+    ]
+  },
+  {
+    "province": "KALIMANTAN TENGAH",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Palangkaraya",
+        "address": "Jl. RTA Milono KM 5,5 Depan Badan Pendapatan Daerah Kalteng / Samping Roket Chicken. Kel Langkai, Kac Pahandut Kota Palangkaraya Kalimantan Tengah",
+        "phone": "085392029998",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/FqKE97s1FNK1STKW6"
+      },
+      {
+        "no": "2",
+        "name": "Sampit",
+        "address": "JL. Cilik Riwut, Desa Baamang Hulu , Kec. Baamang, Kab. Kotawaringin Timur, Prov. Kalimantan Tengah",
+        "phone": "082251547583",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/oWfZ6FqDJFUc9W3E8"
+      },
+      {
+        "no": "3",
+        "name": "Pangkalan Bun",
+        "address": "Jl natai arahan ruko no.4 desa.sidorejo kec.arut selatan kab.kotawaringin barat (samping mega mart)",
+        "phone": "082254448224",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/W9wG3nWGXPqWHg3d9"
+      }
+    ]
+  },
+  {
+    "province": "KALIMANTAN TIMUR",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Balikpapan",
+        "address": "No.6 Km.6, Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76126",
+        "phone": "082157550361",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/NiFn5D54eAxap7xy9"
+      },
+      {
+        "no": "2",
+        "name": "Samarinda",
+        "address": "Jl. Ring Road I, RT 14, Kel. Lok Bahu, Kec. Sungai Kunjang, Kota Samarinda, Kalimantan Timur 75125\r\n(Patokan: Samping Indomaret)",
+        "phone": "082148743433",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/LkauMwGV8eBdHvLz7"
+      },
+      {
+        "no": "3",
+        "name": "Bontang",
+        "address": "Jl Bontang - Samarinda Km,5,5 Desa Suka Rahmad Rt 04 Kec Teluk Dalam, Kalimantan Timur",
+        "phone": "082191192633",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": ""
+      },
+      {
+        "no": "4",
+        "name": "Suka Rahmat",
+        "address": "Jl Poros Bontang Samarinda Km 5,5, Desa Suka Rahmat , Kec. Teluk Pandan, Kab. Kutai Timur, Prov. Kalimantan Timur",
+        "phone": "082191192633",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/SnkDQUfi31DnuTKS8"
+      },
+      {
+        "no": "5",
+        "name": "Tanah Grogot",
+        "address": "Jl. R. A Kartini samping gang nugraha, Tanah Grogot, Kec. Tanah Grogot, Kabupaten Paser, Kalimantan Timur 76251",
+        "phone": "085124238966",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/QFooJ7TE1bJNw5s76"
+      }
+    ]
+  },
+  {
+    "province": "KEPULAUAN RIAU",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Baloi Permai",
+        "address": "Ps Mega Legenda Extension D1 No 1, Desa Baloi Permai , Kec. Batam Kota, Kab. Batam, Prov. Kepulauan Riau",
+        "phone": "082381741472",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/kgWSWhsLzdXhffnu5"
+      },
+      {
+        "no": "2",
+        "name": "Kampung Bulang",
+        "address": "Jl Gatot Subroto No 1, Desa Kampung Bulang , Kec. Tanjung Pinang Timur, Kab. Tanjung Pinang, Prov. Kepulauan Riau",
+        "phone": "085848138278",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/JfeqXfwfpKS7VKYn8"
+      }
+    ]
+  },
+  {
+    "province": "LAMPUNG",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Bandar Lampung",
+        "address": "Jalan Sukarno hatta,no 27 way dadi sukarame, Desa Way Dadi , Kec. Sukarame, Kab. Bandar Lampung, Prov. Lampung",
+        "phone": "085377701007",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/ZeVxdikmxkUjFj4MA"
+      },
+      {
+        "no": "2",
+        "name": "Lampung Metro",
+        "address": "Jl. Soekarno Hatta No.133, Mulyojati, Kec. Metro Bar., Kota Metro, Lampung 34121",
+        "phone": "085279028598",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/5ieqDaBkBhaBfiN5A"
+      },
+      {
+        "no": "3",
+        "name": "Pringsewu",
+        "address": "Jl. Ahmad Yani no 13 Sidoharjo pringsewu.",
+        "phone": "08367934393",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/8bofwLKD9EuHGqGz7"
+      },
+      {
+        "no": "4",
+        "name": "Lampung Kotabumi",
+        "address": "Jl. Soekarno Hatta No.45, Kota Alam, Kec. Kotabumi Sel., Kabupaten Lampung Utara, Lampung 34516",
+        "phone": "082175223065",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/sZ3tKicyftocNUvb9"
+      },
+      {
+        "no": "5",
+        "name": "Tulang Bawang",
+        "address": "Jl Lintas Timur Unit 2, RT 05 RW 01, Dwi Warga Tunggal Jaya, Banjar Agung,\r\nTulang Bawang Regency, Lampung - 34682",
+        "phone": "081369693890",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/7k7aY2PxRrYoATTx8"
+      },
+      {
+        "no": "6",
+        "name": "Tanjungkarang Timur",
+        "address": "Jl. Hayam Wuruk No.29, Kac, Kec. Tanjungkarang Timur, Kota Bandar Lampung, Lampung 35128",
+        "phone": "082177194966",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/JzJvFszy1ELSZ53e7"
+      },
+      {
+        "no": "7",
+        "name": "Bandar Jaya",
+        "address": "Ruko Griya Rolland, Jalan Negara No.4, RW.KM 66, Yukum Jaya, Kec. Terbanggi Besar, Bandar Jaya, Lampung 34163",
+        "phone": "085279028598",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/cLYaDbfy8FUFxLHA9"
+      },
+      {
+        "no": "8",
+        "name": "Kalianda",
+        "address": "Jl. Kusuma Bangsa No.20, Kalianda, Kec. Kalianda, Kabupaten Lampung Selatan, Lampung 35551",
+        "phone": "082181548678",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/sPXpDzRTAxncG7nK8"
+      },
+      {
+        "no": "9",
+        "name": "Kurungan Nyawa",
+        "address": "Jl Raya Kurungan Nyawa No 123, Desa Kurungan Nyawa , Kec. Gedong Tataan, Kab. Pesawaran, Prov. Lampung",
+        "phone": "082326596361",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/KiEYTcNcTUgS5tYm6"
+      }
+    ]
+  },
+  {
+    "province": "NANGGROE ACEH DARUSSALAM",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Banda Aceh",
+        "address": "Jl.tengku imuem long bata no.193, Blang Cut, Kec. Lueng Bata, Kota Banda Aceh",
+        "phone": "082183519151",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/sfuEMQZdM1yH28f78"
+      },
+      {
+        "no": "2",
+        "name": "Lhokseumawe",
+        "address": "Jl. Lintas Sumatra, Uteun Kot, Kec. Muara Dua, Kota Lhokseumawe, Aceh 24355",
+        "phone": "085282456448",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/1MhanpktsyTC8nF68"
+      },
+      {
+        "no": "3",
+        "name": "Langsa",
+        "address": "Jl A. Yani, Gampong Baro, Kec. Langsa Lama, Kota Langsa, Aceh 24354",
+        "phone": "081373624743",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/HQvnUBPZwuSZn3XM6"
+      }
+    ]
+  },
+  {
+    "province": "NTB",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Mataram",
+        "address": "Jl. Sandubaya Mandalika Selatan, Mandalika, Kec. Sandubaya, Kota Mataram, Nusa Tenggara Bar. 83233",
+        "phone": "081213234221",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/A6xYicUiXaLwsc2GA"
+      },
+      {
+        "no": "2",
+        "name": "Lombok Timur",
+        "address": "JL. RAYA MATARAM-KAYANGAN 6, PAOK MOTONG, KEC, MASBAGIK, KAB LOMBOK TIMUR",
+        "phone": "082146649166",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/379VEUek2SCYG1YV9"
+      },
+      {
+        "no": "3",
+        "name": "Mataram Sandubaya",
+        "address": "Jl. Sriwijaya No.17b, Sapta Marga, Kec. Cakranegara, Kota Mataram, Nusa Tenggara Bar. 83232",
+        "phone": "087751663263",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/1pnx6vJwDHvhZUXY9"
+      },
+      {
+        "no": "4",
+        "name": "Jonggat",
+        "address": "Jl Mandalika, Desa Puyung , Kec. Jonggat, Kab. Lombok Tengah, Prov. Nusa Tenggara Barat (NTB)",
+        "phone": "081907277166",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/4pSh725Kw5QSuhLG6"
+      },
+      {
+        "no": "5",
+        "name": "Karang Dima",
+        "address": "Jl. Raya Lingkar Utara, Ds. Karang Dima, Kabupaten Sumbawa, Nusa Tenggara Barat",
+        "phone": "081803400816",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/hceoFyT1S9kpbjhE6"
+      },
+      {
+        "no": "6",
+        "name": "Mandalika",
+        "address": "Jl. Sandubaya Mandalika Selatan. 83233, Desa Mandalika , Kec. Sandubaya (Sandujaya), Kab. Mataram, Prov. Nusa Tenggara Barat (NTB)",
+        "phone": "081213234221",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Y6wz4rdKJvNdWUWE9"
+      }
+    ]
+  },
+  {
+    "province": "HUB DS FUN LOGISTIC",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Cipayung - Jakarta",
+        "address": "Jalan Raya Setu, Gg. Sejahtera No. 21, Cipayung, RT.5/RW.1, Setu,\r\nCipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13880",
+        "phone": "081313724646",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/2cKEj7zcHrby2hX78"
+      },
+      {
+        "no": "2",
+        "name": "Kaliwungu - JaTeng",
+        "address": "Jalan Raya Soekarno Hatta Km.18, Desa Sumberejo , Kec. Kaliwungu, Kab. Kendal, Prov. Jawa Tengah",
+        "phone": "082225364589",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/8iU5F9k1uYpb9Xai8"
+      },
+      {
+        "no": "3",
+        "name": "Probolinggo - JaTim",
+        "address": "Jl Raya Lumajang, Desa Kedungasem , Kec. Wonoasih, Kab. Probolinggo, Prov. Jawa Timur",
+        "phone": "085855303575",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/BPvQVk6qRbCGhaHF7"
+      },
+      {
+        "no": "4",
+        "name": "Marunda - JaBar",
+        "address": "KP.KEBON KELAPA RT 002 RW 0023, Desa Segara Makmur , Kec. Tarumajaya, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "02189097461",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/r38AGxeEbTQjT9zW6"
+      },
+      {
+        "no": "5",
+        "name": "Gunung Putri - JaBar",
+        "address": "Jl raya gn putri, Desa Gunung Putri , Kec. Gunung Putri, Kab. Bogor, Prov. Jawa Barat",
+        "phone": "082111758808",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/mSiWN8XxYZeA1zCG7"
+      },
+      {
+        "no": "6",
+        "name": "Cikarang - JaBar",
+        "address": "Jl. Raya Gemalapik No. 14 RT 15/05, Desa Pasirsari , Kec. Cikarang Selatan, Kab. Bekasi, Prov. Jawa Barat",
+        "phone": "081388213737",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/JDTmDyDfvt53pxFC8"
+      },
+      {
+        "no": "7",
+        "name": "Pejagan - JaTeng",
+        "address": "Jl. Raya Pejagan - Ketanggungan, Kedawung, Desa Limbangan, Kec. Kersana, Kabupaten Brebes, Jawa Tengah 52264",
+        "phone": "082123894073",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/AjqvtLPL5SVGUjHL7"
+      },
+      {
+        "no": "8",
+        "name": "Legundi - JaTim",
+        "address": "Jl. Raya Legundi, Dusun Larangan, Desa Krikilan , Kec. Driyorejo, Kab. Gresik, Prov. Jawa Timur",
+        "phone": "081235374570",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/aKG4m5n3bQfhEVjy8"
+      },
+      {
+        "no": "9",
+        "name": "Banjarmasin - KalSel",
+        "address": "Samping Tps Gambut, Jl. A. Yani No.KM 16, Malintang Baru, Kec. Gambut, Kabupaten Banjar, Kalimantan Selatan 70652",
+        "phone": "081313724646/081374984748",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/QcaZcuy4LLbj6HmJ9"
+      },
+      {
+        "no": "10",
+        "name": "Way Huwi - Lampung",
+        "address": "Jl. Airan Raya No.89K, RT.01, Desa Way Huwi , Kec. Jati Agung, Kab. Lampung Selatan, Prov. Lampung",
+        "phone": "082169687981",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/bCzmwpp8aaXXpoZN7"
+      },
+      {
+        "no": "11",
+        "name": "Pekanbaru - Riau",
+        "address": "Jl Kubang Raya No. Km 5,5, Desa Tarai Bangun , Kec. Tambang, Kab. Kampar, Prov. Riau",
+        "phone": "081372322422",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/yAcA8ALN8ZYkn9Wh7"
+      },
+      {
+        "no": "12",
+        "name": "Makassar - SulSel",
+        "address": "Kompleks Pergudangan Parang Loe, Desa Parang Loe , Kec. Tamalanrea, Kab. Makassar, Prov. Sulawesi Selatan",
+        "phone": "0882021419603",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/S33v767fZyQhCipS6"
+      },
+      {
+        "no": "13",
+        "name": "Pontianak - KalBar",
+        "address": "Pergudangan Ocean88, Jl. Adi Sucipto No. 8F-01, Desa Sei/Sungai Raya , Kec. Sungai Raya, Kab. Kubu Raya, Prov. Kalimantan Barat",
+        "phone": "087752055241",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/51AGyZMDsMjAcgun8"
+      },
+      {
+        "no": "14",
+        "name": "Molas - Manado",
+        "address": "JL, Desa Molas , Kec. Bunaken, Kab. Manado, Prov. Sulawesi Utara",
+        "phone": "-",
+        "penerimaan": false,
+        "pengiriman": true,
+        "mapUrl": ""
+      },
+      {
+        "no": "15",
+        "name": "Jembrana - Bali",
+        "address": "Desa Budeng , Kec. Jembrana, Kab. Jembrana, Prov. Bali",
+        "phone": "08",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": ""
+      },
+      {
+        "no": "16",
+        "name": "Balaraja - Banten",
+        "address": "Jl Raya Serang Km 22 Kawidaran, Desa Cikupa , Kec. Cikupa, Kab. Tangerang, Prov. Banten",
+        "phone": "081321084112",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/DvgLVe26tbZmv15R6"
+      },
+      {
+        "no": "17",
+        "name": "Gajahmekar - Bandung",
+        "address": "Jl.Gajahmekar Cipatik , Desa Gajahmekar , Kec. Kutawaringin, Kab. Bandung, Prov. Jawa Barat",
+        "phone": "083129363834",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/iHimnByCEsY3JuJRA"
+      },
+      {
+        "no": "18",
+        "name": "Bagi - Madiun",
+        "address": "Jl Raya Solo Surabaya,  No 22, Desa Bagi , Kec. Madiun, Kab. Madiun, Prov. Jawa Timur",
+        "phone": "081330203789",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/FRfgXjPjKs75iDHu5"
+      },
+      {
+        "no": "19",
+        "name": "Kariangau - Balikpapan",
+        "address": "Pergudangan Bizhub52 Blok D 26, Desa Kariangau , Kec. Balikpapan Barat, Kab. Balikpapan, Prov. Kalimantan Timur",
+        "phone": "0841321631321",
+        "penerimaan": false,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/NS3BaMVhJBGCuVPx6"
+      }
+    ]
+  },
+  {
+    "province": "RIAU",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Pekanbaru",
+        "address": "Jl. Soekarno - Hatta komplek pergudangan gajah mada No.10 arengka 1, Sidomulyo Timur, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28125",
+        "phone": "081389632206",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/6wEiB8JG1mnkxwg29"
+      },
+      {
+        "no": "2",
+        "name": "Duri",
+        "address": "Jl. Lintas Pekanbaru - Duri, Kel. Gajah Sakti, Kec. Mandau Duri, Kab.\r\nBengkalis",
+        "phone": "081266310375",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/4vsLkPgW23Q27Tbp7"
+      },
+      {
+        "no": "3",
+        "name": "Pekanbaru (Pasar Kodim)",
+        "address": "Jl. Riau No.81, Padang Terubuk, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
+        "phone": "081374968893",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/e5jBdtunPSTxhXXQ9"
+      },
+      {
+        "no": "4",
+        "name": "Dumai",
+        "address": "JL. Simpang Tetap, Desa Simpang Tetap Darul Ichsan , Kec. Dumai Barat, Kab. Dumai, Prov. Riau",
+        "phone": "082385795545",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/8UgwzMkoS5p25q4o6"
+      },
+      {
+        "no": "5",
+        "name": "Tangkerang Utara",
+        "address": "Jl. Imam Munandar, Tengkerang Timur., Kec. Tenayan Raya, Kota Pekanbaru, Riau 28131",
+        "phone": "082173583089",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/xRH7SBs8CKujUjnX6"
+      },
+      {
+        "no": "6",
+        "name": "Bagan Batu",
+        "address": "Jl. jendral Sudirman KM 1 Bagan Batu Kec. Bagan Sinembah Kab Rokan Hilir",
+        "phone": "085195911006",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/xiQxkRjc6RGJqFpB6"
+      }
+    ]
+  },
+  {
+    "province": "SULAWESI BARAT",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Mamunyu",
+        "address": "Jl Poros Mamuju Topoyo, Desa Mamunyu , Kec. Mamuju, Kab. Mamuju, Prov. Sulawesi Barat",
+        "phone": "082313746525",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/qFtWJ1fZDnYFBW2z5"
+      }
+    ]
+  },
+  {
+    "province": "SULAWESI SELATAN",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Makassar",
+        "address": "Jl. Tinumbu No. 44, Desa Suwangga , Kec. Tallo, Kab. Makassar, Prov. Sulawesi Selatan",
+        "phone": "082292857395",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/sRA6MAMapDWLJhLL9"
+      },
+      {
+        "no": "2",
+        "name": "Parepare",
+        "address": "Jl. Bau Massepe, Sumpang Minangae. Kec. Bacukiki Barat, Kota Parepare",
+        "phone": "085399285963",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/v2FDcWseqAASuga9A"
+      },
+      {
+        "no": "3",
+        "name": "Adatongeng - Maros",
+        "address": "Jl Poros Makassar - Maros Km 30, Desa Adatongeng , Kec. Turikale, Kab. Maros, Prov. Sulawesi Selatan",
+        "phone": "085398944627",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/CSEaQnPzt1xseEKG8"
+      },
+      {
+        "no": "4",
+        "name": "Gowa",
+        "address": "Jl. Andi Tonro, Sungguminasa, Kec. Somba Opu",
+        "phone": "082189481991",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/3fogbes4v9ZbuuXw6"
+      },
+      {
+        "no": "5",
+        "name": "Kaluku Bodoa",
+        "address": "Jl Teukuk Umar Raya, Desa Kaluku Bodoa , Kec. Tallo, Kab. Makassar, Prov. Sulawesi Selatan",
+        "phone": "087796420288",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/XDvCWxLvWLAayeXY7"
+      },
+      {
+        "no": "6",
+        "name": "Parang Loe",
+        "address": "Jl Ir Soetami No 3, Desa Parang Loe , Kec. Tamalanrea, Kab. Makassar, Prov. Sulawesi Selatan",
+        "phone": "082345615384",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": ""
+      }
+    ]
+  },
+  {
+    "province": "SULAWESI TENGAH",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Palu",
+        "address": "Jl. Dr. Suharso, Kelurahan Besusu Barat, Kecamatan Palu Timur, Kota Palu, Sulawesi Tengah",
+        "phone": "082396443266 / 082151646276",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Fj7ak7vvaWk6Ng1F8"
+      }
+    ]
+  },
+  {
+    "province": "SULAWESI TENGGARA",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Bonggoeya",
+        "address": "Jl. Sapati, Desa Bonggoeya, Kec. Wua-Wua, Kab. Kendari, Prov. Sulawesi Tenggara",
+        "phone": "085251896349",
+        "penerimaan": false,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/kcL7F1e9aYub6v566"
+      }
+    ]
+  },
+  {
+    "province": "SULAWESI UTARA",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Manado",
+        "address": "Jl. Teuku Umar Kel. Wawonasa, Kec. Singkil, Kota Manado, Sulawesi Utara",
+        "phone": "085298108390",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/bn3xEmYcThY6tyY9A"
+      }
+    ]
+  },
+  {
+    "province": "SUMATERA BARAT",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Padang",
+        "address": "Jl Bypass KM 7 (Ruko Merah Simpang Bypass Unand), Ps. Ambacang, Kec. Kuranji, Kota Padang, Sumatera Barat 25176, Indonesia",
+        "phone": "081274793030",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/mh1Gxq8nGBjVVUL67"
+      },
+      {
+        "no": "2",
+        "name": "Bukittinggi",
+        "address": "Jl. By Pass No.33, Pulai Anak Air, Kec. Mandiangin Koto Selayan, Kota Bukittinggi, Sumatera Barat 26138",
+        "phone": "081276305245",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/ZTLqXpHjHmsZ9SPx6"
+      },
+      {
+        "no": "3",
+        "name": "Solok",
+        "address": "Jl. Nasir Sutan Pamuncak, Simpang Rumbio, Kecamatan Lubuk Sikarah, Kota Solok, Sumatera Barat",
+        "phone": "081277977576",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/Kc67giYKebC7SrEt5"
+      },
+      {
+        "no": "4",
+        "name": "Pariaman",
+        "address": "Jl. Wolter Monginsidi Simp. Lapai, No. 6, Cimparuh, Kec. Pariaman Tengah, Sumatera Barat - 25511",
+        "phone": "08365773933",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/zzM7rG3hLzCo6Qr7A"
+      },
+      {
+        "no": "5",
+        "name": "Padang - Pasar Raya",
+        "address": "Jl. Prof. M. Yamin SH 91, Belakang Tangsi, Kec. Padang Barat, Kota Padang",
+        "phone": "081266472562",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/jrFLQB86wnbWB782A"
+      },
+      {
+        "no": "6",
+        "name": "Payakumbuh",
+        "address": "Jl. Imam Bonjol, Simpang 4 Napar, Kec. Payakumbuh Utara - Sumatera Barat",
+        "phone": "082170067771",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/wXfjB1XoEB3Abziy7"
+      },
+      {
+        "no": "7",
+        "name": "Aur Kuning - Bukittinggi",
+        "address": "Jl Bypass No 56, Samping Bank BRI, Desa Aur Kuning, Kec. Aur Birugo Tigo Baleh, Kota Bukittinggi, Prov. Sumatera Barat",
+        "phone": "082285779837",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/T6eCZLxjBjfvytPF9"
+      },
+      {
+        "no": "8",
+        "name": "Lubuk Buaya",
+        "address": "Jl Adinegoro Km 17, Desa Lubuk Buaya , Kec. Koto Tangah, Kota Padang, Prov. Sumatera Barat",
+        "phone": "082364461936",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/VX16iMehH4TkkVGh8"
+      }
+    ]
+  },
+  {
+    "province": "SUMATERA SELATAN",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Palembang Selatan",
+        "address": "Jl. Letjen H. Alamsyah Ratu Perwiranegara No.3284, Bukit Lama, Kec. Ilir Bar. I, Kota Palembang, Sumatera Selatan",
+        "phone": "085357257710",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/qBCKyGZQNBxRKyQY7"
+      },
+      {
+        "no": "2",
+        "name": "Prabumulih",
+        "address": "Jl. Jend Sudirman, Komp. Teletubis, Kel. Cambai, Kec. Cambai, Kota\r\nPrabumulih - Sumatera Selatan",
+        "phone": "082181614874",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/zFWC4yYZbmNAbqjZA"
+      },
+      {
+        "no": "3",
+        "name": "Baturaja",
+        "address": "Jl. Lintas Sumatera Lorong Sehati, Kemala Raja, Kec. Baturaja Timur, Kabupaten Ogan Komering Ulu, Sumatera Selatan 32125",
+        "phone": "082182237739",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/8T1jXEijb6ZQueTK6"
+      },
+      {
+        "no": "4",
+        "name": "Palembang Pasar",
+        "address": "Jl. Sayangan No.399, 17 Ilir, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan 30121",
+        "phone": "082159155772",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/s7vVz2oGWp9DduGN6"
+      },
+      {
+        "no": "5",
+        "name": "Lubuklinggau",
+        "address": "Jln Yos sudarso , Rt 08, Desa Lubuk Kupang , Kec. Lubuk Linggau Selatan Satu (I), Kab. Lubuk Linggau, Prov. Sumatera Selatan",
+        "phone": "082151105014",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/jGNRTDzYnEBDZm4D8"
+      },
+      {
+        "no": "6",
+        "name": "Muara Enim",
+        "address": "Jl Jendral Sudirman, Desa Muara Enim , Kec. Muara Enim, Kab. Muara Enim, Prov. Sumatera Selatan",
+        "phone": "082297394030",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/oixg1nkkmV7SdVKr9"
+      },
+      {
+        "no": "7",
+        "name": "Alang - Alang Lebar",
+        "address": "Jl. Sultan Mahmud Badaruddin II, Desa Alang-Alang Lebar, Kec. Alang-Alang Lebar, Kab. Palembang, Prov. Sumatera Selatan",
+        "phone": "082246258040",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/2d3okopTn22gLFqz9"
+      },
+      {
+        "no": "8",
+        "name": "Sungai Pinang",
+        "address": "Jl. H.A. Bastari No 9 D-E, Simpang Lingkar Selatan Jakabaring, Kel. Desa Sungai Pinang, Kec. Rambutan, Kab. Banyuasin 30967",
+        "phone": "085353612792",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/CNQdk9VPXPySZBXH9"
+      }
+    ]
+  },
+  {
+    "province": "SUMATERA UTARA",
+    "branches": [
+      {
+        "no": "1",
+        "name": "Medan",
+        "address": "Jl. Medan - Pematang Siantar, Ujung Serdang, Kec. Tj. Morawa, Kabupaten Deli Serdang, Sumatera Utara 20362",
+        "phone": "081262412045 / 082276443628",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/dUGLkwQ8L1yRRWh67"
+      },
+      {
+        "no": "2",
+        "name": "Tebing Tinggi",
+        "address": "Jl. Prof. H. M Yamin No.5, Sri Padang, Kec. Rambutan, Kota Tebing Tinggi, Sumatera Utara 20998",
+        "phone": "082272227045",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/AspejaypPviFbqv58"
+      },
+      {
+        "no": "3",
+        "name": "Padang Sidempuan",
+        "address": "Jl. Lintas Barat Sumatera No. 323, Timbangan, Kec. Padang Sidempuan Utara, Kota Padang Sidempuan, Sumatera Utara 22733, Padang Sidempuan, Sumatera Utara 22733",
+        "phone": "082372557387",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/1qm8y3AHD7wGyjQg6"
+      },
+      {
+        "no": "4",
+        "name": "Kisaran",
+        "address": "Jl. Prof. H. M. Yamin No. 83 F, Desa Kisaran Naga , Kec. Kota Kisaran Timur, Kab. Asahan, Prov. Sumatera Utara",
+        "phone": "085275226767",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/SbF5VokTvoWTnBpf8"
+      },
+      {
+        "no": "5",
+        "name": "Pematang Siantar",
+        "address": "Jl. Ahmad Yani Patokan Depan SPBU Tukimin, Desa Asuhan , Kec. Siantar Timur, Kab. Pematang Siantar, Prov. Sumatera Utara",
+        "phone": "081265107301",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/sZfRBxNfHVhZg2aU7"
+      },
+      {
+        "no": "6",
+        "name": "Binjai",
+        "address": "Jl Tengku Amir Hamzah No.376A, Jati Makmur, Kec. Binjai Utara, Kota Binjai. Sumatra Utara",
+        "phone": "082164915740",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/cUZjqXGhcFiPZQyb6"
+      },
+      {
+        "no": "7",
+        "name": "MEDAN - Rahmadsyah",
+        "address": "Dekat bank bca, Jl. Rahmadsyah, Kotamatsum III, Kota Medan, Sumatera Utara 20215",
+        "phone": "082168681150",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://goo.gl/maps/PtpGrevv8UApnikZ6"
+      },
+      {
+        "no": "8",
+        "name": "Tanjung Sari - Medan",
+        "address": "Jl  Gagak Hitam, Tj. Sari, Kec. Medan Selayang, Kota Medan, Sumatera Utara 20133",
+        "phone": "082164932989",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/hpxM4w77X51aUh5F7"
+      },
+      {
+        "no": "9",
+        "name": "Deli Serdang",
+        "address": "Jl. Lintas Medan - Lubuk Pakam, Desa Tanjung Morawa B, Kec. Tanjung Morawa, Kab Deli Serdang",
+        "phone": "081264323012",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/MdorUoR4TRU7rhX78"
+      },
+      {
+        "no": "10",
+        "name": "Rantauprapat",
+        "address": "Jl. H. Adam Malik, No. 4-5, Kel. Sirandorung, Kec. Rantau Utara, Kab. Labuhan Batu, Sumatra Utara",
+        "phone": "082288028053",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://goo.gl/maps/ZFFxMDYSBB8JNEAv6"
+      },
+      {
+        "no": "11",
+        "name": "Medan Helvetia",
+        "address": "Jalan Menteng Raya No 8D,Depan Mesjid Al Hasanah, Desa Binjai , Kec. Medan Denai, Kab. Medan, Prov. Sumatera Utara",
+        "phone": "082124788615",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/NzgRomNSM8HsquJLA"
+      },
+      {
+        "no": "12",
+        "name": "Medan Barat",
+        "address": "Gudang Brayan Trade Center BTC No 03 Jl Veteran, Helvetia, Kec. Medan Helvetia, Kab. Medan, Sumatera Utara",
+        "phone": "082185103121",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/6U7VBozz5UzidfLw5"
+      },
+      {
+        "no": "13",
+        "name": "Kesawan - Medan Barat",
+        "address": "Jl. Kumango No 62, Desa Kesawan , Kec. Medan Barat, Kab. Medan, Prov. Sumatera Utara",
+        "phone": "081373623327",
+        "penerimaan": true,
+        "pengiriman": false,
+        "mapUrl": "https://maps.app.goo.gl/U2f84s7DhC36W9dq9"
+      },
+      {
+        "no": "14",
+        "name": "Deli Serdang - SumUt",
+        "address": "Jl. Pelita III C7 Kimstar, Desa Tanjung Morawa B , Kec. Tanjung Morawa, Kab. Deli Serdang, Prov. Sumatera Utara",
+        "phone": "021 1551151",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": ""
+      },
+      {
+        "no": "15",
+        "name": "Sibolga",
+        "address": "Jl Diponegoro, Desa Pasar Belakang , Kec. Sibolga Kota, Kab. Sibolga, Prov. Sumatera Utara",
+        "phone": "082381741652",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/zsehDuyL34R9Hvcp8"
+      },
+      {
+        "no": "16",
+        "name": "Lumban Pea",
+        "address": "Jl Siborong-Borong-Prapat, Desa Lumban Pea , Kec. Balige, Kab. Toba Samosir, Prov. Sumatera Utara",
+        "phone": "081374306629",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/zDnr3q5UxRzQ3eXU6"
+      },
+      {
+        "no": "17",
+        "name": "Titi Kuning",
+        "address": "Jl. Brigjen. Zein Hamid Ruko Gandeng No.5, Titi Kuning, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146",
+        "phone": "085373113206",
+        "penerimaan": true,
+        "pengiriman": true,
+        "mapUrl": "https://maps.app.goo.gl/eKeRaGcbd3vHyLj46"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+# Vercel Ignore
+*_files
+*Baraka Express*.html
+DSFUN asset
+fix_banners.py
+start-localhost.bat
+.git
+.gitignore
+*.log
+*.tmp

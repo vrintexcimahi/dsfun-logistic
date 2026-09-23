@@ -1,0 +1,17 @@
+# Logs & Temp
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+
+# Node
+node_modules/
+
+# Legacy backups
+*_files/
+*Baraka Express*.html
+DSFUN asset/
+fix_banners.py

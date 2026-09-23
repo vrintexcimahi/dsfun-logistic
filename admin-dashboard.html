@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Admin CMS | DS Fun Logistic</title>
+  <meta name="description" content="Dashboard Content Management System DS Fun Logistic">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css?v=3.4">
+  <style>
+    :root {
+      --dash-bg: #070B14;
+      --dash-sidebar: #0B1120;
+      --dash-card: #0F172A;
+      --dash-card-hover: #162038;
+      --dash-border: rgba(255, 255, 255, 0.08);
+      --dash-text: #F8FAFC;
+      --dash-text-muted: #94A3B8;
+      --brand-red: #D0021B;
+      --brand-blue: #0A4FC4;
+      --status-green: #10B981;
+      --status-amber: #F59E0B;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body.admin-dashboard-page {
+      margin: 0;
+      padding: 0;
+      background: var(--dash-bg);
+      color: var(--dash-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* Layout: Top Bar + Body (Sidebar + Main Content) */
+    .dash-topbar {
+      height: 64px;
+      background: var(--dash-sidebar);
+      border-bottom: 1px solid var(--dash-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(16px, 2.5vw, 32px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .dash-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .dash-brand img {
+      height: 36px;
+      width: auto;
+    }
+
+    .dash-brand-title {
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+    }
+
+    .dash-brand-badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      background: rgba(208, 2, 27, 0.2);
+      border: 1px solid rgba(208, 2, 27, 0.4);
+      color: #FF6B6B;
+      border-radius: 999px;
+    }
+
+    .dash-topbar-actions {
+      display: flex;
+      align-items: center;
+      gap: clamp(8px, 1.5vw, 16px);
+    }
+
+    .admin-user-pill {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--dash-border);
+      border-radius: 999px;
+      font-size: 12.5px;
+      color: var(--dash-text-muted);
+    }
+
+    .admin-user-pill strong {
+      color: #fff;
+    }
+
+    .btn-dash-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 8px;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: 1px solid transparent;
+    }
+
+    .btn-dash-preview {
+      background: rgba(10, 79, 196, 0.15);
+      border-color: rgba(10, 79, 196, 0.35);
+      color: #93C5FD;
+    }
+
+    .btn-dash-preview:hover {
+      background: rgba(10, 79, 196, 0.3);
+      color: #fff;
+    }
+
+    .btn-dash-logout {
+      background: rgba(208, 2, 27, 0.15);
+      border-color: rgba(208, 2, 27, 0.35);
+      color: #FCA5A5;
+    }
+
+    .btn-dash-logout:hover {
+      background: rgba(208, 2, 27, 0.35);
+      color: #fff;
+    }
+
+    /* Main Dashboard Layout */
+    .dash-container {
+      display: flex;
+      flex: 1;
+      min-height: calc(100vh - 64px);
+    }
+
+    /* Sidebar Navigation */
+    .dash-sidebar {
+      width: clamp(220px, 18vw, 260px);
+      background: var(--dash-sidebar);
+      border-right: 1px solid var(--dash-border);
+      padding: 20px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .sidebar-section-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #64748B;
+      padding: 12px 14px 6px;
+    }
+
+    .dash-nav-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      color: var(--dash-text-muted);
+      background: transparent;
+      border: none;
+      font-size: 13.5px;
+      font-weight: 600;
+      text-align: left;
+      cursor: pointer;
+      width: 100%;
+      transition: all 0.2s ease;
+    }
+
+    .dash-nav-btn:hover {
+      background: rgba(255, 255, 255, 0.04);
+      color: #fff;
+    }
+
+    .dash-nav-btn.active {
+      background: linear-gradient(135deg, rgba(208, 2, 27, 0.15), rgba(10, 79, 196, 0.2));
+      color: #fff;
+      border-left: 3px solid var(--brand-red);
+    }
+
+    .dash-nav-btn svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+      flex-shrink: 0;
+    }
+
+    /* Main Content Area */
+    .dash-main {
+      flex: 1;
+      padding: clamp(16px, 3vw, 36px);
+      overflow-y: auto;
+      max-width: 1200px;
+    }
+
+    .dash-header-title {
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 16px;
+      border-bottom: 1px solid var(--dash-border);
+      padding-bottom: 18px;
+    }
+
+    .dash-header-title h2 {
+      font-size: clamp(20px, 2.5vw, 26px);
+      font-weight: 800;
+      margin: 0 0 6px 0;
+      letter-spacing: -0.5px;
+    }
+
+    .dash-header-title p {
+      margin: 0;
+      color: var(--dash-text-muted);
+      font-size: 13.5px;
+    }
+
+    /* Tab Panes */
+    .dash-tab-pane {
+      display: none;
+      animation: fadeInPane 0.25s ease forwards;
+    }
+
+    .dash-tab-pane.active {
+      display: block;
+    }
+
+    @keyframes fadeInPane {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Cards */
+    .dash-card {
+      background: var(--dash-card);
+      border: 1px solid var(--dash-border);
+      border-radius: 16px;
+      padding: clamp(18px, 2.5vw, 26px);
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .dash-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .dash-card-title {
+      font-size: 17px;
+      font-weight: 700;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .dash-card-desc {
+      font-size: 13px;
+      color: var(--dash-text-muted);
+      margin-top: 4px;
+    }
+
+    /* Menu Visibility List (Show / Hide Menu) */
+    .menu-manager-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .menu-manager-table th {
+      text-align: left;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #64748B;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--dash-border);
+    }
+
+    .menu-manager-table td {
+      padding: 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      font-size: 13.5px;
+      vertical-align: middle;
+    }
+
+    .menu-manager-table tr:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .menu-item-name {
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .menu-item-url {
+      font-size: 12px;
+      color: var(--dash-text-muted);
+      font-family: monospace;
+    }
+
+    /* Switch Toggle */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 48px;
+      height: 26px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider-toggle {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #334155;
+      transition: 0.25s ease;
+      border-radius: 999px;
+    }
+
+    .slider-toggle:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    input:checked + .slider-toggle {
+      background: linear-gradient(135deg, var(--brand-red), var(--brand-blue));
+    }
+
+    input:checked + .slider-toggle:before {
+      transform: translateX(22px);
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11.5px;
+      font-weight: 700;
+    }
+
+    .status-badge.active {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      color: #34D399;
+    }
+
+    .status-badge.hidden {
+      background: rgba(148, 163, 184, 0.1);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      color: #94A3B8;
+    }
+
+    .input-dash {
+      width: 100%;
+      padding: 9px 12px;
+      background: rgba(10, 16, 32, 0.7);
+      border: 1px solid var(--dash-border);
+      border-radius: 8px;
+      color: #fff;
+      font-size: 13px;
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    .input-dash:focus {
+      border-color: var(--brand-blue);
+      box-shadow: 0 0 0 2px rgba(10, 79, 196, 0.2);
+    }
+
+    /* Banner Manager Grid */
+    .banner-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .banner-card-item {
+      background: rgba(10, 16, 32, 0.6);
+      border: 1px solid var(--dash-border);
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .banner-card-item:hover {
+      border-color: rgba(255, 255, 255, 0.15);
+      transform: translateY(-2px);
+    }
+
+    .banner-preview-box {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .banner-preview-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .banner-badge-pos {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(6px);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .banner-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex: 1;
+    }
+
+    /* Buttons */
+    .btn-save-cms {
+      padding: 10px 20px;
+      background: linear-gradient(135deg, var(--brand-red), #B00216);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 14px rgba(208, 2, 27, 0.35);
+      transition: all 0.2s ease;
+    }
+
+    .btn-save-cms:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(208, 2, 27, 0.5);
+    }
+
+    .btn-reset-cms {
+      padding: 10px 16px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--dash-border);
+      color: var(--dash-text-muted);
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn-reset-cms:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    /* Simulation Preview Box */
+    .preview-navbar-simulation {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px dashed rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-top: 18px;
+    }
+
+    .preview-nav-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--dash-text-muted);
+      margin-bottom: 12px;
+    }
+
+    .preview-nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .preview-pill {
+      padding: 6px 12px;
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 6px;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* System Stats Strip */
+    .stat-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .stat-card {
+      background: var(--dash-card);
+      border: 1px solid var(--dash-border);
+      border-radius: 12px;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .stat-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .stat-icon.red { background: rgba(208, 2, 27, 0.15); color: #FF6B6B; }
+    .stat-icon.blue { background: rgba(10, 79, 196, 0.15); color: #60A5FA; }
+    .stat-icon.green { background: rgba(16, 185, 129, 0.15); color: #34D399; }
+
+    .stat-body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--dash-text-muted);
+      margin-bottom: 2px;
+    }
+
+    .stat-value {
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    @media (max-width: 860px) {
+      .dash-container {
+        flex-direction: column;
+      }
+      .dash-sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--dash-border);
+        flex-direction: row;
+        overflow-x: auto;
+        padding: 10px;
+      }
+      .sidebar-section-title {
+        display: none;
+      }
+      .dash-nav-btn {
+        white-space: nowrap;
+      }
+    }
+  </style>
+</head>
+<body class="admin-dashboard-page">
+
+  <!-- Top Executive Bar -->
+  <header class="dash-topbar">
+    <div class="dash-brand">
+      <img src="assets/img/logo.png" alt="DS Fun Logistic Logo">
+      <div>
+        <div class="dash-brand-title">DS FUN LOGISTIC</div>
+      </div>
+      <span class="dash-brand-badge">PORTAL CMS</span>
+    </div>
+
+    <div class="dash-topbar-actions">
+      <div class="admin-user-pill">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="#10B981"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        <span id="currentAdminName">vrintex (Super Admin)</span>
+      </div>
+
+      <a href="/" target="_blank" class="btn-dash-action btn-dash-preview" title="Buka website publik">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        <span>Lihat Website</span>
+      </a>
+
+      <button type="button" class="btn-dash-action btn-dash-logout" id="btnLogoutAdmin" title="Kunci portal dan keluar">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+        <span>Kunci &amp; Keluar</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Container -->
+  <div class="dash-container">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="dash-sidebar">
+      <div class="sidebar-section-title">Manajemen Konten</div>
+
+      <button type="button" class="dash-nav-btn active" data-tab="tab-menus">
+        <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        <span>Show / Hide Menu</span>
+      </button>
+
+      <button type="button" class="dash-nav-btn" data-tab="tab-banners">
+        <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+        <span>Hero Banner Slider</span>
+      </button>
+
+      <button type="button" class="dash-nav-btn" data-tab="tab-alerts">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <span>Pengumuman &amp; Alert</span>
+      </button>
+
+      <div class="sidebar-section-title">Konfigurasi Bisnis</div>
+
+      <button type="button" class="dash-nav-btn" data-tab="tab-rates">
+        <svg viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+        <span>Tarif &amp; Layanan</span>
+      </button>
+
+      <button type="button" class="dash-nav-btn" data-tab="tab-contact">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <span>Kontak &amp; CS WhatsApp</span>
+      </button>
+
+      <button type="button" class="dash-nav-btn" data-tab="tab-system">
+        <svg viewBox="0 0 24 24"><path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/></svg>
+        <span>Status Sistem</span>
+      </button>
+    </aside>
+
+    <!-- Main Content Panes -->
+    <main class="dash-main">
+
+      <!-- Status Summary Strip -->
+      <div class="stat-strip">
+        <div class="stat-card">
+          <div class="stat-icon blue">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+          </div>
+          <div class="stat-body">
+            <span class="stat-label">Menu Aktif</span>
+            <span class="stat-value" id="statActiveMenus">7 / 7</span>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon red">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+          </div>
+          <div class="stat-body">
+            <span class="stat-label">Banner Carousel</span>
+            <span class="stat-value" id="statActiveBanners">4 Slide</span>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon green">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          </div>
+          <div class="stat-body">
+            <span class="stat-label">Status Server</span>
+            <span class="stat-value">Port 3001 (Online)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- TAB 1: SHOW / HIDE MENU NAVIGASI (FITUR UTAMA)           -->
+      <!-- ======================================================== -->
+      <section class="dash-tab-pane active" id="tab-menus">
+        <div class="dash-header-title">
+          <div>
+            <h2>Manajemen Visibilitas Menu Navigasi</h2>
+            <p>Atur menu apa saja yang ingin ditampilkan atau disembunyikan dari navbar publik dan drawer mobile.</p>
+          </div>
+          <div style="display:flex; gap: 10px;">
+            <button type="button" class="btn-reset-cms" id="btnResetMenus">Reset Default</button>
+            <button type="button" class="btn-save-cms" id="btnSaveMenus">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
+              Simpan Pengaturan Menu
+            </button>
+          </div>
+        </div>
+
+        <div class="dash-card">
+          <div class="dash-card-header">
+            <div>
+              <h3 class="dash-card-title">Daftar Menu Navigasi Website</h3>
+              <div class="dash-card-desc">Gunakan sakelar switch untuk menampilkan (ON) atau menyembunyikan (OFF) menu secara instan.</div>
+            </div>
+          </div>
+
+          <div style="overflow-x: auto;">
+            <table class="menu-manager-table">
+              <thead>
+                <tr>
+                  <th style="width: 50px;">No</th>
+                  <th>Nama Menu</th>
+                  <th>Tautan (URL)</th>
+                  <th>Deskripsi Halaman</th>
+                  <th style="width: 140px; text-align: center;">Tampilkan Menu</th>
+                  <th style="width: 120px; text-align: center;">Status</th>
+                </tr>
+              </thead>
+              <tbody id="menuTableBody">
+                <!-- Injected via JavaScript -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Live Navbar Simulation Box -->
+          <div class="preview-navbar-simulation">
+            <div class="preview-nav-title">Simulasi Tampilan Navigasi Publik:</div>
+            <div class="preview-nav-pills" id="previewNavPills">
+              <!-- Live preview pills -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- TAB 2: HERO BANNER CAROUSEL MANAGER                      -->
+      <!-- ======================================================== -->
+      <section class="dash-tab-pane" id="tab-banners">
+        <div class="dash-header-title">
+          <div>
+            <h2>Manajemen Banner Carousel Utama</h2>
+            <p>Kelola urutan, status aktif, judul, dan link tombol aksi pada banner beranda.</p>
+          </div>
+          <button type="button" class="btn-save-cms" id="btnSaveBanners">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
+            Simpan Konfigurasi Banner
+          </button>
+        </div>
+
+        <div class="banner-grid" id="bannerGridContainer">
+          <!-- Injected via JavaScript -->
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- TAB 3: PENGUMUMAN & ALERT PERINGATAN                     -->
+      <!-- ======================================================== -->
+      <section class="dash-tab-pane" id="tab-alerts">
+        <div class="dash-header-title">
+          <div>
+            <h2>Pengumuman &amp; Alert Keamanan</h2>
+            <p>Kelola teks peringatan penipuan, komitmen bebas pungli, dan running ticker promo.</p>
+          </div>
+          <button type="button" class="btn-save-cms" id="btnSaveAlerts">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
+            Simpan Pengumuman
+          </button>
+        </div>
+
+        <div class="dash-card">
+          <div class="dash-card-header">
+            <h3 class="dash-card-title">⚠️ Peringatan Waspada Penipuan</h3>
+            <label class="switch">
+              <input type="checkbox" id="toggleWarningPenipuan" checked>
+              <span class="slider-toggle"></span>
+            </label>
+          </div>
+          <p class="dash-card-desc">Teks ini tampil sebagai banner peringatan resmi di area transaksi &amp; cek tarif.</p>
+          <input type="text" class="input-dash" id="textWarningPenipuan" value="WASPADA PENIPUAN: Rekening resmi pembayaran kargo hanya atas nama PT DS FUN LOGISTIC.">
+        </div>
+
+        <div class="dash-card">
+          <div class="dash-card-header">
+            <h3 class="dash-card-title">🛡️ Komitmen Bebas Pungli</h3>
+            <label class="switch">
+              <input type="checkbox" id="toggleBebasPungli" checked>
+              <span class="slider-toggle"></span>
+            </label>
+          </div>
+          <p class="dash-card-desc">Lencana penegasan integritas layanan tanpa biaya terselubung.</p>
+          <input type="text" class="input-dash" id="textBebasPungli" value="BEBAS PUNGLI: Laporkan segala bentuk pungutan liar di luar tagihan resmi.">
+        </div>
+
+        <div class="dash-card">
+          <div class="dash-card-header">
+            <h3 class="dash-card-title">📢 Running Ticker Pengumuman / Info Operasional</h3>
+            <label class="switch">
+              <input type="checkbox" id="toggleTicker" checked>
+              <span class="slider-toggle"></span>
+            </label>
+          </div>
+          <p class="dash-card-desc">Pesan berjalan untuk informasi libur hari raya, promo, atau pembaruan rute.</p>
+          <textarea class="input-dash" id="textTicker" rows="2">DS FUN LOGISTIC melayani pengiriman kargo partai besar &amp; kelontongan ke seluruh Indonesia dengan jaminan aman dan tepat waktu.</textarea>
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- TAB 4: PENGATURAN TARIF & LAYANAN KARGO                  -->
+      <!-- ======================================================== -->
+      <section class="dash-tab-pane" id="tab-rates">
+        <div class="dash-header-title">
+          <div>
+            <h2>Konfigurasi Kebijakan Tarif &amp; Layanan</h2>
+            <p>Atur bobot minimum charge kargo, faktor pengali tarif, dan estimasi waktu kirim.</p>
+          </div>
+          <button type="button" class="btn-save-cms" id="btnSaveRates">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
+            Simpan Konfigurasi Tarif
+          </button>
+        </div>
+
+        <div class="dash-card">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+            <div>
+              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Minimum Berat Kirim (Kg):</label>
+              <input type="number" class="input-dash" id="inputMinWeight" value="10" min="1" max="100">
+              <span style="font-size:12px; color:var(--dash-text-muted); display:block; margin-top:4px;">Batas minimal hitungan ongkos kirim kargo darat.</span>
+            </div>
+
+            <div>
+              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Faktor Pengali Promo (1.0 = Normal, 0.9 = Diskon 10%):</label>
+              <input type="number" step="0.05" class="input-dash" id="inputMultiplier" value="1.0" min="0.5" max="2.0">
+              <span style="font-size:12px; color:var(--dash-text-muted); display:block; margin-top:4px;">Koreksi tarif langsung untuk promo musiman.</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 20px;">
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Catatan Estimasi Waktu Pengiriman Default:</label>
+            <input type="text" class="input-dash" id="inputLeadTime" value="Estimasi pengiriman kargo darat 2-4 hari kerja.">
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- TAB 5: KONTAK & CS WHATSAPP                              -->
+      <!-- ======================================================== -->
+      <section class="dash-tab-pane" id="tab-contact">
+        <div class="dash-header-title">
+          <div>
+            <h2>Saluran Kontak &amp; Customer Care</h2>
+            <p>Pengaturan nomor WhatsApp CS terhubung langsung ke tombol WhatsApp di seluruh halaman publik.</p>
+          </div>
+          <button type="button" class="btn-save-cms" id="btnSaveContact">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
+            Simpan Kontak CS
+          </button>
+        </div>
+
+        <div class="dash-card">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+            <div>
+              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Nomor WhatsApp CS (Format Internasional: 628...):</label>
+              <input type="text" class="input-dash" id="inputContactWA" value="628100000000">
+            </div>
+
+            <div>
+              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Nomor Call Center:</label>
+              <input type="text" class="input-dash" id="inputContactPhone" value="(021) 00000000">
+            </div>
+
+            <div>
+              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Email Dukungan:</label>
+              <input type="email" class="input-dash" id="inputContactEmail" value="customercare@dsfunlogistic.id">
+            </div>
+
+            <div>
+              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Jam Operasional Layanan:</label>
+              <input type="text" class="input-dash" id="inputContactHours" value="Senin - Sabtu: 08:00 - 18:00 WIB">
+            </div>
+          </div>
+
+          <div style="margin-top: 20px;">
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Alamat Kantor Pusat:</label>
+            <input type="text" class="input-dash" id="inputContactAddress" value="Jl. Raya Setu No. 88, Cipayung, Jakarta Timur">
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- TAB 6: STATUS SISTEM                                     -->
+      <!-- ======================================================== -->
+      <section class="dash-tab-pane" id="tab-system">
+        <div class="dash-header-title">
+          <div>
+            <h2>Diagnostik &amp; Status Sistem</h2>
+            <p>Informasi arsitektur lokal, status keamanan sesi, dan cache zero-latency.</p>
+          </div>
+        </div>
+
+        <div class="dash-card">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;">
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:10px;">
+              <div style="font-size:12px; color:var(--dash-text-muted);">Runtime &amp; Port:</div>
+              <div style="font-size:16px; font-weight:700; color:#fff; margin-top:4px;">Node.js v22.18 · Port 3001</div>
+            </div>
+
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:10px;">
+              <div style="font-size:12px; color:var(--dash-text-muted);">Cache Headers:</div>
+              <div style="font-size:16px; font-weight:700; color:#34D399; margin-top:4px;">no-cache, must-revalidate</div>
+            </div>
+
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:10px;">
+              <div style="font-size:12px; color:var(--dash-text-muted);">Metode Easter Egg:</div>
+              <div style="font-size:16px; font-weight:700; color:#60A5FA; margin-top:4px;">15-Tap Android DevMode</div>
+            </div>
+
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:10px;">
+              <div style="font-size:12px; color:var(--dash-text-muted);">Penyimpanan CMS:</div>
+              <div style="font-size:16px; font-weight:700; color:#FCD34D; margin-top:4px;">data/cms_config.json + LocalSync</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- Android Toast Notification -->
+  <div id="dsfun-android-toast" class="dsfun-android-toast"></div>
+
+  <!-- Dashboard Logic -->
+  <script src="assets/js/easter-egg.js?v=3.4"></script>
+  <script>
+    (function () {
+      'use strict';
+
+      // 1. Session Auth Guard
+      const token = sessionStorage.getItem('dsfun_admin_token');
+      const userStr = sessionStorage.getItem('dsfun_admin_user');
+
+      if (!token) {
+        // Redirect to login if not authenticated
+        window.location.href = 'admin-login.html';
+        return;
+      }
+
+      if (userStr) {
+        try {
+          const user = JSON.parse(userStr);
+          document.getElementById('currentAdminName').textContent = `${user.username || 'vrintex'} (${user.role === 'admin' ? 'Administrator' : 'User'})`;
+        } catch (e) {}
+      }
+
+      // Logout handler
+      document.getElementById('btnLogoutAdmin').addEventListener('click', () => {
+        sessionStorage.removeItem('dsfun_admin_token');
+        sessionStorage.removeItem('dsfun_admin_user');
+        sessionStorage.removeItem('admin_unlocked');
+        sessionStorage.removeItem('app_admin_unlocked');
+        window.DSFunEasterEgg.showToast('🔒 Sesi telah ditutup & Portal Admin dikunci kembali.', 'info');
+        setTimeout(() => {
+          window.location.href = '/';
+        }, 800);
+      });
+
+      // 2. Tab Navigation
+      const navBtns = document.querySelectorAll('.dash-nav-btn');
+      const tabPanes = document.querySelectorAll('.dash-tab-pane');
+
+      navBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = btn.getAttribute('data-tab');
+          navBtns.forEach(b => b.classList.remove('active'));
+          tabPanes.forEach(p => p.classList.remove('active'));
+
+          btn.classList.add('active');
+          const pane = document.getElementById(target);
+          if (pane) pane.classList.add('active');
+        });
+      });
+
+      // 3. CMS State
+      let cmsConfig = null;
+
+      async function loadCMSData() {
+        try {
+          const resp = await fetch('/api/admin/content?t=' + Date.now());
+          if (resp.ok) {
+            cmsConfig = await resp.json();
+          } else {
+            throw new Error('API returned ' + resp.status);
+          }
+        } catch (err) {
+          // Fallback to localStorage or defaults
+          const local = localStorage.getItem('dsfun_cms_config');
+          if (local) {
+            try { cmsConfig = JSON.parse(local); } catch (e) {}
+          }
+        }
+
+        if (!cmsConfig) {
+          cmsConfig = getDefaultConfig();
+        }
+
+        renderMenuManager();
+        renderBannerManager();
+        renderAlertsManager();
+        renderRatesManager();
+        renderContactManager();
+        updateStats();
+      }
+
+      function getDefaultConfig() {
+        return {
+          menus: [
+            { id: "menu_beranda", label: "Beranda", url: "/", visible: true, description: "Halaman utama website DS Fun" },
+            { id: "menu_cek_resi", label: "Cek Resi", url: "cek-resi.html", visible: true, description: "Pelacakan resi kargo real-time" },
+            { id: "menu_cek_tarif", label: "Cek Tarif", url: "cek-tarif.html", visible: true, description: "Kalkulasi ongkos kirim kargo & kelontongan" },
+            { id: "menu_lokasi_cabang", label: "Lokasi Cabang", url: "lokasi-cabang.html", visible: true, description: "Peta sebaran kantor cabang & cover area" },
+            { id: "menu_karir", label: "Karir", url: "karir.html", visible: true, description: "Informasi rekrutmen & lowongan kerja" },
+            { id: "menu_profil", label: "Profil", url: "tentang-kami.html", visible: true, description: "Profil perusahaan & visi misi" },
+            { id: "menu_hubungi_kami", label: "Hubungi Kami", url: "hubungi-kami.html", visible: true, description: "Saluran kontak & formulir pesan" }
+          ],
+          banners: [
+            { id: 1, active: true, title: "Brand Utama", headline: "Kepuasan Pelanggan Adalah Prioritas Kami", img: "assets/img/hero-banner-1.png", link: "tentang-kami.html" },
+            { id: 2, active: true, title: "Jaringan Nasional", headline: "Jaringan Pengiriman Sabang Sampai Merauke", img: "assets/img/hero-banner-2.png", link: "cover-area.html" },
+            { id: 3, active: true, title: "Cargo & Trucking", headline: "Armada Tangguh & Pengiriman Partai Besar", img: "assets/img/hero-banner-3.png", link: "cek-tarif.html" },
+            { id: 4, active: true, title: "Pengiriman Express", headline: "Pengiriman Express — Cepat & Tepat Waktu", img: "assets/img/hero-banner-4.png", link: "cek-resi.html" }
+          ],
+          alerts: {
+            show_warning_penipuan: true,
+            warning_text: "WASPADA PENIPUAN: Rekening resmi pembayaran kargo hanya atas nama PT DS FUN LOGISTIC.",
+            show_bebas_pungli: true,
+            bebas_pungli_text: "BEBAS PUNGLI: Laporkan segala bentuk pungutan liar di luar tagihan resmi.",
+            show_ticker: true,
+            ticker_text: "DS FUN LOGISTIC melayani pengiriman kargo partai besar & kelontongan ke seluruh Indonesia dengan jaminan aman dan tepat waktu."
+          },
+          rates_config: { min_weight_kg: 10, rate_multiplier: 1.0, lead_time_note: "Estimasi pengiriman kargo darat 2-4 hari kerja." },
+          contact: { cs_whatsapp: "628100000000", call_center: "(021) 00000000", email: "customercare@dsfunlogistic.id", address: "Jl. Raya Setu No. 88, Cipayung, Jakarta Timur", operational_hours: "Senin - Sabtu: 08:00 - 18:00 WIB" }
+        };
+      }
+
+      // ==========================================
+      // RENDER 1: MENU VISIBILITY MANAGER
+      // ==========================================
+      function renderMenuManager() {
+        const tbody = document.getElementById('menuTableBody');
+        const previewPills = document.getElementById('previewNavPills');
+        if (!tbody || !cmsConfig.menus) return;
+
+        tbody.innerHTML = '';
+        previewPills.innerHTML = '';
+
+        cmsConfig.menus.forEach((item, idx) => {
+          const tr = document.createElement('tr');
+          const isVis = item.visible !== false;
+
+          tr.innerHTML = `
+            <td style="color:var(--dash-text-muted); font-weight:600;">${idx + 1}</td>
+            <td>
+              <input type="text" class="input-dash menu-label-input" data-id="${item.id}" value="${item.label}" style="max-width: 180px; font-weight:700;">
+            </td>
+            <td>
+              <span class="menu-item-url">${item.url}</span>
+            </td>
+            <td style="color:var(--dash-text-muted); font-size:12.5px;">${item.description || '-'}</td>
+            <td style="text-align: center;">
+              <label class="switch">
+                <input type="checkbox" class="menu-visibility-toggle" data-id="${item.id}" ${isVis ? 'checked' : ''}>
+                <span class="slider-toggle"></span>
+              </label>
+            </td>
+            <td style="text-align: center;">
+              <span class="status-badge ${isVis ? 'active' : 'hidden'}" id="badge-${item.id}">
+                ${isVis ? '🟢 Tampil' : '⚪ Sembunyi'}
+              </span>
+            </td>
+          `;
+          tbody.appendChild(tr);
+
+          // Add to simulation preview
+          if (isVis) {
+            const pill = document.createElement('div');
+            pill.className = 'preview-pill';
+            pill.innerHTML = `<span>${item.label}</span>`;
+            previewPills.appendChild(pill);
+          }
+        });
+
+        // Attach change listeners for toggles
+        tbody.querySelectorAll('.menu-visibility-toggle').forEach(chk => {
+          chk.addEventListener('change', (e) => {
+            const menuId = chk.getAttribute('data-id');
+            const checked = chk.checked;
+            const target = cmsConfig.menus.find(m => m.id === menuId);
+            if (target) target.visible = checked;
+
+            const badge = document.getElementById(`badge-${menuId}`);
+            if (badge) {
+              badge.className = `status-badge ${checked ? 'active' : 'hidden'}`;
+              badge.textContent = checked ? '🟢 Tampil' : '⚪ Sembunyi';
+            }
+
+            updateMenuPreview();
+            updateStats();
+          });
+        });
+
+        // Label inputs
+        tbody.querySelectorAll('.menu-label-input').forEach(inp => {
+          inp.addEventListener('input', (e) => {
+            const menuId = inp.getAttribute('data-id');
+            const target = cmsConfig.menus.find(m => m.id === menuId);
+            if (target) target.label = inp.value;
+            updateMenuPreview();
+          });
+        });
+      }
+
+      function updateMenuPreview() {
+        const previewPills = document.getElementById('previewNavPills');
+        previewPills.innerHTML = '';
+        cmsConfig.menus.forEach(item => {
+          if (item.visible !== false) {
+            const pill = document.createElement('div');
+            pill.className = 'preview-pill';
+            pill.innerHTML = `<span>${item.label}</span>`;
+            previewPills.appendChild(pill);
+          }
+        });
+      }
+
+      // ==========================================
+      // RENDER 2: BANNER CAROUSEL MANAGER
+      // ==========================================
+      function renderBannerManager() {
+        const grid = document.getElementById('bannerGridContainer');
+        if (!grid || !cmsConfig.banners) return;
+
+        grid.innerHTML = '';
+
+        cmsConfig.banners.forEach((banner, idx) => {
+          const card = document.createElement('div');
+          card.className = 'banner-card-item';
+          const isActive = banner.active !== false;
+
+          card.innerHTML = `
+            <div class="banner-preview-box">
+              <img src="${banner.img}" alt="${banner.title}">
+              <div class="banner-badge-pos">Slide #${idx + 1}</div>
+            </div>
+            <div class="banner-body">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <strong style="color:#fff; font-size:14px;">Status Slide:</strong>
+                <label class="switch">
+                  <input type="checkbox" class="banner-active-toggle" data-idx="${idx}" ${isActive ? 'checked' : ''}>
+                  <span class="slider-toggle"></span>
+                </label>
+              </div>
+
+              <div>
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Judul Badge / Tab:</label>
+                <input type="text" class="input-dash banner-title-input" data-idx="${idx}" value="${banner.title}">
+              </div>
+
+              <div>
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Headline Banner:</label>
+                <input type="text" class="input-dash banner-headline-input" data-idx="${idx}" value="${banner.headline}">
+              </div>
+
+              <div>
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Link Tujuan:</label>
+                <input type="text" class="input-dash banner-link-input" data-idx="${idx}" value="${banner.link}">
+              </div>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+
+        // Event listeners
+        grid.querySelectorAll('.banner-active-toggle').forEach(chk => {
+          chk.addEventListener('change', () => {
+            const idx = Number(chk.getAttribute('data-idx'));
+            if (cmsConfig.banners[idx]) cmsConfig.banners[idx].active = chk.checked;
+            updateStats();
+          });
+        });
+
+        grid.querySelectorAll('.banner-title-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.banners[idx]) cmsConfig.banners[idx].title = inp.value;
+          });
+        });
+
+        grid.querySelectorAll('.banner-headline-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.banners[idx]) cmsConfig.banners[idx].headline = inp.value;
+          });
+        });
+
+        grid.querySelectorAll('.banner-link-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.banners[idx]) cmsConfig.banners[idx].link = inp.value;
+          });
+        });
+      }
+
+      // ==========================================
+      // RENDER 3: ALERTS & NOTIFICATIONS
+      // ==========================================
+      function renderAlertsManager() {
+        if (!cmsConfig.alerts) return;
+        document.getElementById('toggleWarningPenipuan').checked = cmsConfig.alerts.show_warning_penipuan !== false;
+        document.getElementById('textWarningPenipuan').value = cmsConfig.alerts.warning_text || '';
+
+        document.getElementById('toggleBebasPungli').checked = cmsConfig.alerts.show_bebas_pungli !== false;
+        document.getElementById('textBebasPungli').value = cmsConfig.alerts.bebas_pungli_text || '';
+
+        document.getElementById('toggleTicker').checked = cmsConfig.alerts.show_ticker !== false;
+        document.getElementById('textTicker').value = cmsConfig.alerts.ticker_text || '';
+      }
+
+      // ==========================================
+      // RENDER 4: RATES & SERVICES
+      // ==========================================
+      function renderRatesManager() {
+        if (!cmsConfig.rates_config) return;
+        document.getElementById('inputMinWeight').value = cmsConfig.rates_config.min_weight_kg || 10;
+        document.getElementById('inputMultiplier').value = cmsConfig.rates_config.rate_multiplier || 1.0;
+        document.getElementById('inputLeadTime').value = cmsConfig.rates_config.lead_time_note || '';
+      }
+
+      // ==========================================
+      // RENDER 5: CONTACT & CS
+      // ==========================================
+      function renderContactManager() {
+        if (!cmsConfig.contact) return;
+        document.getElementById('inputContactWA').value = cmsConfig.contact.cs_whatsapp || '628100000000';
+        document.getElementById('inputContactPhone').value = cmsConfig.contact.call_center || '(021) 00000000';
+        document.getElementById('inputContactEmail').value = cmsConfig.contact.email || 'customercare@dsfunlogistic.id';
+        document.getElementById('inputContactHours').value = cmsConfig.contact.operational_hours || '';
+        document.getElementById('inputContactAddress').value = cmsConfig.contact.address || '';
+      }
+
+      // Stats updater
+      function updateStats() {
+        if (cmsConfig.menus) {
+          const act = cmsConfig.menus.filter(m => m.visible !== false).length;
+          document.getElementById('statActiveMenus').textContent = `${act} / ${cmsConfig.menus.length}`;
+        }
+        if (cmsConfig.banners) {
+          const actB = cmsConfig.banners.filter(b => b.active !== false).length;
+          document.getElementById('statActiveBanners').textContent = `${actB} Slide Aktif`;
+        }
+      }
+
+      // Save CMS helper
+      async function saveCMSData() {
+        // Collect alerts
+        cmsConfig.alerts = {
+          show_warning_penipuan: document.getElementById('toggleWarningPenipuan').checked,
+          warning_text: document.getElementById('textWarningPenipuan').value.trim(),
+          show_bebas_pungli: document.getElementById('toggleBebasPungli').checked,
+          bebas_pungli_text: document.getElementById('textBebasPungli').value.trim(),
+          show_ticker: document.getElementById('toggleTicker').checked,
+          ticker_text: document.getElementById('textTicker').value.trim()
+        };
+
+        // Collect rates
+        cmsConfig.rates_config = {
+          min_weight_kg: Number(document.getElementById('inputMinWeight').value) || 10,
+          rate_multiplier: Number(document.getElementById('inputMultiplier').value) || 1.0,
+          lead_time_note: document.getElementById('inputLeadTime').value.trim()
+        };
+
+        // Collect contact
+        cmsConfig.contact = {
+          cs_whatsapp: document.getElementById('inputContactWA').value.trim(),
+          call_center: document.getElementById('inputContactPhone').value.trim(),
+          email: document.getElementById('inputContactEmail').value.trim(),
+          operational_hours: document.getElementById('inputContactHours').value.trim(),
+          address: document.getElementById('inputContactAddress').value.trim()
+        };
+
+        // Save locally for instant reactivity
+        localStorage.setItem('dsfun_cms_config', JSON.stringify(cmsConfig));
+
+        // Save to backend server
+        try {
+          const resp = await fetch('/api/admin/content', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(cmsConfig)
+          });
+          const res = await resp.json();
+          window.DSFunEasterEgg.showToast('✅ ' + (res.message || 'Konfigurasi CMS berhasil disimpan!'), 'success');
+        } catch (err) {
+          window.DSFunEasterEgg.showToast('✅ Konfigurasi disimpan ke penyimpanan lokal!', 'success');
+        }
+      }
+
+      // Save buttons bindings
+      document.getElementById('btnSaveMenus').addEventListener('click', saveCMSData);
+      document.getElementById('btnSaveBanners').addEventListener('click', saveCMSData);
+      document.getElementById('btnSaveAlerts').addEventListener('click', saveCMSData);
+      document.getElementById('btnSaveRates').addEventListener('click', saveCMSData);
+      document.getElementById('btnSaveContact').addEventListener('click', saveCMSData);
+
+      // Reset menu button
+      document.getElementById('btnResetMenus').addEventListener('click', () => {
+        if (confirm('Kembalikan visibilitas semua menu ke kondisi awal (semua aktif)?')) {
+          cmsConfig.menus.forEach(m => m.visible = true);
+          renderMenuManager();
+          saveCMSData();
+        }
+      });
+
+      // Initialize
+      loadCMSData();
+    })();
+  </script>
+</body>
+</html>
