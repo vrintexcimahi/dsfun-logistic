@@ -15,3 +15,6 @@ node_modules/
 *Baraka Express*.html
 DSFUN asset/
 fix_banners.py
+
+.vercel
+.env*
