@@ -530,6 +530,22 @@ button, input, select, textarea {
   border: 1px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   pointer-events: auto;
+  max-width: 96vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(208, 2, 27, 0.5) transparent;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slider-dots::-webkit-scrollbar {
+  height: 3px;
+}
+
+.slider-dots::-webkit-scrollbar-thumb {
+  background: rgba(208, 2, 27, 0.5);
+  border-radius: 999px;
 }
 
 .slider-pill {

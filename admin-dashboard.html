@@ -6,7 +6,7 @@
   <title>Dashboard Admin CMS | DS Fun Logistic</title>
   <meta name="description" content="Dashboard Content Management System DS Fun Logistic">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
-  <link rel="stylesheet" href="assets/css/style.css?v=3.4">
+  <link rel="stylesheet" href="assets/css/style.css?v=3.5">
   <style>
     :root {
       --dash-bg: #070B14;
@@ -38,7 +38,7 @@
       overflow-x: hidden;
     }
 
-    /* Layout: Top Bar + Body (Sidebar + Main Content) */
+    /* Layout: Top Bar + Body */
     .dash-topbar {
       height: 64px;
       background: var(--dash-sidebar);
@@ -61,46 +61,45 @@
     }
 
     .dash-brand img {
-      height: 36px;
+      height: 34px;
       width: auto;
+      object-fit: contain;
     }
 
     .dash-brand-title {
-      font-size: 15px;
       font-weight: 800;
+      font-size: 15px;
       letter-spacing: -0.3px;
     }
 
     .dash-brand-badge {
+      background: rgba(208, 2, 27, 0.2);
+      border: 1px solid rgba(208, 2, 27, 0.4);
+      color: #FF4D4D;
       font-size: 11px;
       font-weight: 700;
       padding: 2px 8px;
-      background: rgba(208, 2, 27, 0.2);
-      border: 1px solid rgba(208, 2, 27, 0.4);
-      color: #FF6B6B;
-      border-radius: 999px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
 
     .dash-topbar-actions {
       display: flex;
       align-items: center;
-      gap: clamp(8px, 1.5vw, 16px);
+      gap: 12px;
     }
 
     .admin-user-pill {
       display: flex;
       align-items: center;
       gap: 8px;
-      padding: 6px 12px;
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid var(--dash-border);
+      padding: 6px 14px;
       border-radius: 999px;
       font-size: 12.5px;
       color: var(--dash-text-muted);
-    }
-
-    .admin-user-pill strong {
-      color: #fff;
     }
 
     .btn-dash-action {
@@ -109,18 +108,18 @@
       gap: 6px;
       padding: 7px 14px;
       border-radius: 8px;
-      font-size: 12.5px;
+      font-size: 13px;
       font-weight: 600;
       cursor: pointer;
       text-decoration: none;
       transition: all 0.2s ease;
-      border: 1px solid transparent;
+      border: none;
     }
 
     .btn-dash-preview {
       background: rgba(10, 79, 196, 0.15);
-      border-color: rgba(10, 79, 196, 0.35);
-      color: #93C5FD;
+      border: 1px solid rgba(10, 79, 196, 0.35);
+      color: #60A5FA;
     }
 
     .btn-dash-preview:hover {
@@ -129,17 +128,17 @@
     }
 
     .btn-dash-logout {
-      background: rgba(208, 2, 27, 0.15);
-      border-color: rgba(208, 2, 27, 0.35);
-      color: #FCA5A5;
+      background: rgba(239, 68, 68, 0.15);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #F87171;
     }
 
     .btn-dash-logout:hover {
-      background: rgba(208, 2, 27, 0.35);
+      background: rgba(239, 68, 68, 0.25);
       color: #fff;
     }
 
-    /* Main Dashboard Layout */
+    /* Container */
     .dash-container {
       display: flex;
       flex: 1;
@@ -148,13 +147,13 @@
 
     /* Sidebar Navigation */
     .dash-sidebar {
-      width: clamp(220px, 18vw, 260px);
+      width: clamp(230px, 19vw, 270px);
       background: var(--dash-sidebar);
       border-right: 1px solid var(--dash-border);
       padding: 20px 12px;
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 4px;
       flex-shrink: 0;
     }
 
@@ -207,7 +206,7 @@
       flex: 1;
       padding: clamp(16px, 3vw, 36px);
       overflow-y: auto;
-      max-width: 1200px;
+      max-width: 1260px;
     }
 
     .dash-header-title {
@@ -253,147 +252,32 @@
     .dash-card {
       background: var(--dash-card);
       border: 1px solid var(--dash-border);
-      border-radius: 16px;
-      padding: clamp(18px, 2.5vw, 26px);
-      margin-bottom: 24px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+      border-radius: 14px;
+      padding: clamp(16px, 2.5vw, 24px);
+      margin-bottom: 20px;
     }
 
     .dash-card-header {
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
-      gap: 12px;
+      align-items: center;
+      margin-bottom: 16px;
     }
 
     .dash-card-title {
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 700;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      margin: 0 0 4px 0;
+      color: #fff;
     }
 
     .dash-card-desc {
       font-size: 13px;
       color: var(--dash-text-muted);
-      margin-top: 4px;
+      margin: 0 0 16px 0;
     }
 
-    /* Menu Visibility List (Show / Hide Menu) */
-    .menu-manager-table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    .menu-manager-table th {
-      text-align: left;
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-      color: #64748B;
-      padding: 12px 14px;
-      border-bottom: 1px solid var(--dash-border);
-    }
-
-    .menu-manager-table td {
-      padding: 14px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-      font-size: 13.5px;
-      vertical-align: middle;
-    }
-
-    .menu-manager-table tr:hover {
-      background: rgba(255, 255, 255, 0.02);
-    }
-
-    .menu-item-name {
-      font-weight: 700;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .menu-item-url {
-      font-size: 12px;
-      color: var(--dash-text-muted);
-      font-family: monospace;
-    }
-
-    /* Switch Toggle */
-    .switch {
-      position: relative;
-      display: inline-block;
-      width: 48px;
-      height: 26px;
-    }
-
-    .switch input {
-      opacity: 0;
-      width: 0;
-      height: 0;
-    }
-
-    .slider-toggle {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #334155;
-      transition: 0.25s ease;
-      border-radius: 999px;
-    }
-
-    .slider-toggle:before {
-      position: absolute;
-      content: "";
-      height: 20px;
-      width: 20px;
-      left: 3px;
-      bottom: 3px;
-      background-color: white;
-      transition: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-      border-radius: 50%;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-    }
-
-    input:checked + .slider-toggle {
-      background: linear-gradient(135deg, var(--brand-red), var(--brand-blue));
-    }
-
-    input:checked + .slider-toggle:before {
-      transform: translateX(22px);
-    }
-
-    .status-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 4px 10px;
-      border-radius: 999px;
-      font-size: 11.5px;
-      font-weight: 700;
-    }
-
-    .status-badge.active {
-      background: rgba(16, 185, 129, 0.15);
-      border: 1px solid rgba(16, 185, 129, 0.35);
-      color: #34D399;
-    }
-
-    .status-badge.hidden {
-      background: rgba(148, 163, 184, 0.1);
-      border: 1px solid rgba(148, 163, 184, 0.25);
-      color: #94A3B8;
-    }
-
+    /* Inputs */
     .input-dash {
       width: 100%;
       padding: 9px 12px;
@@ -411,61 +295,48 @@
       box-shadow: 0 0 0 2px rgba(10, 79, 196, 0.2);
     }
 
-    /* Banner Manager Grid */
-    .banner-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 20px;
-    }
-
-    .banner-card-item {
-      background: rgba(10, 16, 32, 0.6);
-      border: 1px solid var(--dash-border);
-      border-radius: 14px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      transition: border-color 0.2s ease, transform 0.2s ease;
-    }
-
-    .banner-card-item:hover {
-      border-color: rgba(255, 255, 255, 0.15);
-      transform: translateY(-2px);
-    }
-
-    .banner-preview-box {
-      width: 100%;
-      aspect-ratio: 16/9;
-      background: #000;
+    /* Switch Toggle */
+    .switch {
       position: relative;
-      overflow: hidden;
+      display: inline-block;
+      width: 44px;
+      height: 24px;
+      flex-shrink: 0;
     }
 
-    .banner-preview-box img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
     }
 
-    .banner-badge-pos {
+    .slider-toggle {
       position: absolute;
-      top: 10px;
-      left: 10px;
-      background: rgba(0, 0, 0, 0.75);
-      backdrop-filter: blur(6px);
-      padding: 4px 10px;
-      border-radius: 6px;
-      font-size: 11px;
-      font-weight: 700;
-      color: #fff;
+      cursor: pointer;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: #334155;
+      transition: .25s;
+      border-radius: 24px;
     }
 
-    .banner-body {
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      flex: 1;
+    .slider-toggle:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: .25s;
+      border-radius: 50%;
+    }
+
+    input:checked + .slider-toggle {
+      background-color: var(--brand-red);
+    }
+
+    input:checked + .slider-toggle:before {
+      transform: translateX(20px);
     }
 
     /* Buttons */
@@ -481,13 +352,40 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      box-shadow: 0 4px 14px rgba(208, 2, 27, 0.35);
       transition: all 0.2s ease;
+      box-shadow: 0 4px 14px rgba(208, 2, 27, 0.35);
     }
 
     .btn-save-cms:hover {
+      background: linear-gradient(135deg, #e0021c, #940112);
       transform: translateY(-1px);
-      box-shadow: 0 6px 18px rgba(208, 2, 27, 0.5);
+    }
+
+    .btn-add-banner {
+      padding: 10px 18px;
+      background: linear-gradient(135deg, #10B981, #059669);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
+    }
+
+    .btn-add-banner:hover {
+      background: linear-gradient(135deg, #059669, #047857);
+      transform: translateY(-1px);
+    }
+
+    .btn-add-banner:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
     }
 
     .btn-reset-cms {
@@ -507,40 +405,310 @@
       color: #fff;
     }
 
-    /* Simulation Preview Box */
-    .preview-navbar-simulation {
-      background: rgba(0, 0, 0, 0.4);
-      border: 1px dashed rgba(255, 255, 255, 0.15);
-      border-radius: 12px;
-      padding: 16px 20px;
-      margin-top: 18px;
+    /* Banner Grid (supports up to 50 banners) */
+    .banner-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 22px;
     }
 
-    .preview-nav-title {
-      font-size: 11.5px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: var(--dash-text-muted);
-      margin-bottom: 12px;
-    }
-
-    .preview-nav-pills {
+    .banner-card-item {
+      background: rgba(10, 16, 32, 0.7);
+      border: 1px solid var(--dash-border);
+      border-radius: 14px;
+      overflow: hidden;
       display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
+      flex-direction: column;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+      position: relative;
     }
 
-    .preview-pill {
-      padding: 6px 12px;
-      background: rgba(255, 255, 255, 0.07);
-      border-radius: 6px;
-      font-size: 12.5px;
-      font-weight: 600;
-      color: #fff;
+    .banner-card-item:hover {
+      border-color: rgba(255, 255, 255, 0.18);
+    }
+
+    .banner-card-topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 14px;
+      background: rgba(15, 23, 42, 0.9);
+      border-bottom: 1px solid var(--dash-border);
+    }
+
+    .banner-order-badge {
+      font-size: 12px;
+      font-weight: 800;
+      color: #F8FAFC;
       display: flex;
       align-items: center;
       gap: 6px;
+    }
+
+    .banner-order-actions {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .btn-order-move {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid var(--dash-border);
+      color: #fff;
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 12px;
+      transition: all 0.15s ease;
+    }
+
+    .btn-order-move:hover:not(:disabled) {
+      background: var(--brand-blue);
+      border-color: var(--brand-blue);
+    }
+
+    .btn-order-move:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    .btn-delete-banner {
+      background: rgba(239, 68, 68, 0.15);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #F87171;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 11.5px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-left: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-delete-banner:hover {
+      background: #EF4444;
+      color: #fff;
+    }
+
+    .banner-preview-box {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .banner-preview-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .banner-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex: 1;
+    }
+
+    /* Change image buttons row */
+    .img-change-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-top: 4px;
+    }
+
+    .btn-small-upload {
+      padding: 6px 12px;
+      background: rgba(10, 79, 196, 0.2);
+      border: 1px solid rgba(10, 79, 196, 0.4);
+      color: #60A5FA;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-small-upload:hover {
+      background: rgba(10, 79, 196, 0.4);
+      color: #fff;
+    }
+
+    .btn-small-gallery {
+      padding: 6px 12px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--dash-border);
+      color: #CBD5E1;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-small-gallery:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+    }
+
+    /* Media Gallery Grid */
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 16px;
+    }
+
+    .media-card {
+      background: rgba(10, 16, 32, 0.8);
+      border: 1px solid var(--dash-border);
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.2s ease;
+    }
+
+    .media-card:hover {
+      border-color: var(--brand-blue);
+      transform: translateY(-2px);
+    }
+
+    .media-card-thumb {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .media-card-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .media-card-body {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .media-card-name {
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .media-card-actions {
+      display: flex;
+      gap: 6px;
+    }
+
+    .btn-media-copy {
+      flex: 1;
+      padding: 5px;
+      font-size: 11px;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--dash-border);
+      color: var(--dash-text-muted);
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn-media-copy:hover {
+      background: var(--brand-blue);
+      color: #fff;
+    }
+
+    /* Modal Gallery Picker */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(8px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-content {
+      background: var(--dash-card);
+      border: 1px solid var(--dash-border);
+      border-radius: 16px;
+      width: 100%;
+      max-width: 840px;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      animation: modalZoom 0.2s ease;
+    }
+
+    @keyframes modalZoom {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .modal-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--dash-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      font-size: 17px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .modal-close-btn {
+      background: transparent;
+      border: none;
+      color: var(--dash-text-muted);
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .modal-close-btn:hover {
+      color: #fff;
+    }
+
+    .modal-body {
+      padding: 20px;
+      overflow-y: auto;
+      flex: 1;
     }
 
     /* System Stats Strip */
@@ -574,6 +742,7 @@
     .stat-icon.red { background: rgba(208, 2, 27, 0.15); color: #FF6B6B; }
     .stat-icon.blue { background: rgba(10, 79, 196, 0.15); color: #60A5FA; }
     .stat-icon.green { background: rgba(16, 185, 129, 0.15); color: #34D399; }
+    .stat-icon.purple { background: rgba(168, 85, 247, 0.15); color: #C084FC; }
 
     .stat-body {
       display: flex;
@@ -590,6 +759,28 @@
       font-size: 18px;
       font-weight: 800;
       color: #fff;
+    }
+
+    /* Table */
+    .menu-manager-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 13.5px;
+    }
+
+    .menu-manager-table th {
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--dash-text-muted);
+      font-weight: 700;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--dash-border);
+    }
+
+    .menu-manager-table td {
+      padding: 14px;
+      border-bottom: 1px solid var(--dash-border);
+      color: #E2E8F0;
     }
 
     @media (max-width: 860px) {
@@ -618,17 +809,17 @@
   <!-- Top Executive Bar -->
   <header class="dash-topbar">
     <div class="dash-brand">
-      <img src="assets/img/logo.png" alt="DS Fun Logistic Logo">
+      <img src="assets/img/logo.png" alt="DS Fun Logistic Logo" id="topbarLogo">
       <div>
         <div class="dash-brand-title">DS FUN LOGISTIC</div>
       </div>
-      <span class="dash-brand-badge">PORTAL CMS</span>
+      <span class="dash-brand-badge">PORTAL CMS v2.0</span>
     </div>
 
     <div class="dash-topbar-actions">
       <div class="admin-user-pill">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="#10B981"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-        <span id="currentAdminName">vrintex (Super Admin)</span>
+        <span id="currentAdminName">Administrator (Aktif)</span>
       </div>
 
       <a href="/" target="_blank" class="btn-dash-action btn-dash-preview" title="Buka website publik">
@@ -648,16 +839,26 @@
     
     <!-- Sidebar Navigation -->
     <aside class="dash-sidebar">
-      <div class="sidebar-section-title">Manajemen Konten</div>
+      <div class="sidebar-section-title">Manajemen Konten Publik</div>
 
-      <button type="button" class="dash-nav-btn active" data-tab="tab-menus">
+      <button type="button" class="dash-nav-btn active" data-tab="tab-banners">
+        <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+        <span>Hero Banner (Maks 50)</span>
+      </button>
+
+      <button type="button" class="dash-nav-btn" data-tab="tab-menus">
         <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
         <span>Show / Hide Menu</span>
       </button>
 
-      <button type="button" class="dash-nav-btn" data-tab="tab-banners">
-        <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
-        <span>Hero Banner Slider</span>
+      <button type="button" class="dash-nav-btn" data-tab="tab-branding">
+        <svg viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 20.3c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l2.69-.62C9.93 21.26 10.95 21.5 12 21.5c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 16c-.95 0-1.85-.23-2.66-.64l-.4-.2-2.1.48.48-2.1-.2-.4C6.73 15.35 6.5 14.45 6.5 13.5c0-3.03 2.47-5.5 5.5-5.5s5.5 2.47 5.5 5.5-2.47 5.5-5.5 5.5z"/></svg>
+        <span>Identitas &amp; Logo Web</span>
+      </button>
+
+      <button type="button" class="dash-nav-btn" data-tab="tab-services">
+        <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+        <span>Layanan Unggulan</span>
       </button>
 
       <button type="button" class="dash-nav-btn" data-tab="tab-alerts">
@@ -667,14 +868,19 @@
 
       <div class="sidebar-section-title">Konfigurasi Bisnis</div>
 
+      <button type="button" class="dash-nav-btn" data-tab="tab-contact">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <span>Kontak &amp; CS WhatsApp</span>
+      </button>
+
       <button type="button" class="dash-nav-btn" data-tab="tab-rates">
         <svg viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
         <span>Tarif &amp; Layanan</span>
       </button>
 
-      <button type="button" class="dash-nav-btn" data-tab="tab-contact">
-        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-        <span>Kontak &amp; CS WhatsApp</span>
+      <button type="button" class="dash-nav-btn" data-tab="tab-media">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 14h16V6H4v12zm4-6l2.5 3.01L14 11l4.5 6H6l2-5z"/></svg>
+        <span>Galeri Aset &amp; Media</span>
       </button>
 
       <button type="button" class="dash-nav-btn" data-tab="tab-system">
@@ -689,22 +895,22 @@
       <!-- Status Summary Strip -->
       <div class="stat-strip">
         <div class="stat-card">
-          <div class="stat-icon blue">
-            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-          </div>
-          <div class="stat-body">
-            <span class="stat-label">Menu Aktif</span>
-            <span class="stat-value" id="statActiveMenus">7 / 7</span>
-          </div>
-        </div>
-
-        <div class="stat-card">
           <div class="stat-icon red">
             <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
           </div>
           <div class="stat-body">
             <span class="stat-label">Banner Carousel</span>
-            <span class="stat-value" id="statActiveBanners">4 Slide</span>
+            <span class="stat-value" id="statActiveBanners">4 / 50 Slide</span>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon blue">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+          </div>
+          <div class="stat-body">
+            <span class="stat-label">Menu Navigasi</span>
+            <span class="stat-value" id="statActiveMenus">7 / 7 Aktif</span>
           </div>
         </div>
 
@@ -713,16 +919,56 @@
             <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
           </div>
           <div class="stat-body">
-            <span class="stat-label">Status Server</span>
-            <span class="stat-value">Port 3001 (Online)</span>
+            <span class="stat-label">Status Sinkronisasi</span>
+            <span class="stat-value" id="statSyncStatus">Tersambung</span>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon purple">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 14h16V6H4v12z"/></svg>
+          </div>
+          <div class="stat-body">
+            <span class="stat-label">Galeri Aset</span>
+            <span class="stat-value" id="statMediaCount">15+ Media</span>
           </div>
         </div>
       </div>
 
       <!-- ======================================================== -->
-      <!-- TAB 1: SHOW / HIDE MENU NAVIGASI (FITUR UTAMA)           -->
+      <!-- TAB: HERO BANNER CAROUSEL (UP TO 50 BANNERS)             -->
       <!-- ======================================================== -->
-      <section class="dash-tab-pane active" id="tab-menus">
+      <section class="dash-tab-pane active" id="tab-banners">
+        <div class="dash-header-title">
+          <div>
+            <h2>Manajemen Banner Carousel Utama (Maks. 50)</h2>
+            <p>Upload gambar banner baru, atur urutan, switch aktif/nonaktif, judul pill tab, dan link tujuan.</p>
+          </div>
+          <div style="display:flex; gap: 10px; flex-wrap: wrap;">
+            <button type="button" class="btn-add-banner" id="btnAddBanner">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+              <span>Tambah Banner Baru</span>
+            </button>
+            <button type="button" class="btn-save-cms" id="btnSaveBanners">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
+              <span>Simpan Konfigurasi Banner</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="bannerCountInfo" style="margin-bottom: 16px; font-size: 13px; color: var(--dash-text-muted);">
+          Memuat daftar banner...
+        </div>
+
+        <div class="banner-grid" id="bannerGridContainer">
+          <!-- Injected via JavaScript -->
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- TAB: SHOW / HIDE MENU                                    -->
+      <!-- ======================================================== -->
+      <section class="dash-tab-pane" id="tab-menus">
         <div class="dash-header-title">
           <div>
             <h2>Manajemen Visibilitas Menu Navigasi</h2>
@@ -732,7 +978,7 @@
             <button type="button" class="btn-reset-cms" id="btnResetMenus">Reset Default</button>
             <button type="button" class="btn-save-cms" id="btnSaveMenus">
               <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
-              Simpan Pengaturan Menu
+              <span>Simpan Pengaturan Menu</span>
             </button>
           </div>
         </div>
@@ -754,7 +1000,6 @@
                   <th>Tautan (URL)</th>
                   <th>Deskripsi Halaman</th>
                   <th style="width: 140px; text-align: center;">Tampilkan Menu</th>
-                  <th style="width: 120px; text-align: center;">Status</th>
                 </tr>
               </thead>
               <tbody id="menuTableBody">
@@ -762,39 +1007,104 @@
               </tbody>
             </table>
           </div>
+        </div>
+      </section>
 
-          <!-- Live Navbar Simulation Box -->
-          <div class="preview-navbar-simulation">
-            <div class="preview-nav-title">Simulasi Tampilan Navigasi Publik:</div>
-            <div class="preview-nav-pills" id="previewNavPills">
-              <!-- Live preview pills -->
+      <!-- ======================================================== -->
+      <!-- TAB: IDENTITAS & BRANDING WEB (LOGO & FAVICON)           -->
+      <!-- ======================================================== -->
+      <section class="dash-tab-pane" id="tab-branding">
+        <div class="dash-header-title">
+          <div>
+            <h2>Identitas &amp; Logo Perusahaan</h2>
+            <p>Kelola logo utama website, logo putih/footer, favicon browser, dan tagline resmi.</p>
+          </div>
+          <button type="button" class="btn-save-cms" id="btnSaveBranding">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
+            <span>Simpan Branding</span>
+          </button>
+        </div>
+
+        <div class="dash-card">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+            <!-- Logo Header -->
+            <div>
+              <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:8px;">Logo Utama (Header / Navbar):</label>
+              <div style="background:#fff; border-radius:10px; padding:16px; display:flex; align-items:center; justify-content:center; min-height:80px; margin-bottom:12px; border:1px solid var(--dash-border);">
+                <img id="previewLogoHeader" src="assets/img/logo.png" alt="Preview Logo Header" style="max-height:48px; max-width:100%; object-fit:contain;">
+              </div>
+              <div class="img-change-row">
+                <input type="file" id="fileLogoHeader" accept="image/*" style="display:none;">
+                <button type="button" class="btn-small-upload" onclick="document.getElementById('fileLogoHeader').click()">📁 Upload Logo</button>
+                <button type="button" class="btn-small-gallery" onclick="openMediaPicker('branding.logo_header', 'previewLogoHeader', 'inputLogoHeader')">🖼️ Dari Galeri</button>
+              </div>
+              <input type="text" class="input-dash" id="inputLogoHeader" value="assets/img/logo.png" style="margin-top:8px;">
+            </div>
+
+            <!-- Logo Footer -->
+            <div>
+              <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:8px;">Logo Footer (Background Gelap):</label>
+              <div style="background:#070B14; border-radius:10px; padding:16px; display:flex; align-items:center; justify-content:center; min-height:80px; margin-bottom:12px; border:1px solid var(--dash-border);">
+                <img id="previewLogoFooter" src="assets/img/logo-white.png" alt="Preview Logo Footer" style="max-height:48px; max-width:100%; object-fit:contain;">
+              </div>
+              <div class="img-change-row">
+                <input type="file" id="fileLogoFooter" accept="image/*" style="display:none;">
+                <button type="button" class="btn-small-upload" onclick="document.getElementById('fileLogoFooter').click()">📁 Upload Logo</button>
+                <button type="button" class="btn-small-gallery" onclick="openMediaPicker('branding.logo_footer', 'previewLogoFooter', 'inputLogoFooter')">🖼️ Dari Galeri</button>
+              </div>
+              <input type="text" class="input-dash" id="inputLogoFooter" value="assets/img/logo-white.png" style="margin-top:8px;">
+            </div>
+
+            <!-- Favicon -->
+            <div>
+              <label style="display:block; font-size:13.5px; font-weight:700; margin-bottom:8px;">Favicon Tab Browser:</label>
+              <div style="background:rgba(255,255,255,0.05); border-radius:10px; padding:16px; display:flex; align-items:center; justify-content:center; min-height:80px; margin-bottom:12px; border:1px solid var(--dash-border);">
+                <img id="previewFavicon" src="assets/img/favicon.png" alt="Preview Favicon" style="width:36px; height:36px; object-fit:contain;">
+              </div>
+              <div class="img-change-row">
+                <input type="file" id="fileFavicon" accept="image/*" style="display:none;">
+                <button type="button" class="btn-small-upload" onclick="document.getElementById('fileFavicon').click()">📁 Upload Favicon</button>
+                <button type="button" class="btn-small-gallery" onclick="openMediaPicker('branding.favicon', 'previewFavicon', 'inputFavicon')">🖼️ Dari Galeri</button>
+              </div>
+              <input type="text" class="input-dash" id="inputFavicon" value="assets/img/favicon.png" style="margin-top:8px;">
+            </div>
+          </div>
+
+          <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+            <div>
+              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:6px;">Nama Perusahaan:</label>
+              <input type="text" class="input-dash" id="inputCompanyName" value="DS FUN LOGISTIC">
+            </div>
+            <div>
+              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:6px;">Slogan / Tagline Resmi:</label>
+              <input type="text" class="input-dash" id="inputTagline" value="Logistik Cepat, Aman & Terpercaya">
             </div>
           </div>
         </div>
       </section>
 
       <!-- ======================================================== -->
-      <!-- TAB 2: HERO BANNER CAROUSEL MANAGER                      -->
+      <!-- TAB: LAYANAN UNGGULAN (SERVICES)                         -->
       <!-- ======================================================== -->
-      <section class="dash-tab-pane" id="tab-banners">
+      <section class="dash-tab-pane" id="tab-services">
         <div class="dash-header-title">
           <div>
-            <h2>Manajemen Banner Carousel Utama</h2>
-            <p>Kelola urutan, status aktif, judul, dan link tombol aksi pada banner beranda.</p>
+            <h2>Manajemen Layanan Unggulan</h2>
+            <p>Kelola kartu produk dan layanan kargo yang ditampilkan pada beranda website.</p>
           </div>
-          <button type="button" class="btn-save-cms" id="btnSaveBanners">
+          <button type="button" class="btn-save-cms" id="btnSaveServices">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
-            Simpan Konfigurasi Banner
+            <span>Simpan Layanan</span>
           </button>
         </div>
 
-        <div class="banner-grid" id="bannerGridContainer">
+        <div class="banner-grid" id="servicesGridContainer">
           <!-- Injected via JavaScript -->
         </div>
       </section>
 
       <!-- ======================================================== -->
-      <!-- TAB 3: PENGUMUMAN & ALERT PERINGATAN                     -->
+      <!-- TAB: PENGUMUMAN & ALERT PERINGATAN                       -->
       <!-- ======================================================== -->
       <section class="dash-tab-pane" id="tab-alerts">
         <div class="dash-header-title">
@@ -804,7 +1114,7 @@
           </div>
           <button type="button" class="btn-save-cms" id="btnSaveAlerts">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
-            Simpan Pengumuman
+            <span>Simpan Pengumuman</span>
           </button>
         </div>
 
@@ -846,7 +1156,7 @@
       </section>
 
       <!-- ======================================================== -->
-      <!-- TAB 4: PENGATURAN TARIF & LAYANAN KARGO                  -->
+      <!-- TAB: PENGATURAN TARIF & LAYANAN KARGO                    -->
       <!-- ======================================================== -->
       <section class="dash-tab-pane" id="tab-rates">
         <div class="dash-header-title">
@@ -856,7 +1166,7 @@
           </div>
           <button type="button" class="btn-save-cms" id="btnSaveRates">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
-            Simpan Konfigurasi Tarif
+            <span>Simpan Konfigurasi Tarif</span>
           </button>
         </div>
 
@@ -883,24 +1193,25 @@
       </section>
 
       <!-- ======================================================== -->
-      <!-- TAB 5: KONTAK & CS WHATSAPP                              -->
+      <!-- TAB: KONTAK, CS WHATSAPP & SOSIAL MEDIA                  -->
       <!-- ======================================================== -->
       <section class="dash-tab-pane" id="tab-contact">
         <div class="dash-header-title">
           <div>
-            <h2>Saluran Kontak &amp; Customer Care</h2>
+            <h2>Saluran Kontak &amp; Media Sosial</h2>
             <p>Pengaturan nomor WhatsApp CS terhubung langsung ke tombol WhatsApp di seluruh halaman publik.</p>
           </div>
           <button type="button" class="btn-save-cms" id="btnSaveContact">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
-            Simpan Kontak CS
+            <span>Simpan Kontak CS</span>
           </button>
         </div>
 
         <div class="dash-card">
+          <h3 class="dash-card-title" style="margin-bottom:14px;">📞 Layanan Pelanggan (Customer Care)</h3>
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
             <div>
-              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Nomor WhatsApp CS (Format Internasional: 628...):</label>
+              <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Nomor WhatsApp CS (Format: 628...):</label>
               <input type="text" class="input-dash" id="inputContactWA" value="628100000000">
             </div>
 
@@ -921,263 +1232,313 @@
           </div>
 
           <div style="margin-top: 20px;">
-            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Alamat Kantor Pusat:</label>
-            <input type="text" class="input-dash" id="inputContactAddress" value="Jl. Raya Setu No. 88, Cipayung, Jakarta Timur">
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px;">Alamat Kantor Pusat / Hub Operasional:</label>
+            <textarea class="input-dash" id="inputContactAddress" rows="2">Jl. Raya Setu No. 88, Cipayung, Jakarta Timur</textarea>
+          </div>
+        </div>
+
+        <div class="dash-card">
+          <h3 class="dash-card-title" style="margin-bottom:14px;">🌐 Akun Media Sosial Resmi</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px;">
+            <div>
+              <label style="display:block; font-size:12.5px; font-weight:600; margin-bottom:6px;">Instagram URL:</label>
+              <input type="text" class="input-dash" id="inputSosmedIG" value="https://instagram.com/dsfunlogistic">
+            </div>
+            <div>
+              <label style="display:block; font-size:12.5px; font-weight:600; margin-bottom:6px;">Facebook URL:</label>
+              <input type="text" class="input-dash" id="inputSosmedFB" value="https://facebook.com/dsfunlogistic">
+            </div>
+            <div>
+              <label style="display:block; font-size:12.5px; font-weight:600; margin-bottom:6px;">YouTube Channel URL:</label>
+              <input type="text" class="input-dash" id="inputSosmedYT" value="https://youtube.com/@dsfunlogistic">
+            </div>
+            <div>
+              <label style="display:block; font-size:12.5px; font-weight:600; margin-bottom:6px;">TikTok URL:</label>
+              <input type="text" class="input-dash" id="inputSosmedTT" value="https://tiktok.com/@dsfunlogistic">
+            </div>
           </div>
         </div>
       </section>
 
       <!-- ======================================================== -->
-      <!-- TAB 6: STATUS SISTEM                                     -->
+      <!-- TAB: GALERI ASET & MEDIA LIBRARY                         -->
       <!-- ======================================================== -->
-      <section class="dash-tab-pane" id="tab-system">
+      <section class="dash-tab-pane" id="tab-media">
         <div class="dash-header-title">
           <div>
-            <h2>Diagnostik &amp; Status Sistem</h2>
-            <p>Informasi arsitektur lokal, status keamanan sesi, dan cache zero-latency.</p>
+            <h2>Perpustakaan Media &amp; Aset Gambar</h2>
+            <p>Koleksi aset grafis website. Upload gambar baru, salin URL, atau langsung jadikan slide banner.</p>
+          </div>
+          <div style="display:flex; gap:10px;">
+            <input type="file" id="fileMediaUpload" accept="image/*" style="display:none;">
+            <button type="button" class="btn-add-banner" onclick="document.getElementById('fileMediaUpload').click()">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+              <span>Upload Aset Baru</span>
+            </button>
           </div>
         </div>
 
         <div class="dash-card">
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;">
-            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:10px;">
-              <div style="font-size:12px; color:var(--dash-text-muted);">Runtime &amp; Port:</div>
-              <div style="font-size:16px; font-weight:700; color:#fff; margin-top:4px;">Node.js v22.18 · Port 3001</div>
-            </div>
+          <div class="media-grid" id="mediaLibraryGrid">
+            <!-- Injected via JavaScript -->
+          </div>
+        </div>
+      </section>
 
-            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:10px;">
-              <div style="font-size:12px; color:var(--dash-text-muted);">Cache Headers:</div>
-              <div style="font-size:16px; font-weight:700; color:#34D399; margin-top:4px;">no-cache, must-revalidate</div>
-            </div>
+      <!-- ======================================================== -->
+      <!-- TAB: STATUS SISTEM & DIAGNOSTIK                          -->
+      <!-- ======================================================== -->
+      <section class="dash-tab-pane" id="tab-system">
+        <div class="dash-header-title">
+          <div>
+            <h2>Diagnostik Sistem &amp; Sinkronisasi</h2>
+            <p>Informasi status koneksi runtime dan manajemen cache CMS.</p>
+          </div>
+          <button type="button" class="btn-reset-cms" id="btnClearCache">
+            🧹 Bersihkan Cache Browser
+          </button>
+        </div>
 
-            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:10px;">
-              <div style="font-size:12px; color:var(--dash-text-muted);">Metode Easter Egg:</div>
-              <div style="font-size:16px; font-weight:700; color:#60A5FA; margin-top:4px;">15-Tap Android DevMode</div>
+        <div class="dash-card">
+          <h3 class="dash-card-title">Informasi Runtime</h3>
+          <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top:16px;">
+            <div style="background:rgba(255,255,255,0.03); padding:12px; border-radius:8px;">
+              <small style="color:var(--dash-text-muted); display:block;">Versi CMS</small>
+              <strong style="color:#fff; font-size:15px;">v2.0 (Executive Suite)</strong>
             </div>
+            <div style="background:rgba(255,255,255,0.03); padding:12px; border-radius:8px;">
+              <small style="color:var(--dash-text-muted); display:block;">Batas Maksimal Banner</small>
+              <strong style="color:#10B981; font-size:15px;">50 Banner</strong>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:12px; border-radius:8px;">
+              <small style="color:var(--dash-text-muted); display:block;">Penyimpanan Konfigurasi</small>
+              <strong style="color:#60A5FA; font-size:15px;">Cloud Serverless + LocalStorage</strong>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:12px; border-radius:8px;">
+              <small style="color:var(--dash-text-muted); display:block;">Sinkronisasi Terakhir</small>
+              <strong style="color:#FBBF24; font-size:14px;" id="sysLastSync">-</strong>
+            </div>
+          </div>
 
-            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:10px;">
-              <div style="font-size:12px; color:var(--dash-text-muted);">Penyimpanan CMS:</div>
-              <div style="font-size:16px; font-weight:700; color:#FCD34D; margin-top:4px;">data/cms_config.json + LocalSync</div>
-            </div>
+          <div style="margin-top:24px; padding-top:20px; border-top:1px solid var(--dash-border); display:flex; gap:12px; flex-wrap:wrap;">
+            <button type="button" class="btn-dash-action btn-dash-preview" id="btnExportJSON">📥 Ekspor Konfigurasi JSON</button>
+            <button type="button" class="btn-dash-action btn-dash-logout" id="btnFactoryReset">⚠️ Reset Semua Konten ke Bawaan Pabrik</button>
           </div>
         </div>
       </section>
 
     </main>
-
   </div>
 
-  <!-- Android Toast Notification -->
+  <!-- Modal Media Picker -->
+  <div class="modal-overlay" id="mediaPickerModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Pilih Gambar dari Galeri Aset</h3>
+        <button type="button" class="modal-close-btn" onclick="closeMediaPicker()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div style="margin-bottom:14px; display:flex; justify-content:space-between; align-items:center;">
+          <span style="font-size:13px; color:var(--dash-text-muted);">Klik salah satu gambar di bawah untuk memilih:</span>
+          <input type="file" id="filePickerUpload" accept="image/*" style="display:none;">
+          <button type="button" class="btn-small-upload" onclick="document.getElementById('filePickerUpload').click()">+ Upload dari Komputer</button>
+        </div>
+        <div class="media-grid" id="pickerModalGrid">
+          <!-- Injected via JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Android Floating Toast -->
   <div id="dsfun-android-toast" class="dsfun-android-toast"></div>
 
-  <!-- Dashboard Logic -->
-  <script src="assets/js/easter-egg.js?v=3.4"></script>
+  <!-- Scripts -->
+  <script src="assets/js/easter-egg.js?v=3.5"></script>
   <script>
     (function () {
       'use strict';
 
-      // 1. Session Auth Guard
+      // Verify Administrator Authentication
       const token = sessionStorage.getItem('dsfun_admin_token');
-      const userStr = sessionStorage.getItem('dsfun_admin_user');
-
       if (!token) {
-        // Redirect to login if not authenticated
         window.location.href = 'admin-login.html';
         return;
       }
 
-      if (userStr) {
+      // Display logged-in admin username
+      const rawUser = sessionStorage.getItem('dsfun_admin_user');
+      if (rawUser) {
         try {
-          const user = JSON.parse(userStr);
-          document.getElementById('currentAdminName').textContent = `${user.username || 'vrintex'} (${user.role === 'admin' ? 'Administrator' : 'User'})`;
+          const u = JSON.parse(rawUser);
+          document.getElementById('currentAdminName').textContent = `${u.name || u.username} (${u.role || 'Admin'})`;
         } catch (e) {}
       }
 
       // Logout handler
       document.getElementById('btnLogoutAdmin').addEventListener('click', () => {
-        sessionStorage.removeItem('dsfun_admin_token');
-        sessionStorage.removeItem('dsfun_admin_user');
-        sessionStorage.removeItem('admin_unlocked');
-        sessionStorage.removeItem('app_admin_unlocked');
-        window.DSFunEasterEgg.showToast('🔒 Sesi telah ditutup & Portal Admin dikunci kembali.', 'info');
-        setTimeout(() => {
-          window.location.href = '/';
-        }, 800);
+        if (confirm('Keluar dari Portal CMS Administrator?')) {
+          sessionStorage.removeItem('dsfun_admin_token');
+          sessionStorage.removeItem('dsfun_admin_user');
+          sessionStorage.removeItem('admin_unlocked');
+          window.location.href = 'admin-login.html';
+        }
       });
 
-      // 2. Tab Navigation
-      const navBtns = document.querySelectorAll('.dash-nav-btn');
+      // Tab Navigation System
+      const navButtons = document.querySelectorAll('.dash-nav-btn');
       const tabPanes = document.querySelectorAll('.dash-tab-pane');
 
-      navBtns.forEach(btn => {
+      navButtons.forEach(btn => {
         btn.addEventListener('click', () => {
           const target = btn.getAttribute('data-tab');
-          navBtns.forEach(b => b.classList.remove('active'));
+          navButtons.forEach(b => b.classList.remove('active'));
           tabPanes.forEach(p => p.classList.remove('active'));
-
           btn.classList.add('active');
           const pane = document.getElementById(target);
           if (pane) pane.classList.add('active');
         });
       });
 
-      // 3. CMS State
-      let cmsConfig = null;
+      // Default Preset Media Assets
+      const DEFAULT_ASSETS = [
+        { name: 'Hero Banner 1 (Brand)', path: 'assets/img/hero-banner-1.png' },
+        { name: 'Hero Banner 2 (Nasional)', path: 'assets/img/hero-banner-2.png' },
+        { name: 'Hero Banner 3 (Cargo & Fleet)', path: 'assets/img/hero-banner-3.png' },
+        { name: 'Hero Banner 4 (Express)', path: 'assets/img/hero-banner-4.png' },
+        { name: 'Logo Utama Header', path: 'assets/img/logo.png' },
+        { name: 'Logo Putih Footer', path: 'assets/img/logo-white.png' },
+        { name: 'Favicon Browser', path: 'assets/img/favicon.png' },
+        { name: 'Layanan 1: Cargo Eksklusif', path: 'assets/img/service-1.png' },
+        { name: 'Layanan 2: Jangkauan Nusantara', path: 'assets/img/service-2.png' },
+        { name: 'Layanan 3: Kirim Motor', path: 'assets/img/service-3.png' },
+        { name: 'Banner Waspada Penipuan', path: 'assets/img/banner-penipuan.png' },
+        { name: 'Banner Bebas Pungli', path: 'assets/img/pungli-banner.png' },
+        { name: 'Cabang Surabaya', path: 'assets/img/cabang-surabaya.png' },
+        { name: 'Cabang Dharmasraya', path: 'assets/img/cabang-dharmasraya.png' },
+        { name: 'Cabang Samarinda', path: 'assets/img/cabang-samarinda.png' },
+        { name: 'Cabang Denpasar', path: 'assets/img/cabang-denpasar.png' },
+        { name: 'Cabang Palangkaraya', path: 'assets/img/cabang-palangkaraya.png' }
+      ];
 
+      // CMS State
+      let cmsConfig = {
+        version: "2.0",
+        branding: {
+          company_name: "DS FUN LOGISTIC",
+          tagline: "Logistik Cepat, Aman & Terpercaya",
+          logo_header: "assets/img/logo.png",
+          logo_footer: "assets/img/logo-white.png",
+          favicon: "assets/img/favicon.png"
+        },
+        menus: [],
+        banners: [],
+        services: [],
+        alerts: {},
+        rates_config: {},
+        contact: {},
+        social_media: {}
+      };
+
+      // Custom uploaded media in current session/localStorage
+      let customMediaList = [];
+      try {
+        const storedMedia = localStorage.getItem('dsfun_custom_media');
+        if (storedMedia) customMediaList = JSON.parse(storedMedia);
+      } catch (e) {}
+
+      // Image Compression Helper
+      function compressImage(file, maxWidth = 1920, maxHeight = 1080, quality = 0.82) {
+        return new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            const img = new Image();
+            img.onload = () => {
+              let w = img.width;
+              let h = img.height;
+              if (w > maxWidth) {
+                h = Math.round((h * maxWidth) / w);
+                w = maxWidth;
+              }
+              if (h > maxHeight) {
+                w = Math.round((w * maxHeight) / h);
+                h = maxHeight;
+              }
+              const canvas = document.createElement('canvas');
+              canvas.width = w;
+              canvas.height = h;
+              const ctx = canvas.getContext('2d');
+              ctx.drawImage(img, 0, 0, w, h);
+              resolve(canvas.toDataURL('image/jpeg', quality));
+            };
+            img.onerror = reject;
+            img.src = e.target.result;
+          };
+          reader.onerror = reject;
+          reader.readAsDataURL(file);
+        });
+      }
+
+      // Load CMS data
       async function loadCMSData() {
+        // 1. Load from localStorage first
+        const local = localStorage.getItem('dsfun_cms_config');
+        if (local) {
+          try {
+            cmsConfig = Object.assign(cmsConfig, JSON.parse(local));
+            renderAllSections();
+          } catch (e) {}
+        }
+
+        // 2. Fetch fresh data from backend
         try {
           const resp = await fetch('/api/admin/content?t=' + Date.now());
           if (resp.ok) {
-            cmsConfig = await resp.json();
-          } else {
-            throw new Error('API returned ' + resp.status);
+            const remote = await resp.json();
+            cmsConfig = Object.assign(cmsConfig, remote);
+            localStorage.setItem('dsfun_cms_config', JSON.stringify(cmsConfig));
+            document.getElementById('sysLastSync').textContent = new Date().toLocaleTimeString('id-ID');
+            renderAllSections();
           }
         } catch (err) {
-          // Fallback to localStorage or defaults
-          const local = localStorage.getItem('dsfun_cms_config');
-          if (local) {
-            try { cmsConfig = JSON.parse(local); } catch (e) {}
-          }
+          document.getElementById('sysLastSync').textContent = 'Penyimpanan Lokal Aktif';
         }
+      }
 
-        if (!cmsConfig) {
-          cmsConfig = getDefaultConfig();
-        }
-
-        renderMenuManager();
+      function renderAllSections() {
         renderBannerManager();
+        renderMenuManager();
+        renderBrandingManager();
+        renderServicesManager();
         renderAlertsManager();
-        renderRatesManager();
         renderContactManager();
+        renderRatesManager();
+        renderMediaLibrary();
         updateStats();
       }
 
-      function getDefaultConfig() {
-        return {
-          menus: [
-            { id: "menu_beranda", label: "Beranda", url: "/", visible: true, description: "Halaman utama website DS Fun" },
-            { id: "menu_cek_resi", label: "Cek Resi", url: "cek-resi.html", visible: true, description: "Pelacakan resi kargo real-time" },
-            { id: "menu_cek_tarif", label: "Cek Tarif", url: "cek-tarif.html", visible: true, description: "Kalkulasi ongkos kirim kargo & kelontongan" },
-            { id: "menu_lokasi_cabang", label: "Lokasi Cabang", url: "lokasi-cabang.html", visible: true, description: "Peta sebaran kantor cabang & cover area" },
-            { id: "menu_karir", label: "Karir", url: "karir.html", visible: true, description: "Informasi rekrutmen & lowongan kerja" },
-            { id: "menu_profil", label: "Profil", url: "tentang-kami.html", visible: true, description: "Profil perusahaan & visi misi" },
-            { id: "menu_hubungi_kami", label: "Hubungi Kami", url: "hubungi-kami.html", visible: true, description: "Saluran kontak & formulir pesan" }
-          ],
-          banners: [
-            { id: 1, active: true, title: "Brand Utama", headline: "Kepuasan Pelanggan Adalah Prioritas Kami", img: "assets/img/hero-banner-1.png", link: "tentang-kami.html" },
-            { id: 2, active: true, title: "Jaringan Nasional", headline: "Jaringan Pengiriman Sabang Sampai Merauke", img: "assets/img/hero-banner-2.png", link: "cover-area.html" },
-            { id: 3, active: true, title: "Cargo & Trucking", headline: "Armada Tangguh & Pengiriman Partai Besar", img: "assets/img/hero-banner-3.png", link: "cek-tarif.html" },
-            { id: 4, active: true, title: "Pengiriman Express", headline: "Pengiriman Express — Cepat & Tepat Waktu", img: "assets/img/hero-banner-4.png", link: "cek-resi.html" }
-          ],
-          alerts: {
-            show_warning_penipuan: true,
-            warning_text: "WASPADA PENIPUAN: Rekening resmi pembayaran kargo hanya atas nama PT DS FUN LOGISTIC.",
-            show_bebas_pungli: true,
-            bebas_pungli_text: "BEBAS PUNGLI: Laporkan segala bentuk pungutan liar di luar tagihan resmi.",
-            show_ticker: true,
-            ticker_text: "DS FUN LOGISTIC melayani pengiriman kargo partai besar & kelontongan ke seluruh Indonesia dengan jaminan aman dan tepat waktu."
-          },
-          rates_config: { min_weight_kg: 10, rate_multiplier: 1.0, lead_time_note: "Estimasi pengiriman kargo darat 2-4 hari kerja." },
-          contact: { cs_whatsapp: "628100000000", call_center: "(021) 00000000", email: "customercare@dsfunlogistic.id", address: "Jl. Raya Setu No. 88, Cipayung, Jakarta Timur", operational_hours: "Senin - Sabtu: 08:00 - 18:00 WIB" }
-        };
-      }
-
       // ==========================================
-      // RENDER 1: MENU VISIBILITY MANAGER
-      // ==========================================
-      function renderMenuManager() {
-        const tbody = document.getElementById('menuTableBody');
-        const previewPills = document.getElementById('previewNavPills');
-        if (!tbody || !cmsConfig.menus) return;
-
-        tbody.innerHTML = '';
-        previewPills.innerHTML = '';
-
-        cmsConfig.menus.forEach((item, idx) => {
-          const tr = document.createElement('tr');
-          const isVis = item.visible !== false;
-
-          tr.innerHTML = `
-            <td style="color:var(--dash-text-muted); font-weight:600;">${idx + 1}</td>
-            <td>
-              <input type="text" class="input-dash menu-label-input" data-id="${item.id}" value="${item.label}" style="max-width: 180px; font-weight:700;">
-            </td>
-            <td>
-              <span class="menu-item-url">${item.url}</span>
-            </td>
-            <td style="color:var(--dash-text-muted); font-size:12.5px;">${item.description || '-'}</td>
-            <td style="text-align: center;">
-              <label class="switch">
-                <input type="checkbox" class="menu-visibility-toggle" data-id="${item.id}" ${isVis ? 'checked' : ''}>
-                <span class="slider-toggle"></span>
-              </label>
-            </td>
-            <td style="text-align: center;">
-              <span class="status-badge ${isVis ? 'active' : 'hidden'}" id="badge-${item.id}">
-                ${isVis ? '🟢 Tampil' : '⚪ Sembunyi'}
-              </span>
-            </td>
-          `;
-          tbody.appendChild(tr);
-
-          // Add to simulation preview
-          if (isVis) {
-            const pill = document.createElement('div');
-            pill.className = 'preview-pill';
-            pill.innerHTML = `<span>${item.label}</span>`;
-            previewPills.appendChild(pill);
-          }
-        });
-
-        // Attach change listeners for toggles
-        tbody.querySelectorAll('.menu-visibility-toggle').forEach(chk => {
-          chk.addEventListener('change', (e) => {
-            const menuId = chk.getAttribute('data-id');
-            const checked = chk.checked;
-            const target = cmsConfig.menus.find(m => m.id === menuId);
-            if (target) target.visible = checked;
-
-            const badge = document.getElementById(`badge-${menuId}`);
-            if (badge) {
-              badge.className = `status-badge ${checked ? 'active' : 'hidden'}`;
-              badge.textContent = checked ? '🟢 Tampil' : '⚪ Sembunyi';
-            }
-
-            updateMenuPreview();
-            updateStats();
-          });
-        });
-
-        // Label inputs
-        tbody.querySelectorAll('.menu-label-input').forEach(inp => {
-          inp.addEventListener('input', (e) => {
-            const menuId = inp.getAttribute('data-id');
-            const target = cmsConfig.menus.find(m => m.id === menuId);
-            if (target) target.label = inp.value;
-            updateMenuPreview();
-          });
-        });
-      }
-
-      function updateMenuPreview() {
-        const previewPills = document.getElementById('previewNavPills');
-        previewPills.innerHTML = '';
-        cmsConfig.menus.forEach(item => {
-          if (item.visible !== false) {
-            const pill = document.createElement('div');
-            pill.className = 'preview-pill';
-            pill.innerHTML = `<span>${item.label}</span>`;
-            previewPills.appendChild(pill);
-          }
-        });
-      }
-
-      // ==========================================
-      // RENDER 2: BANNER CAROUSEL MANAGER
+      // SECTION 1: HERO BANNERS (MAX 50)
       // ==========================================
       function renderBannerManager() {
         const grid = document.getElementById('bannerGridContainer');
+        const countInfo = document.getElementById('bannerCountInfo');
+        const btnAdd = document.getElementById('btnAddBanner');
         if (!grid || !cmsConfig.banners) return;
+
+        const maxBanners = 50;
+        const total = cmsConfig.banners.length;
+        const activeCount = cmsConfig.banners.filter(b => b.active !== false).length;
+
+        countInfo.innerHTML = `Total Banner: <strong>${total} dari maksimal ${maxBanners}</strong> &bull; <span style="color:#10B981;">${activeCount} Slide Aktif</span>`;
+
+        if (total >= maxBanners) {
+          btnAdd.disabled = true;
+          btnAdd.title = 'Maksimal 50 banner tercapai';
+        } else {
+          btnAdd.disabled = false;
+          btnAdd.title = '';
+        }
 
         grid.innerHTML = '';
 
@@ -1187,13 +1548,25 @@
           const isActive = banner.active !== false;
 
           card.innerHTML = `
-            <div class="banner-preview-box">
-              <img src="${banner.img}" alt="${banner.title}">
-              <div class="banner-badge-pos">Slide #${idx + 1}</div>
+            <div class="banner-card-topbar">
+              <div class="banner-order-badge">
+                <span style="color:var(--brand-red);">#${idx + 1}</span>
+                <span>${escapeHtml(banner.title || 'Slide ' + (idx + 1))}</span>
+              </div>
+              <div class="banner-order-actions">
+                <button type="button" class="btn-order-move btn-move-up" data-idx="${idx}" title="Geser ke atas" ${idx === 0 ? 'disabled' : ''}>▲</button>
+                <button type="button" class="btn-order-move btn-move-down" data-idx="${idx}" title="Geser ke bawah" ${idx === total - 1 ? 'disabled' : ''}>▼</button>
+                <button type="button" class="btn-delete-banner" data-idx="${idx}" title="Hapus slide ini">🗑️ Hapus</button>
+              </div>
             </div>
+
+            <div class="banner-preview-box">
+              <img src="${banner.img}" alt="${escapeHtml(banner.title || '')}" id="bannerImgPreview_${idx}">
+            </div>
+
             <div class="banner-body">
               <div style="display:flex; justify-content:space-between; align-items:center;">
-                <strong style="color:#fff; font-size:14px;">Status Slide:</strong>
+                <strong style="color:#fff; font-size:13.5px;">Status Tampil:</strong>
                 <label class="switch">
                   <input type="checkbox" class="banner-active-toggle" data-idx="${idx}" ${isActive ? 'checked' : ''}>
                   <span class="slider-toggle"></span>
@@ -1201,25 +1574,52 @@
               </div>
 
               <div>
-                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Judul Badge / Tab:</label>
-                <input type="text" class="input-dash banner-title-input" data-idx="${idx}" value="${banner.title}">
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Ganti Gambar Banner (Rasio 16:9):</label>
+                <div class="img-change-row">
+                  <input type="file" class="banner-file-input" data-idx="${idx}" accept="image/*" style="display:none;">
+                  <button type="button" class="btn-small-upload btn-trigger-upload" data-idx="${idx}">📁 Upload Gambar</button>
+                  <button type="button" class="btn-small-gallery btn-trigger-picker" data-idx="${idx}">🖼️ Galeri Aset</button>
+                </div>
+                <input type="text" class="input-dash banner-img-input" data-idx="${idx}" value="${banner.img}" placeholder="URL atau assets/img/..." style="margin-top:6px;">
+              </div>
+
+              <div>
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Judul Badge / Pill Tab:</label>
+                <input type="text" class="input-dash banner-title-input" data-idx="${idx}" value="${escapeHtml(banner.title || '')}">
               </div>
 
               <div>
                 <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Headline Banner:</label>
-                <input type="text" class="input-dash banner-headline-input" data-idx="${idx}" value="${banner.headline}">
+                <input type="text" class="input-dash banner-headline-input" data-idx="${idx}" value="${escapeHtml(banner.headline || '')}">
               </div>
 
               <div>
-                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Link Tujuan:</label>
-                <input type="text" class="input-dash banner-link-input" data-idx="${idx}" value="${banner.link}">
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Sub-headline Keterangan:</label>
+                <input type="text" class="input-dash banner-subheadline-input" data-idx="${idx}" value="${escapeHtml(banner.subheadline || '')}">
+              </div>
+
+              <div>
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Link Tujuan Klik:</label>
+                <div style="display:flex; gap:6px;">
+                  <input type="text" class="input-dash banner-link-input" data-idx="${idx}" value="${escapeHtml(banner.link || '#')}">
+                  <select class="input-dash banner-quick-link" data-idx="${idx}" style="width:130px; flex-shrink:0;">
+                    <option value="">Pilih Halaman...</option>
+                    <option value="tentang-kami.html">Profil / Tentang</option>
+                    <option value="cek-tarif.html">Cek Tarif</option>
+                    <option value="cek-resi.html">Cek Resi</option>
+                    <option value="cover-area.html">Cover Area</option>
+                    <option value="lokasi-cabang.html">Cabang</option>
+                    <option value="karir.html">Karir</option>
+                    <option value="hubungi-kami.html">Hubungi Kami</option>
+                  </select>
+                </div>
               </div>
             </div>
           `;
           grid.appendChild(card);
         });
 
-        // Event listeners
+        // Event Listeners for Banners
         grid.querySelectorAll('.banner-active-toggle').forEach(chk => {
           chk.addEventListener('change', () => {
             const idx = Number(chk.getAttribute('data-idx'));
@@ -1242,16 +1642,406 @@
           });
         });
 
+        grid.querySelectorAll('.banner-subheadline-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.banners[idx]) cmsConfig.banners[idx].subheadline = inp.value;
+          });
+        });
+
+        grid.querySelectorAll('.banner-img-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.banners[idx]) {
+              cmsConfig.banners[idx].img = inp.value;
+              const prev = document.getElementById(`bannerImgPreview_${idx}`);
+              if (prev) prev.src = inp.value;
+            }
+          });
+        });
+
         grid.querySelectorAll('.banner-link-input').forEach(inp => {
           inp.addEventListener('input', () => {
             const idx = Number(inp.getAttribute('data-idx'));
             if (cmsConfig.banners[idx]) cmsConfig.banners[idx].link = inp.value;
           });
         });
+
+        grid.querySelectorAll('.banner-quick-link').forEach(sel => {
+          sel.addEventListener('change', () => {
+            if (!sel.value) return;
+            const idx = Number(sel.getAttribute('data-idx'));
+            const linkInput = grid.querySelector(`.banner-link-input[data-idx="${idx}"]`);
+            if (linkInput) {
+              linkInput.value = sel.value;
+              if (cmsConfig.banners[idx]) cmsConfig.banners[idx].link = sel.value;
+            }
+          });
+        });
+
+        // Move Up / Down
+        grid.querySelectorAll('.btn-move-up').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = Number(btn.getAttribute('data-idx'));
+            if (idx > 0) {
+              const temp = cmsConfig.banners[idx];
+              cmsConfig.banners[idx] = cmsConfig.banners[idx - 1];
+              cmsConfig.banners[idx - 1] = temp;
+              renderBannerManager();
+            }
+          });
+        });
+
+        grid.querySelectorAll('.btn-move-down').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = Number(btn.getAttribute('data-idx'));
+            if (idx < cmsConfig.banners.length - 1) {
+              const temp = cmsConfig.banners[idx];
+              cmsConfig.banners[idx] = cmsConfig.banners[idx + 1];
+              cmsConfig.banners[idx + 1] = temp;
+              renderBannerManager();
+            }
+          });
+        });
+
+        // Delete Banner
+        grid.querySelectorAll('.btn-delete-banner').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = Number(btn.getAttribute('data-idx'));
+            const b = cmsConfig.banners[idx];
+            if (confirm(`Hapus banner "${b.title || 'Slide #' + (idx + 1)}"?`)) {
+              cmsConfig.banners.splice(idx, 1);
+              renderBannerManager();
+              updateStats();
+              window.DSFunEasterEgg?.showToast('Banner berhasil dihapus', 'info');
+            }
+          });
+        });
+
+        // Upload Trigger
+        grid.querySelectorAll('.btn-trigger-upload').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = btn.getAttribute('data-idx');
+            const fileInp = grid.querySelector(`.banner-file-input[data-idx="${idx}"]`);
+            if (fileInp) fileInp.click();
+          });
+        });
+
+        grid.querySelectorAll('.banner-file-input').forEach(fileInp => {
+          fileInp.addEventListener('change', async () => {
+            if (fileInp.files && fileInp.files[0]) {
+              const idx = Number(fileInp.getAttribute('data-idx'));
+              try {
+                window.DSFunEasterEgg?.showToast('Mengoptimasi gambar banner...', 'info');
+                const compressedUrl = await compressImage(fileInp.files[0], 1920, 1080);
+                if (cmsConfig.banners[idx]) {
+                  cmsConfig.banners[idx].img = compressedUrl;
+                  const prev = document.getElementById(`bannerImgPreview_${idx}`);
+                  if (prev) prev.src = compressedUrl;
+                  const urlInp = grid.querySelector(`.banner-img-input[data-idx="${idx}"]`);
+                  if (urlInp) urlInp.value = compressedUrl.substring(0, 50) + '... (Data Image)';
+                  
+                  // Save to custom media list too
+                  addCustomMedia(`Upload Banner #${idx + 1}`, compressedUrl);
+                  window.DSFunEasterEgg?.showToast('✅ Gambar banner berhasil diupload!', 'success');
+                }
+              } catch (err) {
+                alert('Gagal memproses gambar: ' + err.message);
+              }
+            }
+          });
+        });
+
+        // Gallery Picker Trigger
+        grid.querySelectorAll('.btn-trigger-picker').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = Number(btn.getAttribute('data-idx'));
+            openMediaPicker(`banners.${idx}.img`, `bannerImgPreview_${idx}`, `.banner-img-input[data-idx="${idx}"]`);
+          });
+        });
+      }
+
+      // Add New Banner Button
+      document.getElementById('btnAddBanner').addEventListener('click', () => {
+        if (!cmsConfig.banners) cmsConfig.banners = [];
+        if (cmsConfig.banners.length >= 50) {
+          alert('Maksimal 50 banner telah tercapai!');
+          return;
+        }
+
+        const newId = Date.now();
+        const nextNum = cmsConfig.banners.length + 1;
+        const newBanner = {
+          id: newId,
+          active: true,
+          title: `Promo #${nextNum}`,
+          headline: 'Layanan Pengiriman Tercepat & Terbaik',
+          subheadline: 'Jangkauan Luas ke Seluruh Wilayah Indonesia',
+          img: 'assets/img/hero-banner-1.png',
+          link: 'tentang-kami.html'
+        };
+
+        cmsConfig.banners.push(newBanner);
+        renderBannerManager();
+        updateStats();
+
+        // Scroll to the new card
+        setTimeout(() => {
+          const cards = document.querySelectorAll('.banner-card-item');
+          if (cards.length > 0) {
+            cards[cards.length - 1].scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 100);
+
+        window.DSFunEasterEgg?.showToast(`🎉 Banner #${nextNum} berhasil ditambahkan!`, 'success');
+      });
+
+      // ==========================================
+      // SECTION 2: SHOW / HIDE MENU
+      // ==========================================
+      function renderMenuManager() {
+        const tbody = document.getElementById('menuTableBody');
+        if (!tbody || !cmsConfig.menus) return;
+
+        tbody.innerHTML = '';
+        cmsConfig.menus.forEach((menu, idx) => {
+          const tr = document.createElement('tr');
+          const isVis = menu.visible !== false;
+          tr.innerHTML = `
+            <td style="color:var(--dash-text-muted); font-weight:700;">${idx + 1}</td>
+            <td>
+              <input type="text" class="input-dash menu-label-input" data-idx="${idx}" value="${escapeHtml(menu.label)}" style="max-width:200px; font-weight:700;">
+            </td>
+            <td><code style="background:rgba(255,255,255,0.06); padding:3px 6px; border-radius:4px; font-size:12px;">${menu.url}</code></td>
+            <td style="color:var(--dash-text-muted); font-size:12.5px;">${escapeHtml(menu.description || '-')}</td>
+            <td style="text-align:center;">
+              <label class="switch">
+                <input type="checkbox" class="menu-visibility-toggle" data-idx="${idx}" ${isVis ? 'checked' : ''}>
+                <span class="slider-toggle"></span>
+              </label>
+            </td>
+          `;
+          tbody.appendChild(tr);
+        });
+
+        tbody.querySelectorAll('.menu-visibility-toggle').forEach(chk => {
+          chk.addEventListener('change', () => {
+            const idx = Number(chk.getAttribute('data-idx'));
+            if (cmsConfig.menus[idx]) cmsConfig.menus[idx].visible = chk.checked;
+            updateStats();
+          });
+        });
+
+        tbody.querySelectorAll('.menu-label-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.menus[idx]) cmsConfig.menus[idx].label = inp.value;
+          });
+        });
       }
 
       // ==========================================
-      // RENDER 3: ALERTS & NOTIFICATIONS
+      // SECTION 3: IDENTITAS & BRANDING
+      // ==========================================
+      function renderBrandingManager() {
+        if (!cmsConfig.branding) return;
+        const b = cmsConfig.branding;
+        if (b.logo_header) {
+          document.getElementById('previewLogoHeader').src = b.logo_header;
+          document.getElementById('inputLogoHeader').value = b.logo_header;
+          document.getElementById('topbarLogo').src = b.logo_header;
+        }
+        if (b.logo_footer) {
+          document.getElementById('previewLogoFooter').src = b.logo_footer;
+          document.getElementById('inputLogoFooter').value = b.logo_footer;
+        }
+        if (b.favicon) {
+          document.getElementById('previewFavicon').src = b.favicon;
+          document.getElementById('inputFavicon').value = b.favicon;
+        }
+        if (b.company_name) document.getElementById('inputCompanyName').value = b.company_name;
+        if (b.tagline) document.getElementById('inputTagline').value = b.tagline;
+
+        // File upload bindings
+        setupDirectImageUpload('fileLogoHeader', 'previewLogoHeader', 'inputLogoHeader', (url) => {
+          cmsConfig.branding.logo_header = url;
+          document.getElementById('topbarLogo').src = url;
+        });
+
+        setupDirectImageUpload('fileLogoFooter', 'previewLogoFooter', 'inputLogoFooter', (url) => {
+          cmsConfig.branding.logo_footer = url;
+        });
+
+        setupDirectImageUpload('fileFavicon', 'previewFavicon', 'inputFavicon', (url) => {
+          cmsConfig.branding.favicon = url;
+        });
+      }
+
+      function setupDirectImageUpload(fileInputId, previewImgId, inputId, onDone) {
+        const fileInp = document.getElementById(fileInputId);
+        if (!fileInp) return;
+        fileInp.onchange = async () => {
+          if (fileInp.files && fileInp.files[0]) {
+            try {
+              window.DSFunEasterEgg?.showToast('Memproses gambar...', 'info');
+              const url = await compressImage(fileInp.files[0], 1200, 1200, 0.9);
+              document.getElementById(previewImgId).src = url;
+              document.getElementById(inputId).value = url.substring(0, 45) + '... (Custom)';
+              if (onDone) onDone(url);
+              addCustomMedia('Branding Asset', url);
+              window.DSFunEasterEgg?.showToast('✅ Aset gambar branding berhasil diunggah!', 'success');
+            } catch (e) {
+              alert('Gagal mengunggah: ' + e.message);
+            }
+          }
+        };
+      }
+
+      // ==========================================
+      // SECTION 4: LAYANAN UNGGULAN (SERVICES)
+      // ==========================================
+      function renderServicesManager() {
+        const grid = document.getElementById('servicesGridContainer');
+        if (!grid) return;
+        if (!cmsConfig.services || cmsConfig.services.length === 0) {
+          cmsConfig.services = [
+            { id: 1, active: true, title: 'Cargo Eksklusif & Grosir', desc: 'Pilihan utama bagi manufaktur dan distributor dengan efisiensi kubikasi terjangkau.', img: 'assets/img/service-1.png', link: 'cek-tarif.html', btn_text: 'Hitung Tarif Grosir' },
+            { id: 2, active: true, title: 'Jangkauan Terluas Nusantara', desc: 'Hadir di 400+ titik cabang dan agen resmi dari Sabang sampai Merauke.', img: 'assets/img/service-2.png', link: 'cover-area.html', btn_text: 'Lihat Cover Area' },
+            { id: 3, active: true, title: 'Pengiriman Sepeda Motor', desc: 'Layanan kargo aman untuk segala jenis sepeda motor dengan packing standar pabrik.', img: 'assets/img/service-3.png', link: 'hubungi-kami.html', btn_text: 'Konsultasi Motor' }
+          ];
+        }
+
+        grid.innerHTML = '';
+        cmsConfig.services.forEach((s, idx) => {
+          const card = document.createElement('div');
+          card.className = 'banner-card-item';
+          card.innerHTML = `
+            <div class="banner-card-topbar">
+              <span style="font-weight:700; color:#60A5FA;">Layanan #${idx + 1}</span>
+              <label class="switch">
+                <input type="checkbox" class="service-active-toggle" data-idx="${idx}" ${s.active !== false ? 'checked' : ''}>
+                <span class="slider-toggle"></span>
+              </label>
+            </div>
+            <div class="banner-preview-box">
+              <img src="${s.img}" alt="${escapeHtml(s.title || '')}" id="serviceImgPrev_${idx}">
+            </div>
+            <div class="banner-body">
+              <div>
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Gambar Layanan:</label>
+                <div class="img-change-row">
+                  <input type="file" class="service-file-inp" data-idx="${idx}" accept="image/*" style="display:none;">
+                  <button type="button" class="btn-small-upload btn-srv-upload" data-idx="${idx}">📁 Upload</button>
+                  <button type="button" class="btn-small-gallery btn-srv-gallery" data-idx="${idx}">🖼️ Galeri</button>
+                </div>
+                <input type="text" class="input-dash service-img-input" data-idx="${idx}" value="${s.img}" style="margin-top:6px;">
+              </div>
+              <div>
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Judul Layanan:</label>
+                <input type="text" class="input-dash service-title-input" data-idx="${idx}" value="${escapeHtml(s.title || '')}">
+              </div>
+              <div>
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Deskripsi Singkat:</label>
+                <textarea class="input-dash service-desc-input" data-idx="${idx}" rows="2">${escapeHtml(s.desc || '')}</textarea>
+              </div>
+              <div>
+                <label style="font-size:12px; color:var(--dash-text-muted); display:block; margin-bottom:4px;">Link Tujuan & Teks Tombol:</label>
+                <div style="display:flex; gap:6px;">
+                  <input type="text" class="input-dash service-link-input" data-idx="${idx}" value="${escapeHtml(s.link || 'cek-tarif.html')}">
+                  <input type="text" class="input-dash service-btn-input" data-idx="${idx}" value="${escapeHtml(s.btn_text || 'Pelajari')}" style="width:120px; flex-shrink:0;">
+                </div>
+              </div>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+
+        // Event bindings
+        grid.querySelectorAll('.service-active-toggle').forEach(chk => {
+          chk.addEventListener('change', () => {
+            const idx = Number(chk.getAttribute('data-idx'));
+            if (cmsConfig.services[idx]) cmsConfig.services[idx].active = chk.checked;
+          });
+        });
+
+        grid.querySelectorAll('.service-title-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.services[idx]) cmsConfig.services[idx].title = inp.value;
+          });
+        });
+
+        grid.querySelectorAll('.service-desc-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.services[idx]) cmsConfig.services[idx].desc = inp.value;
+          });
+        });
+
+        grid.querySelectorAll('.service-link-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.services[idx]) cmsConfig.services[idx].link = inp.value;
+          });
+        });
+
+        grid.querySelectorAll('.service-btn-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.services[idx]) cmsConfig.services[idx].btn_text = inp.value;
+          });
+        });
+
+        grid.querySelectorAll('.service-img-input').forEach(inp => {
+          inp.addEventListener('input', () => {
+            const idx = Number(inp.getAttribute('data-idx'));
+            if (cmsConfig.services[idx]) {
+              cmsConfig.services[idx].img = inp.value;
+              const prev = document.getElementById(`serviceImgPrev_${idx}`);
+              if (prev) prev.src = inp.value;
+            }
+          });
+        });
+
+        grid.querySelectorAll('.btn-srv-upload').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = btn.getAttribute('data-idx');
+            const fileInp = grid.querySelector(`.service-file-inp[data-idx="${idx}"]`);
+            if (fileInp) fileInp.click();
+          });
+        });
+
+        grid.querySelectorAll('.service-file-inp').forEach(fileInp => {
+          fileInp.addEventListener('change', async () => {
+            if (fileInp.files && fileInp.files[0]) {
+              const idx = Number(fileInp.getAttribute('data-idx'));
+              try {
+                const url = await compressImage(fileInp.files[0], 1200, 800);
+                if (cmsConfig.services[idx]) {
+                  cmsConfig.services[idx].img = url;
+                  const prev = document.getElementById(`serviceImgPrev_${idx}`);
+                  if (prev) prev.src = url;
+                  const inp = grid.querySelector(`.service-img-input[data-idx="${idx}"]`);
+                  if (inp) inp.value = url.substring(0, 45) + '... (Custom)';
+                  addCustomMedia(`Layanan #${idx + 1}`, url);
+                }
+              } catch (e) {
+                alert('Gagal: ' + e.message);
+              }
+            }
+          });
+        });
+
+        grid.querySelectorAll('.btn-srv-gallery').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = Number(btn.getAttribute('data-idx'));
+            openMediaPicker(`services.${idx}.img`, `serviceImgPrev_${idx}`, `.service-img-input[data-idx="${idx}"]`);
+          });
+        });
+      }
+
+      // ==========================================
+      // SECTION 5: ALERTS & NOTIFICATIONS
       // ==========================================
       function renderAlertsManager() {
         if (!cmsConfig.alerts) return;
@@ -1266,7 +2056,7 @@
       }
 
       // ==========================================
-      // RENDER 4: RATES & SERVICES
+      // SECTION 6: RATES POLICY
       // ==========================================
       function renderRatesManager() {
         if (!cmsConfig.rates_config) return;
@@ -1276,7 +2066,7 @@
       }
 
       // ==========================================
-      // RENDER 5: CONTACT & CS
+      // SECTION 7: CONTACT & CS
       // ==========================================
       function renderContactManager() {
         if (!cmsConfig.contact) return;
@@ -1285,30 +2075,211 @@
         document.getElementById('inputContactEmail').value = cmsConfig.contact.email || 'customercare@dsfunlogistic.id';
         document.getElementById('inputContactHours').value = cmsConfig.contact.operational_hours || '';
         document.getElementById('inputContactAddress').value = cmsConfig.contact.address || '';
+
+        if (cmsConfig.social_media) {
+          if (cmsConfig.social_media.instagram) document.getElementById('inputSosmedIG').value = cmsConfig.social_media.instagram;
+          if (cmsConfig.social_media.facebook) document.getElementById('inputSosmedFB').value = cmsConfig.social_media.facebook;
+          if (cmsConfig.social_media.youtube) document.getElementById('inputSosmedYT').value = cmsConfig.social_media.youtube;
+          if (cmsConfig.social_media.tiktok) document.getElementById('inputSosmedTT').value = cmsConfig.social_media.tiktok;
+        }
       }
+
+      // ==========================================
+      // SECTION 8: MEDIA LIBRARY & ASSETS
+      // ==========================================
+      function renderMediaLibrary() {
+        const grid = document.getElementById('mediaLibraryGrid');
+        if (!grid) return;
+        grid.innerHTML = '';
+
+        const allMedia = [...DEFAULT_ASSETS, ...customMediaList];
+        document.getElementById('statMediaCount').textContent = `${allMedia.length} Media`;
+
+        allMedia.forEach((m, idx) => {
+          const card = document.createElement('div');
+          card.className = 'media-card';
+          card.innerHTML = `
+            <div class="media-card-thumb">
+              <img src="${m.path}" alt="${escapeHtml(m.name)}" loading="lazy">
+            </div>
+            <div class="media-card-body">
+              <div class="media-card-name" title="${escapeHtml(m.name)}">${escapeHtml(m.name)}</div>
+              <div class="media-card-actions">
+                <button type="button" class="btn-media-copy" onclick="copyMediaUrl('${m.path}')">📋 Salin URL</button>
+                <button type="button" class="btn-media-copy" style="background:rgba(16,185,129,0.15); color:#34D399;" onclick="useAsNewBanner('${m.path}', '${escapeHtml(m.name)}')">+ Banner</button>
+              </div>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      }
+
+      window.copyMediaUrl = function(url) {
+        navigator.clipboard.writeText(url).then(() => {
+          window.DSFunEasterEgg?.showToast('📋 URL aset berhasil disalin ke clipboard!', 'success');
+        });
+      };
+
+      window.useAsNewBanner = function(imgUrl, title) {
+        if (!cmsConfig.banners) cmsConfig.banners = [];
+        if (cmsConfig.banners.length >= 50) {
+          alert('Maksimal 50 banner telah tercapai!');
+          return;
+        }
+        cmsConfig.banners.push({
+          id: Date.now(),
+          active: true,
+          title: title || `Slide #${cmsConfig.banners.length + 1}`,
+          headline: title || 'Layanan Prioritas DS Fun',
+          subheadline: 'Solusi Logistik Cepat, Aman & Terpercaya',
+          img: imgUrl,
+          link: 'tentang-kami.html'
+        });
+        renderBannerManager();
+        updateStats();
+        // Switch to tab banners
+        document.querySelector('.dash-nav-btn[data-tab="tab-banners"]')?.click();
+        window.DSFunEasterEgg?.showToast('🎉 Aset berhasil ditambahkan sebagai banner baru!', 'success');
+      };
+
+      function addCustomMedia(name, dataUrl) {
+        customMediaList.unshift({ name, path: dataUrl });
+        if (customMediaList.length > 30) customMediaList.pop();
+        try {
+          localStorage.setItem('dsfun_custom_media', JSON.stringify(customMediaList));
+        } catch (e) {}
+        renderMediaLibrary();
+      }
+
+      // Media Upload to Gallery
+      document.getElementById('fileMediaUpload').addEventListener('change', async (e) => {
+        if (e.target.files && e.target.files[0]) {
+          const file = e.target.files[0];
+          try {
+            window.DSFunEasterEgg?.showToast('Mengupload gambar ke perpustakaan...', 'info');
+            const dataUrl = await compressImage(file, 1920, 1080);
+            addCustomMedia(file.name, dataUrl);
+            window.DSFunEasterEgg?.showToast('✅ Aset baru berhasil disimpan di galeri!', 'success');
+          } catch (err) {
+            alert('Gagal upload: ' + err.message);
+          }
+        }
+      });
+
+      // Media Picker Modal System
+      let activePickerTarget = null;
+      let activePickerPreview = null;
+      let activePickerInput = null;
+
+      window.openMediaPicker = function(targetKey, previewId, inputSelector) {
+        activePickerTarget = targetKey;
+        activePickerPreview = previewId;
+        activePickerInput = inputSelector;
+
+        const modal = document.getElementById('mediaPickerModal');
+        const grid = document.getElementById('pickerModalGrid');
+        grid.innerHTML = '';
+
+        const allMedia = [...DEFAULT_ASSETS, ...customMediaList];
+        allMedia.forEach(m => {
+          const item = document.createElement('div');
+          item.className = 'media-card';
+          item.style.cursor = 'pointer';
+          item.innerHTML = `
+            <div class="media-card-thumb">
+              <img src="${m.path}" alt="${escapeHtml(m.name)}" loading="lazy">
+            </div>
+            <div class="media-card-body">
+              <div class="media-card-name">${escapeHtml(m.name)}</div>
+            </div>
+          `;
+          item.addEventListener('click', () => {
+            selectMediaForTarget(m.path);
+          });
+          grid.appendChild(item);
+        });
+
+        modal.classList.add('active');
+      };
+
+      window.closeMediaPicker = function() {
+        document.getElementById('mediaPickerModal').classList.remove('active');
+      };
+
+      function selectMediaForTarget(imgUrl) {
+        if (activePickerPreview) {
+          const prev = document.getElementById(activePickerPreview);
+          if (prev) prev.src = imgUrl;
+        }
+        if (activePickerInput) {
+          let inp = document.getElementById(activePickerInput);
+          if (!inp) inp = document.querySelector(activePickerInput);
+          if (inp) inp.value = imgUrl;
+        }
+
+        // Apply to state
+        if (activePickerTarget) {
+          const parts = activePickerTarget.split('.');
+          let cur = cmsConfig;
+          for (let i = 0; i < parts.length - 1; i++) {
+            if (!cur[parts[i]]) cur[parts[i]] = {};
+            cur = cur[parts[i]];
+          }
+          cur[parts[parts.length - 1]] = imgUrl;
+        }
+
+        closeMediaPicker();
+        window.DSFunEasterEgg?.showToast('Aset gambar berhasil diterapkan!', 'success');
+      }
+
+      // Picker direct upload
+      document.getElementById('filePickerUpload').addEventListener('change', async (e) => {
+        if (e.target.files && e.target.files[0]) {
+          try {
+            const dataUrl = await compressImage(e.target.files[0], 1920, 1080);
+            addCustomMedia(e.target.files[0].name, dataUrl);
+            selectMediaForTarget(dataUrl);
+          } catch (err) {
+            alert('Gagal: ' + err.message);
+          }
+        }
+      });
 
       // Stats updater
       function updateStats() {
         if (cmsConfig.menus) {
           const act = cmsConfig.menus.filter(m => m.visible !== false).length;
-          document.getElementById('statActiveMenus').textContent = `${act} / ${cmsConfig.menus.length}`;
+          document.getElementById('statActiveMenus').textContent = `${act} / ${cmsConfig.menus.length} Aktif`;
         }
         if (cmsConfig.banners) {
           const actB = cmsConfig.banners.filter(b => b.active !== false).length;
-          document.getElementById('statActiveBanners').textContent = `${actB} Slide Aktif`;
+          document.getElementById('statActiveBanners').textContent = `${actB} / ${cmsConfig.banners.length} Slide`;
         }
       }
 
-      // Save CMS helper
+      // ==========================================
+      // SAVE ALL CMS DATA
+      // ==========================================
       async function saveCMSData() {
         // Collect alerts
         cmsConfig.alerts = {
           show_warning_penipuan: document.getElementById('toggleWarningPenipuan').checked,
           warning_text: document.getElementById('textWarningPenipuan').value.trim(),
+          warning_img: cmsConfig.alerts?.warning_img || 'assets/img/banner-penipuan.png',
           show_bebas_pungli: document.getElementById('toggleBebasPungli').checked,
           bebas_pungli_text: document.getElementById('textBebasPungli').value.trim(),
+          bebas_pungli_img: cmsConfig.alerts?.bebas_pungli_img || 'assets/img/pungli-banner.png',
           show_ticker: document.getElementById('toggleTicker').checked,
           ticker_text: document.getElementById('textTicker').value.trim()
+        };
+
+        // Collect branding
+        cmsConfig.branding = {
+          logo_header: document.getElementById('inputLogoHeader').value.trim(),
+          logo_footer: document.getElementById('inputLogoFooter').value.trim(),
+          favicon: document.getElementById('inputFavicon').value.trim(),
+          company_name: document.getElementById('inputCompanyName').value.trim(),
+          tagline: document.getElementById('inputTagline').value.trim()
         };
 
         // Collect rates
@@ -1327,6 +2298,14 @@
           address: document.getElementById('inputContactAddress').value.trim()
         };
 
+        // Collect social media
+        cmsConfig.social_media = {
+          instagram: document.getElementById('inputSosmedIG').value.trim(),
+          facebook: document.getElementById('inputSosmedFB').value.trim(),
+          youtube: document.getElementById('inputSosmedYT').value.trim(),
+          tiktok: document.getElementById('inputSosmedTT').value.trim()
+        };
+
         // Save locally for instant reactivity
         localStorage.setItem('dsfun_cms_config', JSON.stringify(cmsConfig));
 
@@ -1338,27 +2317,63 @@
             body: JSON.stringify(cmsConfig)
           });
           const res = await resp.json();
-          window.DSFunEasterEgg.showToast('✅ ' + (res.message || 'Konfigurasi CMS berhasil disimpan!'), 'success');
+          document.getElementById('sysLastSync').textContent = new Date().toLocaleTimeString('id-ID');
+          window.DSFunEasterEgg?.showToast('✅ ' + (res.message || 'Konfigurasi CMS berhasil disimpan & tersinkronisasi!'), 'success');
         } catch (err) {
-          window.DSFunEasterEgg.showToast('✅ Konfigurasi disimpan ke penyimpanan lokal!', 'success');
+          document.getElementById('sysLastSync').textContent = 'Tersimpan Lokal';
+          window.DSFunEasterEgg?.showToast('✅ Konfigurasi disimpan ke browser lokal!', 'success');
         }
       }
 
       // Save buttons bindings
-      document.getElementById('btnSaveMenus').addEventListener('click', saveCMSData);
       document.getElementById('btnSaveBanners').addEventListener('click', saveCMSData);
+      document.getElementById('btnSaveMenus').addEventListener('click', saveCMSData);
+      document.getElementById('btnSaveBranding').addEventListener('click', saveCMSData);
+      document.getElementById('btnSaveServices').addEventListener('click', saveCMSData);
       document.getElementById('btnSaveAlerts').addEventListener('click', saveCMSData);
       document.getElementById('btnSaveRates').addEventListener('click', saveCMSData);
       document.getElementById('btnSaveContact').addEventListener('click', saveCMSData);
 
       // Reset menu button
       document.getElementById('btnResetMenus').addEventListener('click', () => {
-        if (confirm('Kembalikan visibilitas semua menu ke kondisi awal (semua aktif)?')) {
+        if (confirm('Kembalikan visibilitas semua menu ke kondisi aktif?')) {
           cmsConfig.menus.forEach(m => m.visible = true);
           renderMenuManager();
           saveCMSData();
         }
       });
+
+      // Clear cache button
+      document.getElementById('btnClearCache').addEventListener('click', () => {
+        if (confirm('Bersihkan cache CMS di browser ini?')) {
+          localStorage.removeItem('dsfun_cms_config');
+          window.location.reload();
+        }
+      });
+
+      // Export JSON
+      document.getElementById('btnExportJSON').addEventListener('click', () => {
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(cmsConfig, null, 2));
+        const dl = document.createElement('a');
+        dl.setAttribute("href", dataStr);
+        dl.setAttribute("download", `dsfun_cms_backup_${Date.now()}.json`);
+        dl.click();
+      });
+
+      // Factory reset
+      document.getElementById('btnFactoryReset').addEventListener('click', () => {
+        if (confirm('PERINGATAN: Seluruh konfigurasi akan direset ke pengaturan default awal. Lanjutkan?')) {
+          localStorage.removeItem('dsfun_cms_config');
+          window.location.reload();
+        }
+      });
+
+      function escapeHtml(str) {
+        if (!str) return '';
+        return String(str).replace(/[&<>"']/g, function (m) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m];
+        });
+      }
 
       // Initialize
       loadCMSData();

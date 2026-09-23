@@ -77,7 +77,30 @@ document.addEventListener('DOMContentLoaded', () => {
   function applyCMSConfig(config) {
     if (!config) return;
 
-    // 1. Apply Show / Hide Menu
+    // 1. Branding (Logo Header, Logo Footer, Favicon, Company Name)
+    if (config.branding) {
+      if (config.branding.logo_header) {
+        document.querySelectorAll('header .header-logo img, .nav-brand img, .login-logo-wrap img, .dash-brand img').forEach(img => {
+          img.src = config.branding.logo_header;
+        });
+      }
+      if (config.branding.logo_footer) {
+        document.querySelectorAll('.site-footer img, .footer-col img').forEach(img => {
+          if (img.getAttribute('alt') && img.getAttribute('alt').toLowerCase().includes('white')) {
+            img.src = config.branding.logo_footer;
+          }
+        });
+      }
+      if (config.branding.favicon) {
+        const fav = document.querySelector('link[rel="icon"], link[rel="shortcut icon"]');
+        if (fav) fav.href = config.branding.favicon;
+      }
+      if (config.branding.company_name) {
+        document.querySelectorAll('.brand-title-dynamic').forEach(el => el.textContent = config.branding.company_name);
+      }
+    }
+
+    // 2. Apply Show / Hide Menu
     if (config.menus && Array.isArray(config.menus)) {
       const navItems = document.querySelectorAll('.nav-menu .nav-item');
       navItems.forEach(item => {
@@ -110,26 +133,31 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    // 2. Apply Contact & CS WhatsApp
+    // 3. Apply Contact & CS WhatsApp
     if (config.contact && config.contact.cs_whatsapp) {
       const cleanWA = config.contact.cs_whatsapp.replace(/\D/g, '');
-      const waButtons = document.querySelectorAll('a[href*="whatsapp.com"], a.btn-header-wa, a.floating-wa-btn');
+      const waButtons = document.querySelectorAll('a[href*="whatsapp.com"], a[href*="wa.me"], a.btn-header-wa, a.floating-wa-btn');
       waButtons.forEach(btn => {
         let href = btn.getAttribute('href') || '';
         if (href.includes('phone=')) {
           href = href.replace(/phone=\d+/, 'phone=' + cleanWA);
-          btn.setAttribute('href', href);
+        } else if (href.includes('wa.me/')) {
+          href = href.replace(/wa\.me\/\d+/, 'wa.me/' + cleanWA);
+        } else {
+          href = `https://wa.me/${cleanWA}?text=Halo%20DS%20Fun%20Logistic,%20saya%20ingin%20tanya%20pengiriman`;
         }
+        btn.setAttribute('href', href);
       });
     }
 
-    // 3. Apply Top Bar Info
+    // 4. Apply Top Bar Info
     if (config.contact) {
       const topBarItems = document.querySelectorAll('.top-bar-item');
       topBarItems.forEach(it => {
         const text = it.textContent || '';
         if (text.includes('Call Center') && config.contact.call_center) {
-          it.querySelector('span').textContent = `Call Center: ${config.contact.call_center}`;
+          const sp = it.querySelector('span');
+          if (sp) sp.textContent = `Call Center: ${config.contact.call_center}`;
         }
         const emailLink = it.querySelector('a[href^="mailto:"]');
         if (emailLink && config.contact.email) {
@@ -138,32 +166,70 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }
-    // 4. Apply Hero Banners (Active/Inactive, Title, Links)
-    if (config.banners && Array.isArray(config.banners)) {
-      const slideEls = document.querySelectorAll('.hero-slide');
-      config.banners.forEach((b, idx) => {
-        const slide = slideEls[idx];
-        if (slide) {
-          if (b.active === false) {
-            slide.style.display = 'none';
+
+    // 5. Apply Hero Banners (Dynamic rendering supporting up to 50 banners)
+    const heroSlider = document.querySelector('.hero-slider');
+    if (config.banners && Array.isArray(config.banners) && heroSlider) {
+      const activeBanners = config.banners.filter(b => b.active !== false);
+      if (activeBanners.length > 0) {
+        const prevBtn = heroSlider.querySelector('.slider-prev');
+        heroSlider.querySelectorAll('.hero-slide').forEach(s => s.remove());
+
+        activeBanners.forEach((b, idx) => {
+          const slide = document.createElement('div');
+          slide.className = `hero-slide ${idx === 0 ? 'active' : ''}`;
+          slide.setAttribute('data-title', b.title || `Slide ${idx + 1}`);
+          slide.innerHTML = `
+            <a href="${b.link || '#'}" class="hero-slide-link" title="${b.headline || b.title || 'DS Fun Logistic'}">
+              <img src="${b.img}" alt="${b.headline || b.title || 'Banner DS Fun'}" class="hero-banner-img" loading="${idx === 0 ? 'eager' : 'lazy'}">
+            </a>
+          `;
+          if (prevBtn) {
+            heroSlider.insertBefore(slide, prevBtn);
           } else {
-            slide.style.display = '';
+            heroSlider.appendChild(slide);
           }
-          if (b.title) {
-            slide.setAttribute('data-title', b.title);
-          }
-          const link = slide.querySelector('.hero-slide-link');
-          if (link && b.link) {
-            link.setAttribute('href', b.link);
-          }
+        });
+
+        if (typeof window.dsfunRefreshSlider === 'function') {
+          window.dsfunRefreshSlider();
         }
-      });
-      if (typeof window.dsfunRefreshSlider === 'function') {
-        window.dsfunRefreshSlider();
       }
     }
 
-    // 5. Apply Alerts & Warnings
+    // 6. Apply Services Cards
+    if (config.services && Array.isArray(config.services)) {
+      const serviceCards = document.querySelectorAll('.services-grid .service-card');
+      config.services.forEach((s, idx) => {
+        const card = serviceCards[idx];
+        if (card) {
+          if (s.active === false) {
+            card.style.display = 'none';
+          } else {
+            card.style.display = '';
+            const img = card.querySelector('.service-img-wrap img');
+            if (img && s.img) {
+              img.src = s.img;
+              if (s.title) img.alt = s.title;
+            }
+            const title = card.querySelector('.service-title');
+            if (title && s.title) title.textContent = s.title;
+            const text = card.querySelector('.service-text');
+            if (text && s.desc) text.textContent = s.desc;
+            const link = card.querySelector('.service-link');
+            if (link) {
+              if (s.link) link.setAttribute('href', s.link);
+              if (s.btn_text) {
+                const sp = link.querySelector('span');
+                if (sp) sp.textContent = s.btn_text;
+              }
+            }
+          }
+        }
+      });
+    }
+
+    // 7. Apply Alerts & Warnings
     if (config.alerts) {
       const penipuanStrong = Array.from(document.querySelectorAll('strong')).find(s => s.textContent.includes('Waspada Penipuan'));
       if (penipuanStrong) {
@@ -183,16 +249,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const pungliImg = document.querySelector('img[alt*="Anti Pungli"], img[alt*="Bebas Pungli"]');
       if (pungliImg) {
-        const wrap = pungliImg.closest('.anti-pungli-wrap, .banner-anti-pungli') || pungliImg;
+        const wrap = pungliImg.closest('.commitment-card-banner, .anti-pungli-wrap') || pungliImg;
         if (config.alerts.show_bebas_pungli === false) {
           wrap.style.display = 'none';
         } else {
           wrap.style.display = '';
+          if (config.alerts.bebas_pungli_img) {
+            pungliImg.src = config.alerts.bebas_pungli_img;
+          }
+        }
+      }
+
+      const tickerText = document.querySelector('.ticker-text, .announcement-ticker');
+      if (tickerText && config.alerts.ticker_text) {
+        tickerText.textContent = config.alerts.ticker_text;
+        if (config.alerts.show_ticker === false) {
+          tickerText.closest('.ticker-wrap, .announcement-bar')?.style.setProperty('display', 'none');
+        } else {
+          tickerText.closest('.ticker-wrap, .announcement-bar')?.style.removeProperty('display');
         }
       }
     }
 
-    // 6. Apply Rates Policy
+    // 8. Apply Rates Policy
     if (config.rates_config) {
       const quickBrt = document.getElementById('quickBrt');
       if (quickBrt && config.rates_config.min_weight_kg) {
@@ -200,10 +279,26 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // 7. Apply Footer Contact
+    // 9. Apply Footer Contact
     if (config.contact && config.contact.address) {
       const addrSpan = document.querySelector('.footer-contact-item span');
       if (addrSpan) addrSpan.textContent = config.contact.address;
+    }
+
+    // 10. Apply Social Media
+    if (config.social_media) {
+      if (config.social_media.instagram) {
+        document.querySelectorAll('a[href*="instagram.com"]').forEach(a => a.href = config.social_media.instagram);
+      }
+      if (config.social_media.facebook) {
+        document.querySelectorAll('a[href*="facebook.com"]').forEach(a => a.href = config.social_media.facebook);
+      }
+      if (config.social_media.youtube) {
+        document.querySelectorAll('a[href*="youtube.com"]').forEach(a => a.href = config.social_media.youtube);
+      }
+      if (config.social_media.tiktok) {
+        document.querySelectorAll('a[href*="tiktok.com"]').forEach(a => a.href = config.social_media.tiktok);
+      }
     }
   }
 
@@ -220,12 +315,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = document.querySelector('.slider-next');
   const dotsContainer = document.querySelector('.slider-dots');
 
-  if (slider && slides.length > 0) {
+  if (slider) {
     let currentSlide = 0;
     let autoSlideInterval;
 
     function getActiveSlides() {
-      return Array.from(document.querySelectorAll('.hero-slide')).filter(s => s.style.display !== 'none');
+      return Array.from(slider.querySelectorAll('.hero-slide')).filter(s => s.style.display !== 'none');
     }
 
     function initSliderControls() {
@@ -265,7 +360,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const pills = document.querySelectorAll('.slider-pill, .slider-dot');
       pills.forEach((p, idx) => {
-        p.classList.toggle('active', idx === currentSlide);
+        const isAct = idx === currentSlide;
+        p.classList.toggle('active', isAct);
+        if (isAct && dotsContainer) {
+          p.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        }
       });
     }
 

@@ -1,6 +1,13 @@
 {
-  "version": "1.0",
-  "last_updated": "2026-09-23T07:30:59.719Z",
+  "version": "2.0",
+  "last_updated": "2026-09-23T09:45:00.000Z",
+  "branding": {
+    "company_name": "DS FUN LOGISTIC",
+    "tagline": "Logistik Cepat, Aman & Terpercaya",
+    "logo_header": "assets/img/logo.png",
+    "logo_footer": "assets/img/logo-white.png",
+    "favicon": "assets/img/favicon.png"
+  },
   "menus": [
     {
       "id": "menu_beranda",
@@ -97,17 +104,48 @@
       "link": "cek-resi.html"
     }
   ],
+  "services": [
+    {
+      "id": 1,
+      "active": true,
+      "title": "Cargo Eksklusif & Grosir",
+      "desc": "DS Fun Logistic adalah pilihan utama bagi pelaku bisnis dan manufaktur yang mengutamakan kecepatan, keamanan muatan, serta efisiensi biaya kubikasi bersahabat.",
+      "img": "assets/img/service-1.png",
+      "link": "cek-tarif.html",
+      "btn_text": "Hitung Tarif Grosir"
+    },
+    {
+      "id": 2,
+      "active": true,
+      "title": "Jangkauan Terluas Nusantara",
+      "desc": "Hadir di lebih dari 400 titik cabang dan agen resmi di Pulau Jawa, Sumatera, Bali, Kalimantan, Sulawesi, hingga NTB untuk memastikan kiriman sampai ke tujuan akhir.",
+      "img": "assets/img/service-2.png",
+      "link": "cover-area.html",
+      "btn_text": "Lihat Cover Area"
+    },
+    {
+      "id": 3,
+      "active": true,
+      "title": "Pengiriman Sepeda Motor",
+      "desc": "Layanan khusus pengiriman berbagai tipe sepeda motor (bebek, matic, sport, moge) dengan packing standar kargo aman dan asuransi terpercaya.",
+      "img": "assets/img/service-3.png",
+      "link": "hubungi-kami.html",
+      "btn_text": "Konsultasi Pengiriman Motor"
+    }
+  ],
   "alerts": {
     "show_warning_penipuan": true,
     "warning_text": "WASPADA PENIPUAN: Rekening resmi pembayaran kargo hanya atas nama PT DS FUN LOGISTIC.",
+    "warning_img": "assets/img/banner-penipuan.png",
     "show_bebas_pungli": true,
     "bebas_pungli_text": "BEBAS PUNGLI: Laporkan segala bentuk pungutan liar di luar tagihan resmi.",
+    "bebas_pungli_img": "assets/img/pungli-banner.png",
     "show_ticker": true,
     "ticker_text": "DS FUN LOGISTIC melayani pengiriman kargo partai besar & kelontongan ke seluruh Indonesia dengan jaminan aman dan tepat waktu."
   },
   "rates_config": {
     "min_weight_kg": 10,
-    "rate_multiplier": 1,
+    "rate_multiplier": 1.0,
     "lead_time_note": "Estimasi pengiriman kargo darat 2-4 hari kerja."
   },
   "contact": {
@@ -116,5 +154,11 @@
     "email": "customercare@dsfunlogistic.id",
     "address": "Jl. Raya Setu No. 88, Cipayung, Jakarta Timur",
     "operational_hours": "Senin - Sabtu: 08:00 - 18:00 WIB"
+  },
+  "social_media": {
+    "instagram": "https://instagram.com/dsfunlogistic",
+    "facebook": "https://facebook.com/dsfunlogistic",
+    "youtube": "https://youtube.com/@dsfunlogistic",
+    "tiktok": "https://tiktok.com/@dsfunlogistic"
   }
 }
